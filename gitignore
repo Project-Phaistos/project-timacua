@@ -1,0 +1,4 @@
+analysis/results/grid/
+__pycache__/
+*.pyc
+.DS_Store
