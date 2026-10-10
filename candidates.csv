@@ -1,0 +1,157 @@
+ID,Direction,Recipient,Donor,Parameter_ID,Recipient_Form,Donor_Form,SCA,Rank,N,P_Candidate,P_BH,Status
+cand-1,Timucua -> Muskogean,MIKASUKI,TIMUCUA,29,akni,oko,0.643,8,87,0.092,0.6584,pre-registered; tier rejected
+cand-2,Timucua -> Muskogean,MIKASUKI,TIMUCUA,76,okob,hukʷe,0.536,13,87,0.2299,0.6584,pre-registered; tier rejected
+cand-3,Timucua -> Muskogean,MIKASUKI,TIMUCUA,6,noɬ,kʷene,0.33,17,87,0.2414,0.6584,pre-registered; tier rejected
+cand-4,Timucua -> Muskogean,MIKASUKI,TIMUCUA,8,mati,ti,0.46,22,87,0.2529,0.6584,pre-registered; tier rejected
+cand-5,Timucua -> Muskogean,MIKASUKI,TIMUCUA,23,ahi,aje,0.45,14,87,0.2529,0.6584,pre-registered; tier rejected
+cand-6,Timucua -> Muskogean,MIKASUKI,TIMUCUA,83,tolhambi,api,0.36,24,87,0.2874,0.6584,pre-registered; tier rejected
+cand-7,Timucua -> Muskogean,MIKASUKI,TIMUCUA,26,aski,itʃaka,0.537,26,87,0.3218,0.6584,pre-registered; tier rejected
+cand-8,Timucua -> Muskogean,MIKASUKI,TIMUCUA,84,jil,natoja,0.212,33,87,0.3793,0.6584,pre-registered; tier rejected
+cand-9,Timucua -> Muskogean,MIKASUKI,TIMUCUA,59,ataɬ,isako,0.322,35,87,0.4138,0.6584,pre-registered; tier rejected
+cand-10,Timucua -> Muskogean,MIKASUKI,TIMUCUA,10,atʃonki,pukʷa,0.402,38,87,0.4713,0.6584,pre-registered; tier rejected
+cand-11,Timucua -> Muskogean,MIKASUKI,TIMUCUA,51,owatʃi,tʃokolo,0.285,42,87,0.4828,0.6584,pre-registered; tier rejected
+cand-12,Timucua -> Muskogean,MIKASUKI,TIMUCUA,15,wink,tʃiri,0.125,62,87,0.7356,0.862,pre-registered; tier rejected
+cand-13,Timucua -> Muskogean,MIKASUKI,TIMUCUA,64,jakal,meja,0.229,65,87,0.7471,0.862,pre-registered; tier rejected
+cand-14,Timucua -> Muskogean,MIKASUKI,TIMUCUA,38,josi,tʃito,0.267,61,87,0.8276,0.8867,pre-registered; tier rejected
+cand-15,Timucua -> Muskogean,MIKASUKI,TIMUCUA,70,ik,jaru,0.126,73,87,0.9195,0.9195,pre-registered; tier rejected
+cand-16,Timucua -> Muskogean,CREEK,TIMUCUA,26,jalomka,itʃaka,0.479,5,87,0.069,0.8964,pre-registered; tier rejected
+cand-17,Timucua -> Muskogean,CREEK,TIMUCUA,74,kotʃatʃampa,tʃubobo,0.455,6,87,0.069,0.8964,pre-registered; tier rejected
+cand-18,Timucua -> Muskogean,CREEK,TIMUCUA,9,omalka,atʃiko,0.529,9,87,0.1379,0.8964,pre-registered; tier rejected
+cand-19,Timucua -> Muskogean,CREEK,TIMUCUA,6,istema,tʃitako,0.479,11,87,0.1609,0.8964,pre-registered; tier rejected
+cand-20,Timucua -> Muskogean,CREEK,TIMUCUA,29,apiswa,soba,0.403,21,87,0.2529,0.8964,pre-registered; tier rejected
+cand-21,Timucua -> Muskogean,CREEK,TIMUCUA,84,nokɬ,taka,0.386,15,87,0.2529,0.8964,pre-registered; tier rejected
+cand-22,Timucua -> Muskogean,CREEK,TIMUCUA,76,osk,hukʷe,0.394,16,87,0.2644,0.8964,pre-registered; tier rejected
+cand-23,Timucua -> Muskogean,CREEK,TIMUCUA,75,ojwa,ibi,0.326,23,87,0.2874,0.8964,pre-registered; tier rejected
+cand-24,Timucua -> Muskogean,CREEK,TIMUCUA,56,ak,itʃiko,0.406,25,87,0.3103,0.8964,pre-registered; tier rejected
+cand-25,Timucua -> Muskogean,CREEK,TIMUCUA,96,motʃasi,tʃale,0.367,34,87,0.3908,0.977,pre-registered; tier rejected
+cand-26,Timucua -> Muskogean,CREEK,TIMUCUA,63,omej,uba,0.268,28,87,0.4483,0.977,pre-registered; tier rejected
+cand-27,Timucua -> Muskogean,CREEK,TIMUCUA,65,jakap,abi,0.351,41,87,0.4943,0.977,pre-registered; tier rejected
+cand-28,Timucua -> Muskogean,CREEK,TIMUCUA,59,kiɬ,isako,0.238,47,87,0.5747,0.977,pre-registered; tier rejected
+cand-29,Timucua -> Muskogean,CREEK,TIMUCUA,24,niɬka,asikʷita,0.312,51,87,0.5862,0.977,pre-registered; tier rejected
+cand-30,Timucua -> Muskogean,CREEK,TIMUCUA,51,hokpi,tʃokolo,0.342,52,87,0.5977,0.977,pre-registered; tier rejected
+cand-31,Timucua -> Muskogean,CREEK,TIMUCUA,13,ɬaki,mini,0.3,49,87,0.6092,0.977,pre-registered; tier rejected
+cand-32,Timucua -> Muskogean,CREEK,TIMUCUA,64,tamk,meja,0.13,58,87,0.6897,0.977,pre-registered; tier rejected
+cand-33,Timucua -> Muskogean,CREEK,TIMUCUA,69,hoɬ,ete,0.126,51,87,0.7011,0.977,pre-registered; tier rejected
+cand-34,Timucua -> Muskogean,CREEK,TIMUCUA,38,ika,kuna,0.352,57,87,0.7241,0.977,pre-registered; tier rejected
+cand-35,Timucua -> Muskogean,CREEK,TIMUCUA,14,tʃapki,ihiriba,0.269,66,87,0.7586,0.977,pre-registered; tier rejected
+cand-36,Timucua -> Muskogean,CREEK,TIMUCUA,52,fiki,kume,0.273,64,87,0.8161,0.977,pre-registered; tier rejected
+cand-37,Timucua -> Muskogean,CREEK,TIMUCUA,16,hokti,nia,0.188,80,87,0.9195,0.977,pre-registered; tier rejected
+cand-38,Timucua -> Muskogean,CREEK,TIMUCUA,66,at,hime,0.126,64,87,0.9195,0.977,pre-registered; tier rejected
+cand-39,Timucua -> Muskogean,CREEK,TIMUCUA,86,ikanʰalwi,aje,0.09,81,87,0.9425,0.977,pre-registered; tier rejected
+cand-40,Timucua -> Muskogean,CREEK,TIMUCUA,68,lek,hiba,0.126,75,87,0.954,0.977,pre-registered; tier rejected
+cand-41,Timucua -> Muskogean,CREEK,TIMUCUA,58,poh,tiki,0.09,81,87,0.977,0.977,pre-registered; tier rejected
+cand-42,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,5,ma,ma,1.0,,,0.0135,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-43,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,21,efa,ifa,0.95,,,0.0135,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-44,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,32,neha,niha,0.967,,,0.0135,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-45,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,92,ilake,niɬaki,0.835,,,0.0135,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-46,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,9,toma,moma,0.667,,,0.0405,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-47,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,1,honihe,anoʔ,0.658,,,0.0405,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-48,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,76,ibi,õba,0.85,,,0.0405,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-49,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,17,ano,nani,0.695,,,0.0541,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-50,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,91,laka,losa,0.7,,,0.0946,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-51,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,24,asikʷita,hiɬiktʃi,0.551,,,0.1081,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-52,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,54,uku,iʃko,0.686,,,0.1757,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-53,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,60,neka,nosi,0.667,,,0.1892,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-54,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,44,itukʷa,itʃolaksi,0.63,,,0.2432,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-55,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,23,aje,ito,0.4,,,0.2568,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-56,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,79,ike,ikana,0.611,,,0.2568,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-57,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,42,nipita,itʃi,0.499,,,0.2568,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-58,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,11,mine,ɬamin,0.516,,,0.2703,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-59,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,53,tʃofa,lopi,0.5,,,0.2838,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-60,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,81,moko,ikotʃi,0.46,,,0.2838,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-61,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,56,itʃiko,katʃaɬi,0.51,,,0.3378,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-62,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,18,ano,ati,0.4,,,0.3514,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-63,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,29,soba,nipo,0.567,,,0.3649,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-64,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,41,tʃini,ibisani,0.42,,,0.3919,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-65,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,55,ho,pa,0.267,,,0.4324,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-66,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,2,tʃi,tʃitʃno,0.483,,,0.4324,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-67,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,31,jabi,ifoni,0.356,,,0.4324,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-68,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,45,kepe,ilbaksi,0.327,,,0.4595,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-69,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,39,tiki,haktʃo,0.424,,,0.4595,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-70,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,75,ibi,oki,0.4,,,0.4595,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-71,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,62,iki,ibi,0.5,,,0.473,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-72,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,61,iki,ili,0.5,,,0.5,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-73,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,94,itʃikosa,kapasa,0.444,,,0.5676,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-74,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,35,api,hatʃi,0.375,,,0.5811,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-75,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,89,nali,lani,0.333,,,0.5946,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-76,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,85,eje,nini,0.295,,,0.6351,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-77,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,58,tiki,kaklo,0.459,,,0.6622,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-78,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,22,ike,itʃa,0.45,,,0.6757,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-79,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,10,ara,lawa,0.375,,,0.7027,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-80,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,20,tʃulufi,foswa,0.243,,,0.7297,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-81,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,57,tʃano,hitʃa,0.303,,,0.7432,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-82,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,37,napona,tokisi,0.244,,,0.7568,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-83,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,13,mini,tʃoba,0.233,,,0.7703,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-84,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,46,itʃiki,ijiʔ,0.291,,,0.7703,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-85,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,87,pira,homa,0.267,,,0.7703,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-86,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,40,muku,iti,0.295,,,0.7703,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-87,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,90,najo,hatka,0.233,,,0.7973,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-88,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,19,kuju,ɬaɬo,0.267,,,0.7973,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-89,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,48,hue,inki,0.242,,,0.8108,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-90,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,77,jobo,tali,0.233,,,0.8108,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-91,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,65,aliho,tʃajali,0.37,,,0.8243,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-92,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,72,ela,haʃi,0.295,,,0.8243,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-93,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,7,kʷene,nasi,0.273,,,0.8514,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-94,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,4,ona,japa,0.335,,,0.8784,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-95,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,14,ihiriba,baskin,0.217,,,0.8784,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-96,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,3,heka,posna,0.288,,,0.8919,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-97,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,8,ti,inko,0.123,,,0.8919,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-98,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,12,jutʃa,tõklo,0.221,,,0.9459,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-99,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,50,kuna,nokbi,0.251,,,0.9459,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-100,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,51,kume,pisi,0.267,,,0.9865,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-101,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,68,hiba,tʃokol,0.163,,,0.9865,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-102,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,96,tʃale,himita,0.198,,,0.9865,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-103,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,52,kume,tʃonoska,0.152,,,1.0,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-104,Muskogean -> Timucua,TIMUCUA,MUSK_INHERITED,100,bisa,hotʃifo,0.182,,,1.0,,H3 descriptive count (post hoc lead if p <= 0.05)
+cand-105,Timucua -> Apalachee,APALACHEE,TIMUCUA,71,innota,abota,0.579,5,87,0.0575,,"addendum 1, descriptive"
+cand-106,Timucua -> Apalachee,APALACHEE,TIMUCUA,66,ihtama,hime,0.634,5,87,0.0575,,"addendum 1, descriptive"
+cand-107,Timucua -> Apalachee,APALACHEE,TIMUCUA,97,fihla,isa,0.482,10,87,0.1149,,"addendum 1, descriptive"
+cand-108,Timucua -> Apalachee,APALACHEE,TIMUCUA,9,amali,toma,0.491,15,87,0.1724,,"addendum 1, descriptive"
+cand-109,Timucua -> Apalachee,APALACHEE,TIMUCUA,65,aja,abi,0.45,10,87,0.2414,,"addendum 1, descriptive"
+cand-110,Timucua -> Apalachee,APALACHEE,TIMUCUA,62,ibi,iki,0.5,20,87,0.2529,,"addendum 1, descriptive"
+cand-111,Timucua -> Apalachee,APALACHEE,TIMUCUA,10,finha,pukʷa,0.404,23,87,0.2759,,"addendum 1, descriptive"
+cand-112,Timucua -> Apalachee,APALACHEE,TIMUCUA,4,ja,ona,0.187,22,87,0.3103,,"addendum 1, descriptive"
+cand-113,Timucua -> Apalachee,APALACHEE,TIMUCUA,64,wajhka,meja,0.412,27,87,0.3218,,"addendum 1, descriptive"
+cand-114,Timucua -> Apalachee,APALACHEE,TIMUCUA,29,aːnip,soba,0.318,38,87,0.4483,,"addendum 1, descriptive"
+cand-115,Timucua -> Apalachee,APALACHEE,TIMUCUA,73,hitok,aku,0.318,42,87,0.4943,,"addendum 1, descriptive"
+cand-116,Timucua -> Apalachee,APALACHEE,TIMUCUA,39,haktʃop,tiki,0.344,47,87,0.5402,,"addendum 1, descriptive"
+cand-117,Timucua -> Apalachee,APALACHEE,TIMUCUA,57,pitʃa,tʃano,0.303,47,87,0.5632,,"addendum 1, descriptive"
+cand-118,Timucua -> Apalachee,APALACHEE,TIMUCUA,52,tʃokonska,kume,0.264,54,87,0.6207,,"addendum 1, descriptive"
+cand-119,Timucua -> Apalachee,APALACHEE,TIMUCUA,12,toːlo,jutʃa,0.273,56,87,0.6437,,"addendum 1, descriptive"
+cand-120,Timucua -> Apalachee,APALACHEE,TIMUCUA,3,pihno,heka,0.218,56,87,0.6437,,"addendum 1, descriptive"
+cand-121,Timucua -> Apalachee,APALACHEE,TIMUCUA,100,nakajo,bisa,0.229,62,87,0.7126,,"addendum 1, descriptive"
+cand-122,Timucua -> Apalachee,APALACHEE,TIMUCUA,75,ok,ibi,0.141,65,87,0.7586,,"addendum 1, descriptive"
+cand-123,Timucua -> Apalachee,APALACHEE,TIMUCUA,72,niko,ela,0.295,58,87,0.7701,,"addendum 1, descriptive"
+cand-124,Timucua -> Apalachee,APALACHEE,TIMUCUA,70,aka,jaru,0.335,63,87,0.8391,,"addendum 1, descriptive"
+cand-125,Timucua -> Apalachee,APALACHEE,TIMUCUA,46,ija,itʃiki,0.249,75,87,0.8736,,"addendum 1, descriptive"
+cand-126,Timucua -> Apalachee,APALACHEE,TIMUCUA,13,tʃoba,mini,0.233,80,87,0.931,,"addendum 1, descriptive"
+cand-127,Timucua -> Apalachee,APALACHEE,TIMUCUA,58,poha,tiki,0.233,77,87,0.931,,"addendum 1, descriptive"
+cand-128,Timucua -> Apalachee,APALACHEE,TIMUCUA,16,takajali,nia,0.098,84,87,0.9655,,"addendum 1, descriptive"
+cand-129,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,5,ma,ma,1.0,1,87,0.0115,,"addendum 2, descriptive"
+cand-130,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,11,ɬamin,mine,0.516,1,87,0.023,,"addendum 2, descriptive"
+cand-131,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,91,lodʒi,laka,0.6,3,87,0.0575,,"addendum 2, descriptive"
+cand-132,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,79,jakni,ike,0.549,4,87,0.0805,,"addendum 2, descriptive"
+cand-133,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,2,tʃihni,tʃi,0.483,16,87,0.1954,,"addendum 2, descriptive"
+cand-134,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,1,ani,honihe,0.491,19,87,0.2184,,"addendum 2, descriptive"
+cand-135,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,4,ja,ona,0.187,22,87,0.3103,,"addendum 2, descriptive"
+cand-136,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,97,hiɬi,tera,0.4,31,87,0.3678,,"addendum 2, descriptive"
+cand-137,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,23,api,aje,0.45,32,87,0.4253,,"addendum 2, descriptive"
+cand-138,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,9,lapki,atʃiko,0.402,37,87,0.4368,,"addendum 2, descriptive"
+cand-139,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,46,ipalaʃi,itʃiki,0.326,43,87,0.5172,,"addendum 2, descriptive"
+cand-140,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,75,oki,ibi,0.4,37,87,0.5402,,"addendum 2, descriptive"
+cand-141,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,57,hitʃigi,tʃano,0.32,53,87,0.6092,,"addendum 2, descriptive"
+cand-142,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,89,lakni,nali,0.259,55,87,0.6552,,"addendum 2, descriptive"
+cand-143,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,18,jati,ano,0.295,52,87,0.6782,,"addendum 2, descriptive"
+cand-144,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,72,hasi,ela,0.295,55,87,0.6897,,"addendum 2, descriptive"
+cand-145,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,6,noɬi,kʷene,0.273,58,87,0.7241,,"addendum 2, descriptive"
+cand-146,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,73,hasotali,aku,0.163,63,87,0.7241,,"addendum 2, descriptive"
+cand-147,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,3,puhni,heka,0.218,65,87,0.7471,,"addendum 2, descriptive"
+cand-148,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,48,ilbi,hue,0.242,66,87,0.7586,,"addendum 2, descriptive"
+cand-149,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,12,tuklan,jutʃa,0.188,65,87,0.7816,,"addendum 2, descriptive"
+cand-150,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,87,kitistʃi,pira,0.152,70,87,0.8161,,"addendum 2, descriptive"
+cand-151,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,19,ɬaɬi,kuju,0.267,55,87,0.8276,,"addendum 2, descriptive"
+cand-152,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,16,taigi,nia,0.211,72,87,0.8391,,"addendum 2, descriptive"
+cand-153,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,7,naki,kʷene,0.273,72,87,0.8621,,"addendum 2, descriptive"
+cand-154,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,77,tali,jobo,0.233,78,87,0.908,,"addendum 2, descriptive"
+cand-155,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,90,hatgi,najo,0.204,81,87,0.954,,"addendum 2, descriptive"
+cand-156,Timucua -> Hitchiti,HITCHITI_1884,TIMUCUA,20,fosi,tʃulufi,0.183,86,87,0.9885,,"addendum 2, descriptive"

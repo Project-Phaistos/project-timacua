@@ -1,0 +1,33 @@
+ID,Hypothesis,Recipient,Donor,Concept_Set,Measure,N_Items,Delta_S,Z,P_Perm,P_Row,P_Col,P_Max,Ruleset_A,Ruleset_B,Verdict,Status,Result_File
+H2_MIKASUKI_SCA,H2,MIKASUKI,TIMUCUA,MIKASUKI_SCA,SCA,15,0.0243,0.6412,0.2594,0.5686,0.549,0.5686,false,false,H0 retained,CONFIRMATORY,analysis/results/all_tests.csv
+H2_MIKASUKI_strict_SCA,H2,MIKASUKI,TIMUCUA,MIKASUKI_strict_SCA,SCA,6,0.021,0.3711,0.3392,0.5686,0.6471,0.6471,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_keep_european_flagged_SCA,H2,MIKASUKI,TIMUCUA,MIKASUKI_keep_european_flagged_SCA,SCA,15,0.0243,0.6412,0.2594,0.5686,0.549,0.5686,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_SCA,H2,CREEK,TIMUCUA,CREEK_SCA,SCA,26,-0.0162,-0.572,0.7115,0.7255,0.8235,0.8235,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_strict_SCA,H2,CREEK,TIMUCUA,CREEK_strict_SCA,SCA,14,-0.0019,-0.0483,0.5123,0.549,0.549,0.549,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_keep_european_flagged_SCA,H2,CREEK,TIMUCUA,CREEK_keep_european_flagged_SCA,SCA,29,-0.0224,-0.8315,0.7979,0.7451,0.7843,0.7843,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_NED,H2,MIKASUKI,TIMUCUA,MIKASUKI_NED,NED,15,0.027,0.7943,0.2075,0.4902,0.4902,0.4902,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_strict_NED,H2,MIKASUKI,TIMUCUA,MIKASUKI_strict_NED,NED,6,0.0409,0.7785,0.2118,0.4314,0.4706,0.4706,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_keep_european_flagged_NED,H2,MIKASUKI,TIMUCUA,MIKASUKI_keep_european_flagged_NED,NED,15,0.027,0.7943,0.2075,0.4902,0.4902,0.4902,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_NED,H2,CREEK,TIMUCUA,CREEK_NED,NED,26,-0.0056,-0.2303,0.5845,0.549,0.6863,0.6863,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_strict_NED,H2,CREEK,TIMUCUA,CREEK_strict_NED,NED,14,0.0266,0.8247,0.2059,0.3922,0.3333,0.3922,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_keep_european_flagged_NED,H2,CREEK,TIMUCUA,CREEK_keep_european_flagged_NED,NED,29,-0.0063,-0.2751,0.6049,0.5882,0.6471,0.6471,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_TPG,H2,MIKASUKI,TIMUCUA,MIKASUKI_TPG,TPG,15,-0.0291,-0.6846,1.0,0.9412,0.6863,0.9412,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_strict_TPG,H2,MIKASUKI,TIMUCUA,MIKASUKI_strict_TPG,TPG,6,-0.0115,-0.2685,1.0,0.9216,0.4314,0.9216,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_keep_european_flagged_TPG,H2,MIKASUKI,TIMUCUA,MIKASUKI_keep_european_flagged_TPG,TPG,15,-0.0291,-0.6846,1.0,0.9412,0.6863,0.9412,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_TPG,H2,CREEK,TIMUCUA,CREEK_TPG,TPG,26,-0.0261,-0.8593,1.0,0.9804,0.8824,0.9804,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_strict_TPG,H2,CREEK,TIMUCUA,CREEK_strict_TPG,TPG,14,-0.0222,-0.5627,1.0,0.8431,0.6078,0.8431,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_CREEK_keep_european_flagged_TPG,H2,CREEK,TIMUCUA,CREEK_keep_european_flagged_TPG,TPG,29,-0.0293,-0.9506,1.0,0.9804,0.9216,0.9804,false,false,H0 retained,secondary,analysis/results/all_tests.csv
+H2_MIKASUKI_SCA_stratified,H2,MIKASUKI,TIMUCUA,MIKASUKI_SCA_stratified,SCA,15,0.0189,0.5254,0.2958,0.5686,0.549,0.5686,false,false,H0 retained,sensitivity,analysis/results/all_tests.csv
+descriptive_MIKASUKI_fulllist_SCA,descriptive,MIKASUKI,TIMUCUA,MIKASUKI_fulllist_SCA,SCA,82,0.0184,1.1654,0.1254,0.3333,0.3725,0.3725,false,false,H0 retained,descriptive,analysis/results/all_tests.csv
+descriptive_CREEK_fulllist_SCA,descriptive,CREEK,TIMUCUA,CREEK_fulllist_SCA,SCA,83,0.0254,1.6794,0.0486,0.1569,0.1569,0.1569,false,false,H0 retained,descriptive,analysis/results/all_tests.csv
+exploratory_WARAO_x_TIMUCUA_SCA,exploratory,WARAO,TIMUCUA,WARAO_x_TIMUCUA_SCA,SCA,85,0.0085,0.5739,0.2844,0.5745,0.5294,0.5745,false,false,H0 retained,exploratory,analysis/results/all_tests.csv
+H3_TIMUCUA_x_MUSK_INHERITED_SCA,H3,TIMUCUA,MUSK_INHERITED,TIMUCUA_x_MUSK_INHERITED_SCA,SCA,63,0.0163,0.8948,0.1845,0.2745,0.3922,0.3922,false,false,H0 retained,H3,analysis/results/all_tests.csv
+H4_APALACHEE_SCA,H4,APALACHEE,TIMUCUA,24 Apalachee concepts,SCA,24,-0.0211,-0.6989,0.7446,0.9412,0.9412,0.9412,false,false,H0 retained,addendum 1,analysis/results/h4_apalachee/h4_summary.json
+H4_MIKASUKI_same_concepts_SCA,H4,MIKASUKI,TIMUCUA,same 24 concepts,SCA,23,-0.0433,-1.3433,0.9157,0.9608,1.0,1.0,false,false,H0 retained,addendum 1 comparison,analysis/results/h4_apalachee/h4_summary.json
+GEORGIA_HITCHITI_all_shared_SCA,H1 (Georgia-era check),HITCHITI_1884,TIMUCUA,28 shared concepts,SCA,28,-0.0075,-0.2693,0.6042,0.6471,0.7451,0.7451,false,,H0 retained,"addendum 2, descriptive",analysis/results/h1_hitchiti/h1_summary.json
+GEORGIA_HITCHITI_residue_SCA,H1 (Georgia-era check),HITCHITI_1884,TIMUCUA,6 Hitchiti residue concepts,SCA,6,-0.0605,-0.9225,0.8149,0.9216,0.9804,0.9804,false,,H0 retained,"addendum 2, descriptive",analysis/results/h1_hitchiti/h1_summary.json
+CAL_MOBILIAN_JARGON_x_CHOCTAW,calibration,MOBILIAN_JARGON,CHOCTAW,37 shared concepts,SCA,37,0.5189,21.3906,0.0001,0.0196,0.0196,0.0196,,,detected,validation (before freezing),analysis/validation/placebo_and_calibration.csv
+CAL_MIKASUKI_x_CREEK,calibration,MIKASUKI,CREEK,95 shared concepts,SCA,95,0.2729,18.649,0.0001,0.0196,0.0196,0.0196,,,detected,validation (before freezing),analysis/validation/placebo_and_calibration.csv
+CAL_KOASATI_x_ALABAMA,calibration,KOASATI,ALABAMA,95 shared concepts,SCA,95,0.466,31.092,0.0001,0.0196,0.0196,0.0196,,,detected,validation (before freezing),analysis/validation/placebo_and_calibration.csv
+CAL_YUCHI_x_CREEK,calibration,YUCHI,CREEK,33 shared concepts,SCA,33,0.0258,1.1015,0.1331,0.2941,0.2745,0.2941,,,not detected,validation (before freezing),analysis/validation/placebo_and_calibration.csv
+CAL_NATCHEZ_x_CREEK,calibration,NATCHEZ,CREEK,38 shared concepts,SCA,38,0.0209,0.9799,0.1621,0.2353,0.2549,0.2549,,,not detected,validation (before freezing),analysis/validation/placebo_and_calibration.csv

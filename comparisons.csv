@@ -1,0 +1,608 @@
+ID,Language_ID,Parameter_ID,Form_ID,Timucua_Form_ID,Form,Timucua_Form,SCA,NED,TPG,Rank_SCA,N_Timucua_Concepts,P_Candidate,Analysis_Status
+cmp-MIKASUKI-1,MIKASUKI,1,MIKASUKI-1-1,TIMUCUA-1-2,ani,honihe,0.491,0.5,0,19,87,0.2184,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-2,MIKASUKI,2,MIKASUKI-2-1,TIMUCUA-2-1,tʃin,tʃi,0.731,0.667,0,3,87,0.046,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-3,MIKASUKI,3,MIKASUKI-3-1,TIMUCUA-3-1,poni,heka,0.267,0.5,0,62,87,0.8621,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-4,MIKASUKI,4,MIKASUKI-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-5,MIKASUKI,5,MIKASUKI-5-1,TIMUCUA-5-2,ma,ma,1.0,1.0,1,1,87,0.0115,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-6,MIKASUKI,6,MIKASUKI-6-1,TIMUCUA-6-1,noɬ,kʷene,0.33,0.25,0,17,87,0.2414,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-7,MIKASUKI,7,MIKASUKI-7-1,TIMUCUA-7-2,naki,kʷene,0.273,0.5,0,72,87,0.8621,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-8,MIKASUKI,8,MIKASUKI-8-1,TIMUCUA-8-2,mati,ti,0.46,0.5,0,22,87,0.2529,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-9,MIKASUKI,9,MIKASUKI-9-1,TIMUCUA-9-1,mamos,toma,0.477,0.6,0,4,87,0.1264,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-10,MIKASUKI,10,MIKASUKI-10-1,TIMUCUA-10-2,atʃonki,pukʷa,0.402,0.5,0,38,87,0.4713,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-11,MIKASUKI,11,MIKASUKI-11-1,TIMUCUA-11-2,ɬamin,mine,0.516,0.4,0,1,87,0.023,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-12,MIKASUKI,12,MIKASUKI-12-1,TIMUCUA-12-1,toklan,jutʃa,0.163,0.333,0,72,87,0.8276,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-13,MIKASUKI,13,MIKASUKI-13-1,TIMUCUA-13-1,tʃob,mini,0.09,0.25,0,84,87,0.977,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-14,MIKASUKI,14,MIKASUKI-14-1,TIMUCUA-14-1,batʃki,ihiriba,0.134,0.286,0,86,87,0.9885,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-15,MIKASUKI,15,MIKASUKI-15-1,TIMUCUA-15-1,wink,tʃiri,0.125,0.25,0,62,87,0.7356,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-16,MIKASUKI,16,MIKASUKI-16-1,TIMUCUA-16-1,taki,nia,0.28,0.5,0,70,87,0.8161,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-17,MIKASUKI,17,MIKASUKI-17-1,TIMUCUA-17-2,nakni,ano,0.469,0.6,0,26,87,0.3218,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-18,MIKASUKI,18,MIKASUKI-18-1,TIMUCUA-18-1,jati,ano,0.295,0.5,0,52,87,0.6782,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-19,MIKASUKI,19,MIKASUKI-19-1,TIMUCUA-19-1,ɬaɬi,kuju,0.267,0.5,0,55,87,0.8276,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-20,MIKASUKI,20,MIKASUKI-20-1,TIMUCUA-20-1,fosi,tʃulufi,0.183,0.333,0,86,87,0.9885,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-21,MIKASUKI,21,MIKASUKI-21-1,TIMUCUA-21-1,ifi,efa,0.9,1.0,1,1,87,0.0115,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-22,MIKASUKI,22,MIKASUKI-22-1,TIMUCUA-22-1,hitʃatʃi,hibe,0.449,0.5,0,24,87,0.2989,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-23,MIKASUKI,23,MIKASUKI-23-1,TIMUCUA-23-1,ahi,aje,0.45,0.667,0,14,87,0.2529,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-24,MIKASUKI,24,MIKASUKI-24-1,TIMUCUA-24-1,jiɬi,asikʷita,0.132,0.286,0,85,87,0.977,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-26,MIKASUKI,26,MIKASUKI-26-1,TIMUCUA-26-1,aski,itʃaka,0.537,0.6,0,26,87,0.3218,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-28,MIKASUKI,28,MIKASUKI-28-1,TIMUCUA-28-1,halbi,ketʃela,0.322,0.4,0,46,87,0.5287,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-29,MIKASUKI,29,MIKASUKI-29-1,TIMUCUA-29-1,akni,oko,0.643,0.75,0,8,87,0.092,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-30,MIKASUKI,30,MIKASUKI-30-1,TIMUCUA-30-1,pitʃiktʃi,isi,0.235,0.286,0,53,87,0.6092,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-31,MIKASUKI,31,MIKASUKI-31-1,TIMUCUA-31-1,foni,jabi,0.3,0.5,0,31,87,0.4253,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-32,MIKASUKI,32,MIKASUKI-32-1,TIMUCUA-32-2,nihi,neha,0.933,1.0,1,2,87,0.023,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-35,MIKASUKI,35,MIKASUKI-35-1,TIMUCUA-35-1,hatʃi,api,0.375,0.5,0,36,87,0.4483,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-37,MIKASUKI,37,MIKASUKI-37-1,TIMUCUA-37-1,tokisi,napona,0.244,0.5,0,63,87,0.7241,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-38,MIKASUKI,38,MIKASUKI-38-1,TIMUCUA-38-1,josi,tʃito,0.267,0.5,0,61,87,0.8276,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-39,MIKASUKI,39,MIKASUKI-39-1,TIMUCUA-39-1,hotʃobi,tiki,0.353,0.5,0,47,87,0.5632,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-40,MIKASUKI,40,MIKASUKI-40-1,TIMUCUA-40-1,iti,muku,0.295,0.5,0,66,87,0.8621,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-41,MIKASUKI,41,MIKASUKI-41-1,TIMUCUA-41-1,ibi,tʃini,0.375,0.5,0,44,87,0.5517,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-42,MIKASUKI,42,MIKASUKI-42-1,TIMUCUA-42-1,itʃi,nipita,0.499,0.5,0,23,87,0.2644,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-44,MIKASUKI,44,MIKASUKI-44-1,TIMUCUA-44-2,tʃokolasi,itukʷa,0.408,0.375,1,17,87,0.2184,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-45,MIKASUKI,45,MIKASUKI-45-1,TIMUCUA-45-1,ijakosi,kepe,0.299,0.429,0,52,87,0.6437,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-46,MIKASUKI,46,MIKASUKI-46-1,TIMUCUA-46-1,iji,itʃiki,0.285,0.4,0,70,87,0.8046,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-48,MIKASUKI,48,MIKASUKI-48-1,TIMUCUA-48-1,ilbi,hue,0.242,0.25,0,66,87,0.7586,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-50,MIKASUKI,50,MIKASUKI-50-1,TIMUCUA-50-1,nokbi,kuna,0.251,0.4,0,63,87,0.7701,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-51,MIKASUKI,51,MIKASUKI-51-1,TIMUCUA-51-2,owatʃi,tʃokolo,0.285,0.5,0,42,87,0.4828,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-52,MIKASUKI,52,MIKASUKI-52-1,TIMUCUA-52-1,tʃonosbi,kume,0.152,0.286,0,78,87,0.8966,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-53,MIKASUKI,53,MIKASUKI-53-1,TIMUCUA-53-1,lopi,tʃofa,0.5,0.75,0,21,87,0.2414,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-54,MIKASUKI,54,MIKASUKI-54-1,TIMUCUA-54-1,isk,uku,0.509,0.333,0,9,87,0.1149,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-55,MIKASUKI,55,MIKASUKI-55-1,TIMUCUA-55-1,imp,he,0.117,0.0,0,72,87,0.8276,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-56,MIKASUKI,56,MIKASUKI-56-1,TIMUCUA-56-1,kabaliktʃi,itʃiko,0.325,0.444,0,24,87,0.2989,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-57,MIKASUKI,57,MIKASUKI-57-1,TIMUCUA-57-1,hitʃa,tʃano,0.303,0.5,0,49,87,0.5747,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-58,MIKASUKI,58,MIKASUKI-58-1,TIMUCUA-58-2,hakl,tiki,0.386,0.5,0,21,87,0.3218,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-59,MIKASUKI,59,MIKASUKI-59-1,TIMUCUA-59-1,ataɬ,isako,0.322,0.4,0,35,87,0.4138,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-60,MIKASUKI,60,MIKASUKI-60-1,TIMUCUA-60-2,notʃ,neka,0.49,0.5,0,6,87,0.1034,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-61,MIKASUKI,61,MIKASUKI-61-1,TIMUCUA-61-1,il,iki,0.255,0.333,0,22,87,0.3218,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-62,MIKASUKI,62,MIKASUKI-62-1,TIMUCUA-62-2,iltʃ,ilifo,0.367,0.4,0,13,87,0.1609,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-63,MIKASUKI,63,MIKASUKI-63-1,TIMUCUA-63-2,opak,uba,0.698,0.75,0,1,87,0.0115,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-64,MIKASUKI,64,MIKASUKI-64-1,TIMUCUA-64-1,jakal,meja,0.229,0.4,0,65,87,0.7471,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-65,MIKASUKI,65,MIKASUKI-65-1,TIMUCUA-65-1,tʃajaɬ,abi,0.236,0.4,0,47,87,0.6092,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-66,MIKASUKI,66,MIKASUKI-66-1,TIMUCUA-66-1,ont,hime,0.085,0.25,0,79,87,0.908,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-68,MIKASUKI,68,MIKASUKI-68-1,TIMUCUA-68-1,tʃokol,hiba,0.163,0.4,0,80,87,0.931,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-69,MIKASUKI,69,MIKASUKI-69-1,TIMUCUA-69-2,lokoka,iribo,0.235,0.5,0,52,87,0.6092,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-70,MIKASUKI,70,MIKASUKI-70-1,TIMUCUA-70-2,ik,jaru,0.126,0.25,0,73,87,0.9195,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-71,MIKASUKI,71,MIKASUKI-71-1,TIMUCUA-71-1,katʃ,abota,0.351,0.4,0,30,87,0.3448,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-72,MIKASUKI,72,MIKASUKI-72-1,TIMUCUA-72-1,hasi,ela,0.295,0.5,0,55,87,0.6897,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-74,MIKASUKI,74,MIKASUKI-74-1,TIMUCUA-74-1,owatʃiki,tʃubobo,0.219,0.429,0,57,87,0.6552,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-75,MIKASUKI,75,MIKASUKI-75-1,TIMUCUA-75-1,oki,ibi,0.4,0.667,0,37,87,0.5402,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-76,MIKASUKI,76,MIKASUKI-76-1,TIMUCUA-76-1,okob,hukʷe,0.536,0.5,0,13,87,0.2299,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-77,MIKASUKI,77,MIKASUKI-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-79,MIKASUKI,79,MIKASUKI-79-1,TIMUCUA-79-2,jakni,ike,0.549,0.6,0,4,87,0.0805,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-81,MIKASUKI,81,MIKASUKI-81-1,TIMUCUA-81-1,otʃkotʃi,moko,0.43,0.333,0,26,87,0.2989,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-83,MIKASUKI,83,MIKASUKI-83-1,TIMUCUA-83-1,tolhambi,api,0.36,0.375,0,24,87,0.2874,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-84,MIKASUKI,84,MIKASUKI-84-1,TIMUCUA-84-2,jil,natoja,0.212,0.25,0,33,87,0.3793,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-85,MIKASUKI,85,MIKASUKI-85-1,TIMUCUA-85-1,hini,eje,0.295,0.5,0,51,87,0.6782,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-87,MIKASUKI,87,MIKASUKI-87-1,TIMUCUA-87-1,kitistʃi,pira,0.152,0.286,0,70,87,0.8161,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-89,MIKASUKI,89,MIKASUKI-89-1,TIMUCUA-89-1,lakni,nali,0.259,0.4,0,55,87,0.6552,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-90,MIKASUKI,90,MIKASUKI-90-1,TIMUCUA-90-1,hatki,najo,0.204,0.4,0,81,87,0.954,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-91,MIKASUKI,91,MIKASUKI-91-1,TIMUCUA-91-2,lotʃi,laka,0.6,0.75,0,3,87,0.0575,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-92,MIKASUKI,92,MIKASUKI-92-1,TIMUCUA-92-1,niɬaki,ilake,0.835,0.833,0,1,87,0.0115,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-93,MIKASUKI,93,MIKASUKI-93-1,TIMUCUA-93-2,hãji,mela,0.267,0.5,0,59,87,0.8506,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-94,MIKASUKI,94,MIKASUKI-94-1,TIMUCUA-94-1,kapali,patu,0.367,0.5,0,41,87,0.4713,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-96,MIKASUKI,96,MIKASUKI-96-1,TIMUCUA-96-1,himatʃi,tʃale,0.174,0.333,0,78,87,0.8966,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-97,MIKASUKI,97,MIKASUKI-97-1,TIMUCUA-97-1,hiɬi,tera,0.4,0.75,0,31,87,0.3678,"tested: H2 (pre-registered, residue concepts)"
+cmp-MIKASUKI-100,MIKASUKI,100,MIKASUKI-100-1,TIMUCUA-100-1,hotʃilki,bisa,0.17,0.286,0,69,87,0.7931,"tested: H2 (pre-registered, residue concepts)"
+cmp-HITCHITI_1884-1,HITCHITI_1884,1,HITCHITI_1884-1-1,TIMUCUA-1-2,ani,honihe,0.491,0.5,0,19,87,0.2184,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-2,HITCHITI_1884,2,HITCHITI_1884-2-1,TIMUCUA-2-1,tʃihni,tʃi,0.483,0.4,0,16,87,0.1954,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-3,HITCHITI_1884,3,HITCHITI_1884-3-1,TIMUCUA-3-1,puhni,heka,0.218,0.4,0,65,87,0.7471,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-4,HITCHITI_1884,4,HITCHITI_1884-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-5,HITCHITI_1884,5,HITCHITI_1884-5-1,TIMUCUA-5-2,ma,ma,1.0,1.0,1,1,87,0.0115,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-6,HITCHITI_1884,6,HITCHITI_1884-6-1,TIMUCUA-6-1,noɬi,kʷene,0.273,0.5,0,58,87,0.7241,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-7,HITCHITI_1884,7,HITCHITI_1884-7-1,TIMUCUA-7-2,naki,kʷene,0.273,0.5,0,72,87,0.8621,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-9,HITCHITI_1884,9,HITCHITI_1884-9-1,TIMUCUA-9-2,lapki,atʃiko,0.402,0.4,0,37,87,0.4368,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-11,HITCHITI_1884,11,HITCHITI_1884-11-1,TIMUCUA-11-2,ɬamin,mine,0.516,0.4,0,1,87,0.023,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-12,HITCHITI_1884,12,HITCHITI_1884-12-1,TIMUCUA-12-1,tuklan,jutʃa,0.188,0.333,0,65,87,0.7816,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-16,HITCHITI_1884,16,HITCHITI_1884-16-1,TIMUCUA-16-1,taigi,nia,0.211,0.4,0,72,87,0.8391,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-18,HITCHITI_1884,18,HITCHITI_1884-18-1,TIMUCUA-18-1,jati,ano,0.295,0.5,0,52,87,0.6782,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-19,HITCHITI_1884,19,HITCHITI_1884-19-1,TIMUCUA-19-1,ɬaɬi,kuju,0.267,0.5,0,55,87,0.8276,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-20,HITCHITI_1884,20,HITCHITI_1884-20-1,TIMUCUA-20-1,fosi,tʃulufi,0.183,0.333,0,86,87,0.9885,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-23,HITCHITI_1884,23,HITCHITI_1884-23-1,TIMUCUA-23-1,api,aje,0.45,0.667,0,32,87,0.4253,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-46,HITCHITI_1884,46,HITCHITI_1884-46-1,TIMUCUA-46-1,ipalaʃi,itʃiki,0.326,0.429,0,43,87,0.5172,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-48,HITCHITI_1884,48,HITCHITI_1884-48-1,TIMUCUA-48-1,ilbi,hue,0.242,0.25,0,66,87,0.7586,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-57,HITCHITI_1884,57,HITCHITI_1884-57-1,TIMUCUA-57-1,hitʃigi,tʃano,0.32,0.5,0,53,87,0.6092,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-72,HITCHITI_1884,72,HITCHITI_1884-72-1,TIMUCUA-72-1,hasi,ela,0.295,0.5,0,55,87,0.6897,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-73,HITCHITI_1884,73,HITCHITI_1884-73-1,TIMUCUA-73-1,hasotali,aku,0.163,0.25,0,63,87,0.7241,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-75,HITCHITI_1884,75,HITCHITI_1884-75-1,TIMUCUA-75-1,oki,ibi,0.4,0.667,0,37,87,0.5402,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-77,HITCHITI_1884,77,HITCHITI_1884-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-79,HITCHITI_1884,79,HITCHITI_1884-79-1,TIMUCUA-79-2,jakni,ike,0.549,0.6,0,4,87,0.0805,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-87,HITCHITI_1884,87,HITCHITI_1884-87-1,TIMUCUA-87-1,kitistʃi,pira,0.152,0.286,0,70,87,0.8161,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-89,HITCHITI_1884,89,HITCHITI_1884-89-1,TIMUCUA-89-1,lakni,nali,0.259,0.4,0,55,87,0.6552,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-90,HITCHITI_1884,90,HITCHITI_1884-90-1,TIMUCUA-90-1,hatgi,najo,0.204,0.4,0,81,87,0.954,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-91,HITCHITI_1884,91,HITCHITI_1884-91-1,TIMUCUA-91-2,lodʒi,laka,0.6,0.75,0,3,87,0.0575,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1884-97,HITCHITI_1884,97,HITCHITI_1884-97-1,TIMUCUA-97-1,hiɬi,tera,0.4,0.75,0,31,87,0.3678,tested: Georgia-era check (Addendum 2)
+cmp-HITCHITI_1937-1,HITCHITI_1937,1,HITCHITI_1937-1-1,TIMUCUA-1-2,ani,honihe,0.491,0.5,0,19,87,0.2184,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-2,HITCHITI_1937,2,HITCHITI_1937-2-1,TIMUCUA-2-1,tʃihni,tʃi,0.483,0.4,0,16,87,0.1954,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-3,HITCHITI_1937,3,HITCHITI_1937-3-1,TIMUCUA-3-1,puhni,heka,0.218,0.4,0,65,87,0.7471,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-9,HITCHITI_1937,9,HITCHITI_1937-9-1,TIMUCUA-9-2,lapkatʃkaka,atʃiko,0.482,0.5,0,2,87,0.0345,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-11,HITCHITI_1937,11,HITCHITI_1937-11-1,TIMUCUA-11-2,ɬamin,mine,0.516,0.4,0,1,87,0.023,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-12,HITCHITI_1937,12,HITCHITI_1937-12-1,TIMUCUA-12-1,tuklan,jutʃa,0.188,0.333,0,65,87,0.7816,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-16,HITCHITI_1937,16,HITCHITI_1937-16-1,TIMUCUA-16-1,teki,nia,0.28,0.5,0,68,87,0.7931,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-17,HITCHITI_1937,17,HITCHITI_1937-17-1,TIMUCUA-17-2,jatnakni,ano,0.292,0.375,0,48,87,0.5632,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-18,HITCHITI_1937,18,HITCHITI_1937-18-1,TIMUCUA-18-1,jati,ano,0.295,0.5,0,52,87,0.6782,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-21,HITCHITI_1937,21,HITCHITI_1937-21-1,TIMUCUA-21-1,if,efa,0.703,0.667,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-23,HITCHITI_1937,23,HITCHITI_1937-23-1,TIMUCUA-23-1,ahi,aje,0.45,0.667,0,14,87,0.2529,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-25,HITCHITI_1937,25,HITCHITI_1937-25-1,TIMUCUA-25-1,ahiski,asileko,0.562,0.571,0,8,87,0.092,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-48,HITCHITI_1937,48,HITCHITI_1937-48-1,TIMUCUA-48-1,ilbi,hue,0.242,0.25,0,66,87,0.7586,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-54,HITCHITI_1937,54,HITCHITI_1937-54-1,TIMUCUA-54-1,iskiki,uku,0.477,0.5,0,23,87,0.2759,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-55,HITCHITI_1937,55,HITCHITI_1937-55-1,TIMUCUA-55-1,impiki,he,0.01,0.167,0,87,87,1.0,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-57,HITCHITI_1937,57,HITCHITI_1937-57-1,TIMUCUA-57-1,hitʃiki,tʃano,0.32,0.5,0,53,87,0.6092,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-58,HITCHITI_1937,58,HITCHITI_1937-58-1,TIMUCUA-58-1,hakliki,okoto,0.41,0.571,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-65,HITCHITI_1937,65,HITCHITI_1937-65-1,TIMUCUA-65-2,atiki,aliho,0.371,0.6,0,46,87,0.5402,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-68,HITCHITI_1937,68,HITCHITI_1937-68-1,TIMUCUA-68-1,tʃokoleki,hiba,0.081,0.25,0,85,87,0.977,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-75,HITCHITI_1937,75,HITCHITI_1937-75-1,TIMUCUA-75-1,uki,ibi,0.45,0.667,0,31,87,0.4138,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-85,HITCHITI_1937,85,HITCHITI_1937-85-1,TIMUCUA-85-1,hini,eje,0.295,0.5,0,51,87,0.6782,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-87,HITCHITI_1937,87,HITCHITI_1937-87-1,TIMUCUA-87-1,kitistʃi,pira,0.152,0.286,0,70,87,0.8161,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-89,HITCHITI_1937,89,HITCHITI_1937-89-1,TIMUCUA-89-1,lakni,nali,0.259,0.4,0,55,87,0.6552,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-90,HITCHITI_1937,90,HITCHITI_1937-90-1,TIMUCUA-90-1,hatki,najo,0.204,0.4,0,81,87,0.954,descriptive only (not a pre-registered test)
+cmp-HITCHITI_1937-91,HITCHITI_1937,91,HITCHITI_1937-91-1,TIMUCUA-91-2,lotʃi,laka,0.6,0.75,0,3,87,0.0575,descriptive only (not a pre-registered test)
+cmp-CREEK-1,CREEK,1,CREEK-1-1,TIMUCUA-1-2,ani,honihe,0.491,0.5,0,19,87,0.2184,tested: H2 secondary
+cmp-CREEK-2,CREEK,2,CREEK-2-1,TIMUCUA-2-1,tʃim,tʃi,0.731,0.667,0,2,87,0.0345,tested: H2 secondary
+cmp-CREEK-3,CREEK,3,CREEK-3-1,TIMUCUA-3-1,pomi,heka,0.267,0.5,0,64,87,0.8391,tested: H2 secondary
+cmp-CREEK-4,CREEK,4,CREEK-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,tested: H2 secondary
+cmp-CREEK-5,CREEK,5,CREEK-5-1,TIMUCUA-5-2,ma,ma,1.0,1.0,1,1,87,0.0115,tested: H2 secondary
+cmp-CREEK-6,CREEK,6,CREEK-6-1,TIMUCUA-6-2,istema,tʃitako,0.479,0.5,0,11,87,0.1609,tested: H2 secondary
+cmp-CREEK-7,CREEK,7,CREEK-7-1,TIMUCUA-7-2,naki,kʷene,0.273,0.5,0,72,87,0.8621,tested: H2 secondary
+cmp-CREEK-8,CREEK,8,CREEK-8-1,TIMUCUA-8-1,monka,ja,0.087,0.2,0,86,87,0.9885,tested: H2 secondary
+cmp-CREEK-9,CREEK,9,CREEK-9-1,TIMUCUA-9-2,omalka,atʃiko,0.529,0.667,0,9,87,0.1379,tested: H2 secondary
+cmp-CREEK-10,CREEK,10,CREEK-10-1,TIMUCUA-10-2,solki,pukʷa,0.49,0.6,0,23,87,0.2874,tested: H2 secondary
+cmp-CREEK-11,CREEK,11,CREEK-11-1,TIMUCUA-11-2,hamkin,mine,0.456,0.333,0,8,87,0.1034,tested: H2 secondary
+cmp-CREEK-12,CREEK,12,CREEK-12-1,TIMUCUA-12-1,hokolin,jutʃa,0.107,0.286,0,80,87,0.9195,tested: H2 secondary
+cmp-CREEK-13,CREEK,13,CREEK-13-1,TIMUCUA-13-1,ɬaki,mini,0.3,0.5,0,49,87,0.6092,tested: H2 secondary
+cmp-CREEK-14,CREEK,14,CREEK-14-1,TIMUCUA-14-1,tʃapki,ihiriba,0.269,0.286,0,66,87,0.7586,tested: H2 secondary
+cmp-CREEK-15,CREEK,15,CREEK-15-1,TIMUCUA-15-1,tʃotki,tʃiri,0.49,0.6,0,29,87,0.3793,tested: H2 secondary
+cmp-CREEK-16,CREEK,16,CREEK-16-1,TIMUCUA-16-1,hokti,nia,0.188,0.4,0,80,87,0.9195,tested: H2 secondary
+cmp-CREEK-17,CREEK,17,CREEK-17-1,TIMUCUA-17-2,honanwa,ano,0.393,0.429,0,10,87,0.1379,tested: H2 secondary
+cmp-CREEK-18,CREEK,18,CREEK-18-1,TIMUCUA-18-1,isti,ano,0.246,0.5,0,70,87,0.8276,tested: H2 secondary
+cmp-CREEK-19,CREEK,19,CREEK-19-1,TIMUCUA-19-1,ɬaɬo,kuju,0.267,0.5,0,50,87,0.7701,tested: H2 secondary
+cmp-CREEK-20,CREEK,20,CREEK-20-1,TIMUCUA-20-1,foswa,tʃulufi,0.243,0.333,0,53,87,0.6092,tested: H2 secondary
+cmp-CREEK-21,CREEK,21,CREEK-21-1,TIMUCUA-21-1,ifa,efa,0.95,1.0,1,1,87,0.0115,tested: H2 secondary
+cmp-CREEK-22,CREEK,22,CREEK-22-1,TIMUCUA-22-2,itʃka,ike,0.726,0.75,0,6,87,0.1034,tested: H2 secondary
+cmp-CREEK-23,CREEK,23,CREEK-23-1,TIMUCUA-23-1,ito,aje,0.4,0.667,0,29,87,0.5172,tested: H2 secondary
+cmp-CREEK-24,CREEK,24,CREEK-24-1,TIMUCUA-24-1,niɬka,asikʷita,0.312,0.286,0,51,87,0.5862,tested: H2 secondary
+cmp-CREEK-26,CREEK,26,CREEK-26-1,TIMUCUA-26-1,jalomka,itʃaka,0.479,0.571,0,5,87,0.069,tested: H2 secondary
+cmp-CREEK-28,CREEK,28,CREEK-28-1,TIMUCUA-28-1,haɬpi,ketʃela,0.322,0.4,0,46,87,0.5287,tested: H2 secondary
+cmp-CREEK-29,CREEK,29,CREEK-29-1,TIMUCUA-29-2,apiswa,soba,0.403,0.333,0,21,87,0.2529,tested: H2 secondary
+cmp-CREEK-30,CREEK,30,CREEK-30-1,TIMUCUA-30-1,tʃati,isi,0.415,0.5,0,31,87,0.3563,tested: H2 secondary
+cmp-CREEK-31,CREEK,31,CREEK-31-1,TIMUCUA-31-1,ifoni,jabi,0.356,0.4,0,34,87,0.3908,tested: H2 secondary
+cmp-CREEK-32,CREEK,32,CREEK-32-1,TIMUCUA-32-2,niha,neha,0.967,1.0,1,1,87,0.023,tested: H2 secondary
+cmp-CREEK-35,CREEK,35,CREEK-35-1,TIMUCUA-35-1,hatʃi,api,0.375,0.5,0,36,87,0.4483,tested: H2 secondary
+cmp-CREEK-37,CREEK,37,CREEK-37-1,TIMUCUA-37-1,isi,napona,0.161,0.333,0,86,87,0.9885,tested: H2 secondary
+cmp-CREEK-38,CREEK,38,CREEK-38-1,TIMUCUA-38-2,ika,kuna,0.352,0.5,0,57,87,0.7241,tested: H2 secondary
+cmp-CREEK-39,CREEK,39,CREEK-39-1,TIMUCUA-39-1,hoktʃo,tiki,0.396,0.6,0,34,87,0.3908,tested: H2 secondary
+cmp-CREEK-40,CREEK,40,CREEK-40-1,TIMUCUA-40-1,toɬwa,muku,0.202,0.4,0,72,87,0.8736,tested: H2 secondary
+cmp-CREEK-41,CREEK,41,CREEK-41-1,TIMUCUA-41-1,jopo,tʃini,0.2,0.5,0,77,87,0.908,tested: H2 secondary
+cmp-CREEK-42,CREEK,42,CREEK-42-1,TIMUCUA-42-1,tʃokʷa,nipita,0.174,0.333,0,85,87,0.977,tested: H2 secondary
+cmp-CREEK-44,CREEK,44,CREEK-44-1,TIMUCUA-44-1,tolaswa,bali,0.361,0.429,0,27,87,0.3448,tested: H2 secondary
+cmp-CREEK-45,CREEK,45,CREEK-45-1,TIMUCUA-45-1,ilinkososwa,kepe,0.181,0.273,0,59,87,0.6782,tested: H2 secondary
+cmp-CREEK-46,CREEK,46,CREEK-46-1,TIMUCUA-46-1,ili,itʃiki,0.285,0.4,0,70,87,0.8046,tested: H2 secondary
+cmp-CREEK-48,CREEK,48,CREEK-48-1,TIMUCUA-48-1,inki,hue,0.242,0.25,0,74,87,0.8506,tested: H2 secondary
+cmp-CREEK-50,CREEK,50,CREEK-50-1,TIMUCUA-50-1,nokwa,kuna,0.246,0.4,0,59,87,0.6897,tested: H2 secondary
+cmp-CREEK-51,CREEK,51,CREEK-51-1,TIMUCUA-51-2,hokpi,tʃokolo,0.342,0.5,0,52,87,0.5977,tested: H2 secondary
+cmp-CREEK-52,CREEK,52,CREEK-52-1,TIMUCUA-52-1,fiki,kume,0.273,0.5,0,64,87,0.8161,tested: H2 secondary
+cmp-CREEK-53,CREEK,53,CREEK-53-1,TIMUCUA-53-1,lopi,tʃofa,0.5,0.75,0,21,87,0.2414,tested: H2 secondary
+cmp-CREEK-54,CREEK,54,CREEK-54-1,TIMUCUA-54-1,isk,uku,0.509,0.333,0,9,87,0.1149,tested: H2 secondary
+cmp-CREEK-55,CREEK,55,CREEK-55-1,TIMUCUA-55-2,homp,ho,0.558,0.5,0,6,87,0.0805,tested: H2 secondary
+cmp-CREEK-56,CREEK,56,CREEK-56-1,TIMUCUA-56-1,ak,itʃiko,0.406,0.4,0,25,87,0.3103,tested: H2 secondary
+cmp-CREEK-57,CREEK,57,CREEK-57-1,TIMUCUA-57-1,hitʃ,tʃano,0.145,0.25,0,55,87,0.6667,tested: H2 secondary
+cmp-CREEK-58,CREEK,58,CREEK-58-1,TIMUCUA-58-2,poh,tiki,0.09,0.25,0,81,87,0.977,tested: H2 secondary
+cmp-CREEK-59,CREEK,59,CREEK-59-1,TIMUCUA-59-1,kiɬ,isako,0.238,0.2,0,47,87,0.5747,tested: H2 secondary
+cmp-CREEK-60,CREEK,60,CREEK-60-1,TIMUCUA-60-2,notʃ,neka,0.49,0.5,0,6,87,0.1034,tested: H2 secondary
+cmp-CREEK-61,CREEK,61,CREEK-61-1,TIMUCUA-61-1,il,iki,0.255,0.333,0,22,87,0.3218,tested: H2 secondary
+cmp-CREEK-62,CREEK,62,CREEK-62-1,TIMUCUA-62-2,ilitʃ,ilifo,0.599,0.6,0,3,87,0.0345,tested: H2 secondary
+cmp-CREEK-63,CREEK,63,CREEK-63-1,TIMUCUA-63-2,omej,uba,0.268,0.5,0,28,87,0.4483,tested: H2 secondary
+cmp-CREEK-64,CREEK,64,CREEK-64-1,TIMUCUA-64-1,tamk,meja,0.13,0.25,0,58,87,0.6897,tested: H2 secondary
+cmp-CREEK-65,CREEK,65,CREEK-65-1,TIMUCUA-65-1,jakap,abi,0.351,0.4,0,41,87,0.4943,tested: H2 secondary
+cmp-CREEK-66,CREEK,66,CREEK-66-1,TIMUCUA-66-1,at,hime,0.126,0.25,0,64,87,0.9195,tested: H2 secondary
+cmp-CREEK-68,CREEK,68,CREEK-68-1,TIMUCUA-68-1,lek,hiba,0.126,0.25,0,75,87,0.954,tested: H2 secondary
+cmp-CREEK-69,CREEK,69,CREEK-69-1,TIMUCUA-69-1,hoɬ,ete,0.126,0.2,0,51,87,0.7011,tested: H2 secondary
+cmp-CREEK-70,CREEK,70,CREEK-70-1,TIMUCUA-70-2,im,jaru,0.126,0.25,0,61,87,0.8506,tested: H2 secondary
+cmp-CREEK-71,CREEK,71,CREEK-71-1,TIMUCUA-71-2,mak,aho,0.171,0.2,0,52,87,0.6782,tested: H2 secondary
+cmp-CREEK-72,CREEK,72,CREEK-72-1,TIMUCUA-72-1,hasi,ela,0.295,0.5,0,55,87,0.6897,tested: H2 secondary
+cmp-CREEK-74,CREEK,74,CREEK-74-1,TIMUCUA-74-1,kotʃatʃampa,tʃubobo,0.455,0.556,0,6,87,0.069,tested: H2 secondary
+cmp-CREEK-75,CREEK,75,CREEK-75-1,TIMUCUA-75-1,ojwa,ibi,0.326,0.5,0,23,87,0.2874,tested: H2 secondary
+cmp-CREEK-76,CREEK,76,CREEK-76-1,TIMUCUA-76-1,osk,hukʷe,0.394,0.333,0,16,87,0.2644,tested: H2 secondary
+cmp-CREEK-77,CREEK,77,CREEK-77-1,TIMUCUA-77-1,tʃato,jobo,0.3,0.5,0,44,87,0.5402,tested: H2 secondary
+cmp-CREEK-79,CREEK,79,CREEK-79-1,TIMUCUA-79-2,ikana,ike,0.611,0.6,0,5,87,0.092,tested: H2 secondary
+cmp-CREEK-81,CREEK,81,CREEK-81-1,TIMUCUA-81-1,ikotʃi,moko,0.46,0.4,0,27,87,0.3103,tested: H2 secondary
+cmp-CREEK-83,CREEK,83,CREEK-83-1,TIMUCUA-83-1,iso,api,0.35,0.667,0,52,87,0.6092,tested: H2 secondary
+cmp-CREEK-84,CREEK,84,CREEK-84-1,TIMUCUA-84-1,nokɬ,taka,0.386,0.5,0,15,87,0.2529,tested: H2 secondary
+cmp-CREEK-85,CREEK,85,CREEK-85-1,TIMUCUA-85-1,nini,eje,0.295,0.5,0,52,87,0.7011,tested: H2 secondary
+cmp-CREEK-86,CREEK,86,CREEK-86-1,TIMUCUA-86-1,ikanʰalwi,aje,0.09,0.25,0,81,87,0.9425,tested: H2 secondary
+cmp-CREEK-87,CREEK,87,CREEK-87-1,TIMUCUA-87-1,tʃati,pira,0.267,0.5,0,65,87,0.8851,tested: H2 secondary
+cmp-CREEK-89,CREEK,89,CREEK-89-1,TIMUCUA-89-1,lani,nali,0.333,0.5,0,35,87,0.4253,tested: H2 secondary
+cmp-CREEK-90,CREEK,90,CREEK-90-1,TIMUCUA-90-1,hatki,najo,0.204,0.4,0,81,87,0.954,tested: H2 secondary
+cmp-CREEK-91,CREEK,91,CREEK-91-1,TIMUCUA-91-2,lasti,laka,0.565,0.6,0,2,87,0.023,tested: H2 secondary
+cmp-CREEK-92,CREEK,92,CREEK-92-1,TIMUCUA-92-1,niɬaki,ilake,0.835,0.833,0,1,87,0.0115,tested: H2 secondary
+cmp-CREEK-93,CREEK,93,CREEK-93-1,TIMUCUA-93-2,haj,mela,0.126,0.25,0,59,87,0.8966,tested: H2 secondary
+cmp-CREEK-94,CREEK,94,CREEK-94-1,TIMUCUA-94-2,kasapi,itʃikosa,0.432,0.429,0,28,87,0.3218,tested: H2 secondary
+cmp-CREEK-96,CREEK,96,CREEK-96-1,TIMUCUA-96-1,motʃasi,tʃale,0.367,0.5,0,34,87,0.3908,tested: H2 secondary
+cmp-CREEK-97,CREEK,97,CREEK-97-1,TIMUCUA-97-1,hiɬi,tera,0.4,0.75,0,31,87,0.3678,tested: H2 secondary
+cmp-CREEK-100,CREEK,100,CREEK-100-1,TIMUCUA-100-1,hotʃifka,bisa,0.194,0.286,0,71,87,0.8161,tested: H2 secondary
+cmp-ALABAMA-1,ALABAMA,1,ALABAMA-1-1,TIMUCUA-1-2,ana,honihe,0.467,0.5,0,17,87,0.1954,descriptive only (not a pre-registered test)
+cmp-ALABAMA-2,ALABAMA,2,ALABAMA-2-1,TIMUCUA-2-2,isna,hotʃie,0.185,0.4,0,82,87,0.9425,descriptive only (not a pre-registered test)
+cmp-ALABAMA-3,ALABAMA,3,ALABAMA-3-1,TIMUCUA-3-1,posna,heka,0.288,0.4,0,34,87,0.4483,descriptive only (not a pre-registered test)
+cmp-ALABAMA-4,ALABAMA,4,ALABAMA-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,descriptive only (not a pre-registered test)
+cmp-ALABAMA-5,ALABAMA,5,ALABAMA-5-1,TIMUCUA-5-1,aki,ke,0.576,0.667,1,25,87,0.2874,descriptive only (not a pre-registered test)
+cmp-ALABAMA-6,ALABAMA,6,ALABAMA-6-1,TIMUCUA-6-2,naksi,tʃitako,0.333,0.4,0,43,87,0.4943,descriptive only (not a pre-registered test)
+cmp-ALABAMA-7,ALABAMA,7,ALABAMA-7-1,TIMUCUA-7-2,nasi,kʷene,0.273,0.5,0,70,87,0.8161,descriptive only (not a pre-registered test)
+cmp-ALABAMA-8,ALABAMA,8,ALABAMA-8-1,TIMUCUA-8-1,manko,ja,0.123,0.2,0,84,87,0.9655,descriptive only (not a pre-registered test)
+cmp-ALABAMA-9,ALABAMA,9,ALABAMA-9-1,TIMUCUA-9-1,ojha,toma,0.285,0.4,0,44,87,0.5172,descriptive only (not a pre-registered test)
+cmp-ALABAMA-10,ALABAMA,10,ALABAMA-10-1,TIMUCUA-10-1,lawa,ara,0.375,0.5,0,12,87,0.1724,descriptive only (not a pre-registered test)
+cmp-ALABAMA-11,ALABAMA,11,ALABAMA-11-1,TIMUCUA-11-1,tʃafaka,jaha,0.209,0.333,0,71,87,0.8161,descriptive only (not a pre-registered test)
+cmp-ALABAMA-12,ALABAMA,12,ALABAMA-12-1,TIMUCUA-12-1,tõklo,jutʃa,0.221,0.4,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-ALABAMA-13,ALABAMA,13,ALABAMA-13-1,TIMUCUA-13-1,tʃoba,mini,0.233,0.5,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-ALABAMA-14,ALABAMA,14,ALABAMA-14-1,TIMUCUA-14-1,baski,ihiriba,0.199,0.286,0,84,87,0.9655,descriptive only (not a pre-registered test)
+cmp-ALABAMA-15,ALABAMA,15,ALABAMA-15-1,TIMUCUA-15-1,tʃinofa,tʃiri,0.449,0.5,0,15,87,0.2184,descriptive only (not a pre-registered test)
+cmp-ALABAMA-16,ALABAMA,16,ALABAMA-16-1,TIMUCUA-16-1,taji,nia,0.28,0.5,0,63,87,0.7356,descriptive only (not a pre-registered test)
+cmp-ALABAMA-17,ALABAMA,17,ALABAMA-17-1,TIMUCUA-17-2,nani,ano,0.695,0.75,0,2,87,0.0575,descriptive only (not a pre-registered test)
+cmp-ALABAMA-18,ALABAMA,18,ALABAMA-18-1,TIMUCUA-18-1,sati,ano,0.295,0.5,0,67,87,0.8276,descriptive only (not a pre-registered test)
+cmp-ALABAMA-19,ALABAMA,19,ALABAMA-19-1,TIMUCUA-19-1,ɬaɬo,kuju,0.267,0.5,0,50,87,0.7701,descriptive only (not a pre-registered test)
+cmp-ALABAMA-20,ALABAMA,20,ALABAMA-20-1,TIMUCUA-20-1,fosi,tʃulufi,0.183,0.333,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-ALABAMA-21,ALABAMA,21,ALABAMA-21-1,TIMUCUA-21-1,ifa,efa,0.95,1.0,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-ALABAMA-22,ALABAMA,22,ALABAMA-22-1,TIMUCUA-22-2,itʃa,ike,0.45,0.667,0,25,87,0.3908,descriptive only (not a pre-registered test)
+cmp-ALABAMA-23,ALABAMA,23,ALABAMA-23-1,TIMUCUA-23-1,ito,aje,0.4,0.667,0,29,87,0.5172,descriptive only (not a pre-registered test)
+cmp-ALABAMA-24,ALABAMA,24,ALABAMA-24-1,TIMUCUA-24-1,hiɬiktʃi,asikʷita,0.551,0.571,0,6,87,0.069,descriptive only (not a pre-registered test)
+cmp-ALABAMA-26,ALABAMA,26,ALABAMA-26-1,TIMUCUA-26-1,asiktʃi,itʃaka,0.546,0.667,0,7,87,0.1034,descriptive only (not a pre-registered test)
+cmp-ALABAMA-28,ALABAMA,28,ALABAMA-28-1,TIMUCUA-28-2,afaktʃi,pekʷa,0.49,0.667,1,15,87,0.1839,descriptive only (not a pre-registered test)
+cmp-ALABAMA-29,ALABAMA,29,ALABAMA-29-1,TIMUCUA-29-2,nipo,soba,0.567,0.75,0,21,87,0.2644,descriptive only (not a pre-registered test)
+cmp-ALABAMA-30,ALABAMA,30,ALABAMA-30-1,TIMUCUA-30-1,ɬakʰani,isi,0.233,0.333,0,63,87,0.7241,descriptive only (not a pre-registered test)
+cmp-ALABAMA-31,ALABAMA,31,ALABAMA-31-1,TIMUCUA-31-1,tʃokfoni,jabi,0.231,0.429,0,67,87,0.7701,descriptive only (not a pre-registered test)
+cmp-ALABAMA-32,ALABAMA,32,ALABAMA-32-1,TIMUCUA-32-2,nitoktʃi,neha,0.364,0.429,0,34,87,0.4023,descriptive only (not a pre-registered test)
+cmp-ALABAMA-35,ALABAMA,35,ALABAMA-35-1,TIMUCUA-35-1,hatʃi,api,0.375,0.5,0,36,87,0.4483,descriptive only (not a pre-registered test)
+cmp-ALABAMA-37,ALABAMA,37,ALABAMA-37-1,TIMUCUA-37-1,hisi,napona,0.156,0.333,0,85,87,0.977,descriptive only (not a pre-registered test)
+cmp-ALABAMA-38,ALABAMA,38,ALABAMA-38-1,TIMUCUA-38-1,isbaako,tʃito,0.184,0.286,0,66,87,0.7586,descriptive only (not a pre-registered test)
+cmp-ALABAMA-39,ALABAMA,39,ALABAMA-39-1,TIMUCUA-39-1,haktʃo,tiki,0.424,0.6,0,34,87,0.3908,descriptive only (not a pre-registered test)
+cmp-ALABAMA-40,ALABAMA,40,ALABAMA-40-1,TIMUCUA-40-1,itiɬi,muku,0.182,0.4,0,75,87,0.9195,descriptive only (not a pre-registered test)
+cmp-ALABAMA-41,ALABAMA,41,ALABAMA-41-1,TIMUCUA-41-1,ibisani,tʃini,0.42,0.429,0,16,87,0.1839,descriptive only (not a pre-registered test)
+cmp-ALABAMA-42,ALABAMA,42,ALABAMA-42-1,TIMUCUA-42-1,itʃokʰalbi,nipita,0.242,0.375,0,67,87,0.7701,descriptive only (not a pre-registered test)
+cmp-ALABAMA-44,ALABAMA,44,ALABAMA-44-1,TIMUCUA-44-2,itʃolaksi,itukʷa,0.63,0.625,0,6,87,0.069,descriptive only (not a pre-registered test)
+cmp-ALABAMA-45,ALABAMA,45,ALABAMA-45-1,TIMUCUA-45-1,ijaksi,kepe,0.175,0.333,0,74,87,0.8966,descriptive only (not a pre-registered test)
+cmp-ALABAMA-46,ALABAMA,46,ALABAMA-46-1,TIMUCUA-46-1,iji,itʃiki,0.285,0.4,0,70,87,0.8046,descriptive only (not a pre-registered test)
+cmp-ALABAMA-48,ALABAMA,48,ALABAMA-48-1,TIMUCUA-48-1,ilbi,hue,0.242,0.25,0,66,87,0.7586,descriptive only (not a pre-registered test)
+cmp-ALABAMA-50,ALABAMA,50,ALABAMA-50-1,TIMUCUA-50-1,nokbi,kuna,0.251,0.4,0,63,87,0.7701,descriptive only (not a pre-registered test)
+cmp-ALABAMA-51,ALABAMA,51,ALABAMA-51-1,TIMUCUA-51-1,pisi,kume,0.267,0.5,0,68,87,0.8966,descriptive only (not a pre-registered test)
+cmp-ALABAMA-52,ALABAMA,52,ALABAMA-52-1,TIMUCUA-52-1,tʃonoska,kume,0.152,0.286,0,73,87,0.8391,descriptive only (not a pre-registered test)
+cmp-ALABAMA-53,ALABAMA,53,ALABAMA-53-1,TIMUCUA-53-1,ilopi,tʃofa,0.391,0.6,0,33,87,0.3793,descriptive only (not a pre-registered test)
+cmp-ALABAMA-54,ALABAMA,54,ALABAMA-54-1,TIMUCUA-54-1,isko,uku,0.686,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-ALABAMA-55,ALABAMA,55,ALABAMA-55-1,TIMUCUA-55-2,ipa,ho,0.136,0.333,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-ALABAMA-56,ALABAMA,56,ALABAMA-56-1,TIMUCUA-56-1,katʃaɬi,itʃiko,0.51,0.667,0,12,87,0.1379,descriptive only (not a pre-registered test)
+cmp-ALABAMA-57,ALABAMA,57,ALABAMA-57-1,TIMUCUA-57-1,hitʃa,tʃano,0.303,0.5,0,49,87,0.5747,descriptive only (not a pre-registered test)
+cmp-ALABAMA-58,ALABAMA,58,ALABAMA-58-1,TIMUCUA-58-2,halo,tiki,0.233,0.5,0,76,87,0.908,descriptive only (not a pre-registered test)
+cmp-ALABAMA-59,ALABAMA,59,ALABAMA-59-1,TIMUCUA-59-2,sobali,nahaibo,0.325,0.5,0,47,87,0.5402,descriptive only (not a pre-registered test)
+cmp-ALABAMA-60,ALABAMA,60,ALABAMA-60-1,TIMUCUA-60-2,notʃi,neka,0.6,0.75,0,7,87,0.1264,descriptive only (not a pre-registered test)
+cmp-ALABAMA-61,ALABAMA,61,ALABAMA-61-1,TIMUCUA-61-1,ili,iki,0.5,0.667,0,13,87,0.1954,descriptive only (not a pre-registered test)
+cmp-ALABAMA-62,ALABAMA,62,ALABAMA-62-1,TIMUCUA-62-1,ibi,iki,0.5,0.667,0,20,87,0.2529,descriptive only (not a pre-registered test)
+cmp-ALABAMA-63,ALABAMA,63,ALABAMA-63-1,TIMUCUA-63-1,ohapka,huba,0.599,0.667,1,6,87,0.0805,descriptive only (not a pre-registered test)
+cmp-ALABAMA-64,ALABAMA,64,ALABAMA-64-1,TIMUCUA-64-1,wakajka,meja,0.346,0.429,0,37,87,0.4253,descriptive only (not a pre-registered test)
+cmp-ALABAMA-65,ALABAMA,65,ALABAMA-65-1,TIMUCUA-65-2,tʃijaɬi,aliho,0.354,0.5,0,40,87,0.4598,descriptive only (not a pre-registered test)
+cmp-ALABAMA-66,ALABAMA,66,ALABAMA-66-1,TIMUCUA-66-1,ila,hime,0.335,0.5,0,48,87,0.6897,descriptive only (not a pre-registered test)
+cmp-ALABAMA-68,ALABAMA,68,ALABAMA-68-1,TIMUCUA-68-1,tʃokoli,hiba,0.129,0.333,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-ALABAMA-69,ALABAMA,69,ALABAMA-69-1,TIMUCUA-69-2,lokoli,iribo,0.21,0.5,0,60,87,0.7011,descriptive only (not a pre-registered test)
+cmp-ALABAMA-70,ALABAMA,70,ALABAMA-70-1,TIMUCUA-70-2,inka,jaru,0.218,0.25,0,78,87,0.9195,descriptive only (not a pre-registered test)
+cmp-ALABAMA-71,ALABAMA,71,ALABAMA-71-1,TIMUCUA-71-2,manka,aho,0.251,0.4,0,56,87,0.7356,descriptive only (not a pre-registered test)
+cmp-ALABAMA-72,ALABAMA,72,ALABAMA-72-1,TIMUCUA-72-1,hasi,ela,0.295,0.5,0,55,87,0.6897,descriptive only (not a pre-registered test)
+cmp-ALABAMA-74,ALABAMA,74,ALABAMA-74-1,TIMUCUA-74-1,hotʃiɬi,tʃubobo,0.223,0.5,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-ALABAMA-75,ALABAMA,75,ALABAMA-75-1,TIMUCUA-75-1,oki,ibi,0.4,0.667,0,37,87,0.5402,descriptive only (not a pre-registered test)
+cmp-ALABAMA-76,ALABAMA,76,ALABAMA-76-1,TIMUCUA-76-2,ojba,ibi,0.646,0.75,0,5,87,0.1034,descriptive only (not a pre-registered test)
+cmp-ALABAMA-77,ALABAMA,77,ALABAMA-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,descriptive only (not a pre-registered test)
+cmp-ALABAMA-79,ALABAMA,79,ALABAMA-79-1,TIMUCUA-79-1,ihani,uti,0.249,0.4,0,61,87,0.7011,descriptive only (not a pre-registered test)
+cmp-ALABAMA-81,ALABAMA,81,ALABAMA-81-1,TIMUCUA-81-1,sobotli,moko,0.167,0.286,0,74,87,0.8506,descriptive only (not a pre-registered test)
+cmp-ALABAMA-83,ALABAMA,83,ALABAMA-83-1,TIMUCUA-83-1,histo,api,0.185,0.4,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-ALABAMA-84,ALABAMA,84,ALABAMA-84-1,TIMUCUA-84-2,libatli,natoja,0.275,0.429,0,52,87,0.5977,descriptive only (not a pre-registered test)
+cmp-ALABAMA-85,ALABAMA,85,ALABAMA-85-1,TIMUCUA-85-1,hini,eje,0.295,0.5,0,51,87,0.6782,descriptive only (not a pre-registered test)
+cmp-ALABAMA-86,ALABAMA,86,ALABAMA-86-1,TIMUCUA-86-1,bokostʃaha,aje,0.078,0.222,0,83,87,0.9655,descriptive only (not a pre-registered test)
+cmp-ALABAMA-87,ALABAMA,87,ALABAMA-87-1,TIMUCUA-87-1,homa,pira,0.267,0.5,0,62,87,0.8046,descriptive only (not a pre-registered test)
+cmp-ALABAMA-89,ALABAMA,89,ALABAMA-89-1,TIMUCUA-89-1,lana,nali,0.303,0.5,0,35,87,0.4253,descriptive only (not a pre-registered test)
+cmp-ALABAMA-90,ALABAMA,90,ALABAMA-90-1,TIMUCUA-90-1,hatka,najo,0.233,0.4,0,71,87,0.8851,descriptive only (not a pre-registered test)
+cmp-ALABAMA-91,ALABAMA,91,ALABAMA-91-1,TIMUCUA-91-2,lotʃa,laka,0.633,0.75,0,3,87,0.046,descriptive only (not a pre-registered test)
+cmp-ALABAMA-92,ALABAMA,92,ALABAMA-92-1,TIMUCUA-92-1,tanka,ilake,0.423,0.4,0,46,87,0.5287,descriptive only (not a pre-registered test)
+cmp-ALABAMA-93,ALABAMA,93,ALABAMA-93-1,TIMUCUA-93-1,ikba,metaba,0.429,0.5,0,44,87,0.5057,descriptive only (not a pre-registered test)
+cmp-ALABAMA-94,ALABAMA,94,ALABAMA-94-1,TIMUCUA-94-2,kasatka,itʃikosa,0.395,0.429,0,26,87,0.2989,descriptive only (not a pre-registered test)
+cmp-ALABAMA-96,ALABAMA,96,ALABAMA-96-1,TIMUCUA-96-1,hapa,tʃale,0.3,0.5,0,52,87,0.7126,descriptive only (not a pre-registered test)
+cmp-ALABAMA-97,ALABAMA,97,ALABAMA-97-1,TIMUCUA-97-2,kano,isa,0.295,0.5,0,49,87,0.6667,descriptive only (not a pre-registered test)
+cmp-ALABAMA-100,ALABAMA,100,ALABAMA-100-1,TIMUCUA-100-1,holtʃifa,bisa,0.157,0.286,0,71,87,0.8161,descriptive only (not a pre-registered test)
+cmp-KOASATI-2,KOASATI,2,KOASATI-2-1,TIMUCUA-2-2,ohatʃija,hotʃie,0.65,0.714,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-KOASATI-3,KOASATI,3,KOASATI-3-1,TIMUCUA-3-1,olija,heka,0.213,0.4,0,70,87,0.8391,descriptive only (not a pre-registered test)
+cmp-KOASATI-4,KOASATI,4,KOASATI-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,descriptive only (not a pre-registered test)
+cmp-KOASATI-5,KOASATI,5,KOASATI-5-1,TIMUCUA-5-2,ma,ma,1.0,1.0,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-KOASATI-6,KOASATI,6,KOASATI-6-1,TIMUCUA-6-2,nakso,tʃitako,0.38,0.4,0,40,87,0.4598,descriptive only (not a pre-registered test)
+cmp-KOASATI-7,KOASATI,7,KOASATI-7-1,TIMUCUA-7-2,nasi,kʷene,0.273,0.5,0,70,87,0.8161,descriptive only (not a pre-registered test)
+cmp-KOASATI-8,KOASATI,8,KOASATI-8-1,TIMUCUA-8-2,inko,ti,0.123,0.25,0,85,87,0.977,descriptive only (not a pre-registered test)
+cmp-KOASATI-9,KOASATI,9,KOASATI-9-1,TIMUCUA-9-1,ohja,toma,0.282,0.4,0,46,87,0.5402,descriptive only (not a pre-registered test)
+cmp-KOASATI-10,KOASATI,10,KOASATI-10-1,TIMUCUA-10-2,hasajka,pukʷa,0.386,0.429,0,31,87,0.3908,descriptive only (not a pre-registered test)
+cmp-KOASATI-11,KOASATI,11,KOASATI-11-1,TIMUCUA-11-1,tʃaffa,jaha,0.262,0.4,0,51,87,0.5862,descriptive only (not a pre-registered test)
+cmp-KOASATI-12,KOASATI,12,KOASATI-12-1,TIMUCUA-12-1,toklon,jutʃa,0.166,0.333,0,68,87,0.7816,descriptive only (not a pre-registered test)
+cmp-KOASATI-13,KOASATI,13,KOASATI-13-1,TIMUCUA-13-1,tʃoba,mini,0.233,0.5,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-KOASATI-14,KOASATI,14,KOASATI-14-1,TIMUCUA-14-1,baskin,ihiriba,0.217,0.143,0,54,87,0.6207,descriptive only (not a pre-registered test)
+cmp-KOASATI-15,KOASATI,15,KOASATI-15-1,TIMUCUA-15-1,tʃokibosi,tʃiri,0.309,0.375,0,59,87,0.6897,descriptive only (not a pre-registered test)
+cmp-KOASATI-16,KOASATI,16,KOASATI-16-1,TIMUCUA-16-1,tajji,nia,0.222,0.4,0,56,87,0.6552,descriptive only (not a pre-registered test)
+cmp-KOASATI-17,KOASATI,17,KOASATI-17-1,TIMUCUA-17-2,nani,ano,0.695,0.75,0,2,87,0.0575,descriptive only (not a pre-registered test)
+cmp-KOASATI-18,KOASATI,18,KOASATI-18-1,TIMUCUA-18-1,ati,ano,0.4,0.667,0,37,87,0.5402,descriptive only (not a pre-registered test)
+cmp-KOASATI-19,KOASATI,19,KOASATI-19-1,TIMUCUA-19-1,ɬaɬo,kuju,0.267,0.5,0,50,87,0.7701,descriptive only (not a pre-registered test)
+cmp-KOASATI-20,KOASATI,20,KOASATI-20-1,TIMUCUA-20-1,fosi,tʃulufi,0.183,0.333,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-KOASATI-21,KOASATI,21,KOASATI-21-1,TIMUCUA-21-1,ifa,efa,0.95,1.0,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-KOASATI-22,KOASATI,22,KOASATI-22-1,TIMUCUA-22-2,itʃha,ike,0.323,0.5,0,35,87,0.4943,descriptive only (not a pre-registered test)
+cmp-KOASATI-23,KOASATI,23,KOASATI-23-1,TIMUCUA-23-1,itto,aje,0.286,0.5,0,35,87,0.5632,descriptive only (not a pre-registered test)
+cmp-KOASATI-24,KOASATI,24,KOASATI-24-2,TIMUCUA-24-1,hiɬi,asikʷita,0.247,0.286,0,82,87,0.9425,descriptive only (not a pre-registered test)
+cmp-KOASATI-25,KOASATI,25,KOASATI-25-1,TIMUCUA-25-1,hissi,asileko,0.299,0.286,0,28,87,0.3218,descriptive only (not a pre-registered test)
+cmp-KOASATI-26,KOASATI,26,KOASATI-26-1,TIMUCUA-26-1,asiktʃi,itʃaka,0.546,0.667,0,11,87,0.1494,descriptive only (not a pre-registered test)
+cmp-KOASATI-27,KOASATI,27,KOASATI-27-1,TIMUCUA-27-1,afaktʃo,anapie,0.365,0.5,0,44,87,0.5057,descriptive only (not a pre-registered test)
+cmp-KOASATI-28,KOASATI,28,KOASATI-28-1,TIMUCUA-28-2,afaktʃo,pekʷa,0.49,0.667,1,21,87,0.2529,descriptive only (not a pre-registered test)
+cmp-KOASATI-29,KOASATI,29,KOASATI-29-1,TIMUCUA-29-2,nipo,soba,0.567,0.75,0,21,87,0.2644,descriptive only (not a pre-registered test)
+cmp-KOASATI-30,KOASATI,30,KOASATI-30-1,TIMUCUA-30-1,ɬakhana,isi,0.235,0.286,0,62,87,0.7126,descriptive only (not a pre-registered test)
+cmp-KOASATI-31,KOASATI,31,KOASATI-31-1,TIMUCUA-31-1,tʃofkoni,jabi,0.274,0.429,0,64,87,0.7356,descriptive only (not a pre-registered test)
+cmp-KOASATI-32,KOASATI,32,KOASATI-32-1,TIMUCUA-32-2,nihatʃi,neha,0.709,0.667,1,3,87,0.0345,descriptive only (not a pre-registered test)
+cmp-KOASATI-35,KOASATI,35,KOASATI-35-1,TIMUCUA-35-1,hatʃi,api,0.375,0.5,0,36,87,0.4483,descriptive only (not a pre-registered test)
+cmp-KOASATI-36,KOASATI,36,KOASATI-36-1,TIMUCUA-36-1,foshissi,metele,0.217,0.375,0,36,87,0.4368,descriptive only (not a pre-registered test)
+cmp-KOASATI-37,KOASATI,37,KOASATI-37-1,TIMUCUA-37-1,hissi,napona,0.134,0.333,0,85,87,0.977,descriptive only (not a pre-registered test)
+cmp-KOASATI-38,KOASATI,38,KOASATI-38-1,TIMUCUA-38-2,isbakki,kuna,0.172,0.286,0,67,87,0.8161,descriptive only (not a pre-registered test)
+cmp-KOASATI-39,KOASATI,39,KOASATI-39-1,TIMUCUA-39-1,haktʃo,tiki,0.424,0.6,0,34,87,0.3908,descriptive only (not a pre-registered test)
+cmp-KOASATI-40,KOASATI,40,KOASATI-40-1,TIMUCUA-40-1,ittiɬi,muku,0.147,0.333,0,74,87,0.908,descriptive only (not a pre-registered test)
+cmp-KOASATI-41,KOASATI,41,KOASATI-41-1,TIMUCUA-41-1,ibisani,tʃini,0.42,0.429,0,16,87,0.1839,descriptive only (not a pre-registered test)
+cmp-KOASATI-42,KOASATI,42,KOASATI-42-1,TIMUCUA-42-1,itʃokhalbi,nipita,0.213,0.333,0,65,87,0.7471,descriptive only (not a pre-registered test)
+cmp-KOASATI-44,KOASATI,44,KOASATI-44-1,TIMUCUA-44-2,itʃolaksi,itukʷa,0.63,0.625,0,6,87,0.069,descriptive only (not a pre-registered test)
+cmp-KOASATI-45,KOASATI,45,KOASATI-45-2,TIMUCUA-45-1,ilbaksi,kepe,0.327,0.375,0,57,87,0.6552,descriptive only (not a pre-registered test)
+cmp-KOASATI-46,KOASATI,46,KOASATI-46-1,TIMUCUA-46-1,ijji,itʃiki,0.237,0.4,0,52,87,0.5977,descriptive only (not a pre-registered test)
+cmp-KOASATI-48,KOASATI,48,KOASATI-48-1,TIMUCUA-48-1,ilbi,hue,0.242,0.25,0,66,87,0.7586,descriptive only (not a pre-registered test)
+cmp-KOASATI-50,KOASATI,50,KOASATI-50-1,TIMUCUA-50-1,itʃiksa,kuna,0.202,0.333,0,63,87,0.7241,descriptive only (not a pre-registered test)
+cmp-KOASATI-51,KOASATI,51,KOASATI-51-1,TIMUCUA-51-1,pisi,kume,0.267,0.5,0,68,87,0.8966,descriptive only (not a pre-registered test)
+cmp-KOASATI-52,KOASATI,52,KOASATI-52-1,TIMUCUA-52-1,itʃtʃonoska,kume,0.093,0.222,0,75,87,0.8851,descriptive only (not a pre-registered test)
+cmp-KOASATI-53,KOASATI,53,KOASATI-53-1,TIMUCUA-53-1,lopi,tʃofa,0.5,0.75,0,21,87,0.2414,descriptive only (not a pre-registered test)
+cmp-KOASATI-54,KOASATI,54,KOASATI-54-1,TIMUCUA-54-1,isko,uku,0.686,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-KOASATI-55,KOASATI,55,KOASATI-55-1,TIMUCUA-55-2,ipa,ho,0.136,0.333,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-KOASATI-56,KOASATI,56,KOASATI-56-1,TIMUCUA-56-1,katʃaɬɬi,itʃiko,0.434,0.571,0,12,87,0.1379,descriptive only (not a pre-registered test)
+cmp-KOASATI-57,KOASATI,57,KOASATI-57-1,TIMUCUA-57-1,hitʃa,tʃano,0.303,0.5,0,49,87,0.5747,descriptive only (not a pre-registered test)
+cmp-KOASATI-58,KOASATI,58,KOASATI-58-1,TIMUCUA-58-1,ihalo,okoto,0.343,0.6,0,42,87,0.4943,descriptive only (not a pre-registered test)
+cmp-KOASATI-59,KOASATI,59,KOASATI-59-1,TIMUCUA-59-2,sobajli,nahaibo,0.287,0.429,0,51,87,0.5862,descriptive only (not a pre-registered test)
+cmp-KOASATI-60,KOASATI,60,KOASATI-60-1,TIMUCUA-60-2,atonapa,neka,0.324,0.429,0,56,87,0.6437,descriptive only (not a pre-registered test)
+cmp-KOASATI-61,KOASATI,61,KOASATI-61-1,TIMUCUA-61-1,illi,iki,0.366,0.5,0,17,87,0.2414,descriptive only (not a pre-registered test)
+cmp-KOASATI-62,KOASATI,62,KOASATI-62-1,TIMUCUA-62-1,ibi,iki,0.5,0.667,0,20,87,0.2529,descriptive only (not a pre-registered test)
+cmp-KOASATI-63,KOASATI,63,KOASATI-63-1,TIMUCUA-63-1,ohapka,huba,0.599,0.667,1,6,87,0.0805,descriptive only (not a pre-registered test)
+cmp-KOASATI-64,KOASATI,64,KOASATI-64-1,TIMUCUA-64-1,wajka,meja,0.481,0.6,0,23,87,0.2759,descriptive only (not a pre-registered test)
+cmp-KOASATI-65,KOASATI,65,KOASATI-65-1,TIMUCUA-65-2,tʃajali,aliho,0.37,0.5,0,36,87,0.4138,descriptive only (not a pre-registered test)
+cmp-KOASATI-66,KOASATI,66,KOASATI-66-1,TIMUCUA-66-1,onti,hime,0.209,0.4,0,78,87,0.8966,descriptive only (not a pre-registered test)
+cmp-KOASATI-68,KOASATI,68,KOASATI-68-1,TIMUCUA-68-1,tʃokkoli,hiba,0.106,0.286,0,86,87,0.9885,descriptive only (not a pre-registered test)
+cmp-KOASATI-69,KOASATI,69,KOASATI-69-1,TIMUCUA-69-1,hatʃtʃali,ete,0.383,0.429,0,36,87,0.4368,descriptive only (not a pre-registered test)
+cmp-KOASATI-70,KOASATI,70,KOASATI-70-1,TIMUCUA-70-2,anka,jaru,0.251,0.25,0,70,87,0.8851,descriptive only (not a pre-registered test)
+cmp-KOASATI-71,KOASATI,71,KOASATI-71-1,TIMUCUA-71-2,kaha,aho,0.735,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-KOASATI-72,KOASATI,72,KOASATI-72-1,TIMUCUA-72-1,hasi,ela,0.295,0.5,0,55,87,0.6897,descriptive only (not a pre-registered test)
+cmp-KOASATI-73,KOASATI,73,KOASATI-73-1,TIMUCUA-73-1,niɬahai,aku,0.118,0.286,0,76,87,0.8966,descriptive only (not a pre-registered test)
+cmp-KOASATI-74,KOASATI,74,KOASATI-74-1,TIMUCUA-74-1,hotʃili,tʃubobo,0.223,0.5,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-KOASATI-75,KOASATI,75,KOASATI-75-1,TIMUCUA-75-1,oki,ibi,0.4,0.667,0,37,87,0.5402,descriptive only (not a pre-registered test)
+cmp-KOASATI-76,KOASATI,76,KOASATI-76-1,TIMUCUA-76-2,ojba,ibi,0.646,0.75,0,5,87,0.1034,descriptive only (not a pre-registered test)
+cmp-KOASATI-77,KOASATI,77,KOASATI-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,descriptive only (not a pre-registered test)
+cmp-KOASATI-79,KOASATI,79,KOASATI-79-2,TIMUCUA-79-2,okɬi,ike,0.643,0.75,0,7,87,0.092,descriptive only (not a pre-registered test)
+cmp-KOASATI-81,KOASATI,81,KOASATI-81-1,TIMUCUA-81-1,iskotʃi,moko,0.376,0.333,0,39,87,0.4483,descriptive only (not a pre-registered test)
+cmp-KOASATI-83,KOASATI,83,KOASATI-83-1,TIMUCUA-83-1,histo,api,0.185,0.4,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-KOASATI-84,KOASATI,84,KOASATI-84-1,TIMUCUA-84-2,ati,natoja,0.479,0.5,0,21,87,0.2414,descriptive only (not a pre-registered test)
+cmp-KOASATI-85,KOASATI,85,KOASATI-85-1,TIMUCUA-85-1,hinosi,eje,0.161,0.333,0,77,87,0.9425,descriptive only (not a pre-registered test)
+cmp-KOASATI-86,KOASATI,86,KOASATI-86-1,TIMUCUA-86-1,tʃopoksi,aje,0.126,0.286,0,82,87,0.977,descriptive only (not a pre-registered test)
+cmp-KOASATI-87,KOASATI,87,KOASATI-87-1,TIMUCUA-87-1,homma,pira,0.204,0.4,0,62,87,0.8046,descriptive only (not a pre-registered test)
+cmp-KOASATI-89,KOASATI,89,KOASATI-89-1,TIMUCUA-89-1,lana,nali,0.303,0.5,0,35,87,0.4253,descriptive only (not a pre-registered test)
+cmp-KOASATI-90,KOASATI,90,KOASATI-90-1,TIMUCUA-90-1,hatka,najo,0.233,0.4,0,71,87,0.8851,descriptive only (not a pre-registered test)
+cmp-KOASATI-91,KOASATI,91,KOASATI-91-1,TIMUCUA-91-2,lotʃa,laka,0.633,0.75,0,3,87,0.046,descriptive only (not a pre-registered test)
+cmp-KOASATI-92,KOASATI,92,KOASATI-92-1,TIMUCUA-92-1,tamoka,ilake,0.535,0.667,0,14,87,0.1839,descriptive only (not a pre-registered test)
+cmp-KOASATI-93,KOASATI,93,KOASATI-93-1,TIMUCUA-93-1,ittakhomma,metaba,0.313,0.3,0,18,87,0.2069,descriptive only (not a pre-registered test)
+cmp-KOASATI-94,KOASATI,94,KOASATI-94-1,TIMUCUA-94-2,kasatka,itʃikosa,0.395,0.429,0,26,87,0.2989,descriptive only (not a pre-registered test)
+cmp-KOASATI-96,KOASATI,96,KOASATI-96-1,TIMUCUA-96-1,hapa,tʃale,0.3,0.5,0,52,87,0.7126,descriptive only (not a pre-registered test)
+cmp-KOASATI-97,KOASATI,97,KOASATI-97-2,TIMUCUA-97-1,alila,tera,0.336,0.6,0,54,87,0.6207,descriptive only (not a pre-registered test)
+cmp-KOASATI-100,KOASATI,100,KOASATI-100-1,TIMUCUA-100-1,holtʃifo,bisa,0.14,0.286,0,75,87,0.8621,descriptive only (not a pre-registered test)
+cmp-APALACHEE-3,APALACHEE,3,APALACHEE-3-1,TIMUCUA-3-1,pihno,heka,0.218,0.4,0,56,87,0.6437,tested: H4 (Addendum 1)
+cmp-APALACHEE-4,APALACHEE,4,APALACHEE-4-1,TIMUCUA-4-2,ja,ona,0.187,0.333,0,22,87,0.3103,tested: H4 (Addendum 1)
+cmp-APALACHEE-9,APALACHEE,9,APALACHEE-9-1,TIMUCUA-9-1,amali,toma,0.491,0.6,0,15,87,0.1724,tested: H4 (Addendum 1)
+cmp-APALACHEE-10,APALACHEE,10,APALACHEE-10-1,TIMUCUA-10-2,finha,pukʷa,0.404,0.6,0,23,87,0.2759,tested: H4 (Addendum 1)
+cmp-APALACHEE-12,APALACHEE,12,APALACHEE-12-1,TIMUCUA-12-1,toːlo,jutʃa,0.273,0.5,0,56,87,0.6437,tested: H4 (Addendum 1)
+cmp-APALACHEE-13,APALACHEE,13,APALACHEE-13-1,TIMUCUA-13-1,tʃoba,mini,0.233,0.5,0,80,87,0.931,tested: H4 (Addendum 1)
+cmp-APALACHEE-16,APALACHEE,16,APALACHEE-16-1,TIMUCUA-16-1,takajali,nia,0.098,0.25,0,84,87,0.9655,tested: H4 (Addendum 1)
+cmp-APALACHEE-29,APALACHEE,29,APALACHEE-29-1,TIMUCUA-29-2,aːnip,soba,0.318,0.5,0,38,87,0.4483,tested: H4 (Addendum 1)
+cmp-APALACHEE-39,APALACHEE,39,APALACHEE-39-1,TIMUCUA-39-1,haktʃop,tiki,0.344,0.5,0,47,87,0.5402,tested: H4 (Addendum 1)
+cmp-APALACHEE-46,APALACHEE,46,APALACHEE-46-1,TIMUCUA-46-1,ija,itʃiki,0.249,0.4,0,75,87,0.8736,tested: H4 (Addendum 1)
+cmp-APALACHEE-52,APALACHEE,52,APALACHEE-52-1,TIMUCUA-52-1,tʃokonska,kume,0.264,0.375,0,54,87,0.6207,tested: H4 (Addendum 1)
+cmp-APALACHEE-57,APALACHEE,57,APALACHEE-57-1,TIMUCUA-57-1,pitʃa,tʃano,0.303,0.5,0,47,87,0.5632,tested: H4 (Addendum 1)
+cmp-APALACHEE-58,APALACHEE,58,APALACHEE-58-1,TIMUCUA-58-2,poha,tiki,0.233,0.5,0,77,87,0.931,tested: H4 (Addendum 1)
+cmp-APALACHEE-62,APALACHEE,62,APALACHEE-62-1,TIMUCUA-62-1,ibi,iki,0.5,0.667,0,20,87,0.2529,tested: H4 (Addendum 1)
+cmp-APALACHEE-64,APALACHEE,64,APALACHEE-64-1,TIMUCUA-64-1,wajhka,meja,0.412,0.5,0,27,87,0.3218,tested: H4 (Addendum 1)
+cmp-APALACHEE-65,APALACHEE,65,APALACHEE-65-1,TIMUCUA-65-1,aja,abi,0.45,0.667,0,10,87,0.2414,tested: H4 (Addendum 1)
+cmp-APALACHEE-66,APALACHEE,66,APALACHEE-66-2,TIMUCUA-66-1,ihtama,hime,0.634,0.667,0,5,87,0.0575,tested: H4 (Addendum 1)
+cmp-APALACHEE-70,APALACHEE,70,APALACHEE-70-1,TIMUCUA-70-2,aka,jaru,0.335,0.5,0,63,87,0.8391,tested: H4 (Addendum 1)
+cmp-APALACHEE-71,APALACHEE,71,APALACHEE-71-1,TIMUCUA-71-1,innota,abota,0.579,0.667,0,5,87,0.0575,tested: H4 (Addendum 1)
+cmp-APALACHEE-72,APALACHEE,72,APALACHEE-72-1,TIMUCUA-72-1,niko,ela,0.295,0.5,0,58,87,0.7701,tested: H4 (Addendum 1)
+cmp-APALACHEE-73,APALACHEE,73,APALACHEE-73-1,TIMUCUA-73-1,hitok,aku,0.318,0.4,0,42,87,0.4943,tested: H4 (Addendum 1)
+cmp-APALACHEE-75,APALACHEE,75,APALACHEE-75-1,TIMUCUA-75-1,ok,ibi,0.141,0.333,0,65,87,0.7586,tested: H4 (Addendum 1)
+cmp-APALACHEE-97,APALACHEE,97,APALACHEE-97-1,TIMUCUA-97-2,fihla,isa,0.482,0.6,0,10,87,0.1149,tested: H4 (Addendum 1)
+cmp-APALACHEE-100,APALACHEE,100,APALACHEE-100-1,TIMUCUA-100-1,nakajo,bisa,0.229,0.333,0,62,87,0.7126,tested: H4 (Addendum 1)
+cmp-CHOCTAW-1,CHOCTAW,1,CHOCTAW-1-1,TIMUCUA-1-2,ano,honihe,0.449,0.5,0,21,87,0.2414,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-2,CHOCTAW,2,CHOCTAW-2-1,TIMUCUA-2-1,tʃitʃno,tʃi,0.483,0.6,0,19,87,0.2299,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-3,CHOCTAW,3,CHOCTAW-3-1,TIMUCUA-3-1,piʃno,heka,0.259,0.4,0,47,87,0.6437,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-4,CHOCTAW,4,CHOCTAW-4-1,TIMUCUA-4-2,pa,ona,0.187,0.333,0,43,87,0.5172,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-5,CHOCTAW,5,CHOCTAW-5-1,TIMUCUA-5-2,ma,ma,1.0,1.0,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-6,CHOCTAW,6,CHOCTAW-6-1,TIMUCUA-6-1,katah,kʷene,0.477,0.6,0,10,87,0.1724,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-7,CHOCTAW,7,CHOCTAW-7-1,TIMUCUA-7-1,natah,tʃa,0.341,0.4,0,30,87,0.3448,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-8,CHOCTAW,8,CHOCTAW-8-1,TIMUCUA-8-1,kijo,ja,0.421,0.5,0,19,87,0.2184,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-9,CHOCTAW,9,CHOCTAW-9-1,TIMUCUA-9-1,moma,toma,0.667,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-10,CHOCTAW,10,CHOCTAW-10-1,TIMUCUA-10-1,lawa,ara,0.375,0.5,0,12,87,0.1724,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-11,CHOCTAW,11,CHOCTAW-11-1,TIMUCUA-11-1,atʃafa,jaha,0.237,0.4,0,69,87,0.7931,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-12,CHOCTAW,12,CHOCTAW-12-1,TIMUCUA-12-1,toklo,jutʃa,0.221,0.4,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-13,CHOCTAW,13,CHOCTAW-13-1,TIMUCUA-13-1,tʃito,mini,0.267,0.5,0,60,87,0.8391,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-14,CHOCTAW,14,CHOCTAW-14-1,TIMUCUA-14-1,falaja,ihiriba,0.314,0.571,0,30,87,0.3448,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-15,CHOCTAW,15,CHOCTAW-15-1,TIMUCUA-15-2,osi,uru,0.4,0.667,0,24,87,0.4023,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-16,CHOCTAW,16,CHOCTAW-16-1,TIMUCUA-16-1,ohojo,nia,0.151,0.4,0,82,87,0.9425,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-17,CHOCTAW,17,CHOCTAW-17-1,TIMUCUA-17-2,hataknakni,ano,0.215,0.3,0,54,87,0.6322,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-18,CHOCTAW,18,CHOCTAW-18-1,TIMUCUA-18-1,hatak,ano,0.236,0.4,0,59,87,0.7586,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-19,CHOCTAW,19,CHOCTAW-19-1,TIMUCUA-19-1,nani,kuju,0.267,0.5,0,64,87,0.8506,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-20,CHOCTAW,20,CHOCTAW-20-1,TIMUCUA-20-1,hoʃi,tʃulufi,0.183,0.333,0,83,87,0.954,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-21,CHOCTAW,21,CHOCTAW-21-1,TIMUCUA-21-1,ofi,efa,0.9,1.0,1,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-22,CHOCTAW,22,CHOCTAW-22-1,TIMUCUA-22-1,isap,hibe,0.495,0.5,0,12,87,0.1609,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-23,CHOCTAW,23,CHOCTAW-23-1,TIMUCUA-23-1,iti,aje,0.4,0.667,0,35,87,0.5172,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-24,CHOCTAW,24,CHOCTAW-24-1,TIMUCUA-24-1,nihi,asikʷita,0.258,0.286,0,73,87,0.8506,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-26,CHOCTAW,26,CHOCTAW-26-1,TIMUCUA-26-1,hakʃiʃ,itʃaka,0.34,0.333,0,33,87,0.4023,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-28,CHOCTAW,28,CHOCTAW-28-1,TIMUCUA-28-2,hakʃop,pekʷa,0.394,0.5,0,26,87,0.3218,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-29,CHOCTAW,29,CHOCTAW-29-1,TIMUCUA-29-2,nipi,soba,0.567,0.75,0,21,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-30,CHOCTAW,30,CHOCTAW-30-1,TIMUCUA-30-1,isiʃ,isi,0.738,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-31,CHOCTAW,31,CHOCTAW-31-1,TIMUCUA-31-1,foni,jabi,0.3,0.5,0,31,87,0.4253,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-32,CHOCTAW,32,CHOCTAW-32-1,TIMUCUA-32-1,bila,amara,0.336,0.6,0,33,87,0.3793,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-35,CHOCTAW,35,CHOCTAW-35-1,TIMUCUA-35-1,hasĩbis,api,0.418,0.429,0,16,87,0.2069,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-37,CHOCTAW,37,CHOCTAW-37-1,TIMUCUA-37-1,pãʃi,napona,0.347,0.5,0,46,87,0.5287,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-38,CHOCTAW,38,CHOCTAW-38-1,TIMUCUA-38-2,noʃkobo,kuna,0.296,0.429,0,59,87,0.7241,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-39,CHOCTAW,39,CHOCTAW-39-1,TIMUCUA-39-1,haksobiʃ,tiki,0.313,0.375,0,41,87,0.4828,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-40,CHOCTAW,40,CHOCTAW-40-1,TIMUCUA-40-1,niʃkin,muku,0.421,0.5,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-41,CHOCTAW,41,CHOCTAW-41-1,TIMUCUA-41-1,ibiʃakni,tʃini,0.3,0.375,0,45,87,0.5172,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-42,CHOCTAW,42,CHOCTAW-42-1,TIMUCUA-42-1,itialbi,nipita,0.264,0.286,0,54,87,0.6207,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-44,CHOCTAW,44,CHOCTAW-44-1,TIMUCUA-44-2,itõlas,itukʷa,0.562,0.667,0,5,87,0.069,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-45,CHOCTAW,45,CHOCTAW-45-1,TIMUCUA-45-1,ijaktʃoʃ,kepe,0.178,0.286,0,64,87,0.7586,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-46,CHOCTAW,46,CHOCTAW-46-1,TIMUCUA-46-1,iji,itʃiki,0.285,0.4,0,70,87,0.8046,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-48,CHOCTAW,48,CHOCTAW-48-1,TIMUCUA-48-1,ibak,hue,0.203,0.25,0,76,87,0.8736,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-50,CHOCTAW,50,CHOCTAW-50-1,TIMUCUA-50-1,ikõla,kuna,0.45,0.6,0,32,87,0.3908,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-51,CHOCTAW,51,CHOCTAW-51-1,TIMUCUA-51-2,ipĩʃik,tʃokolo,0.162,0.333,0,68,87,0.7816,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-52,CHOCTAW,52,CHOCTAW-52-1,TIMUCUA-52-1,tʃõkaʃ,kume,0.242,0.4,0,53,87,0.6552,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-53,CHOCTAW,53,CHOCTAW-53-1,TIMUCUA-53-1,salakʰa,tʃofa,0.236,0.333,0,60,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-54,CHOCTAW,54,CHOCTAW-54-1,TIMUCUA-54-1,iʃko,uku,0.686,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-55,CHOCTAW,55,CHOCTAW-55-1,TIMUCUA-55-2,pa,ho,0.267,0.5,0,32,87,0.3908,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-56,CHOCTAW,56,CHOCTAW-56-1,TIMUCUA-56-1,kopoli,itʃiko,0.21,0.5,0,65,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-57,CHOCTAW,57,CHOCTAW-57-1,TIMUCUA-57-2,pisa,ene,0.295,0.5,0,60,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-58,CHOCTAW,58,CHOCTAW-58-1,TIMUCUA-58-2,kaklo,tiki,0.459,0.6,0,31,87,0.3678,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-59,CHOCTAW,59,CHOCTAW-59-1,TIMUCUA-59-1,ikʰana,isako,0.457,0.6,0,34,87,0.4023,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-60,CHOCTAW,60,CHOCTAW-60-1,TIMUCUA-60-2,nosi,neka,0.667,0.75,0,4,87,0.046,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-61,CHOCTAW,61,CHOCTAW-61-1,TIMUCUA-61-1,ili,iki,0.5,0.667,0,13,87,0.1954,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-62,CHOCTAW,62,CHOCTAW-62-1,TIMUCUA-62-1,abi,iki,0.45,0.667,0,23,87,0.3448,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-63,CHOCTAW,63,CHOCTAW-63-1,TIMUCUA-63-1,okʃinili,huba,0.191,0.25,0,70,87,0.8161,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-64,CHOCTAW,64,CHOCTAW-64-1,TIMUCUA-64-1,hika,meja,0.3,0.5,0,51,87,0.7241,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-65,CHOCTAW,65,CHOCTAW-65-1,TIMUCUA-65-1,nowa,abi,0.375,0.5,0,18,87,0.2414,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-66,CHOCTAW,66,CHOCTAW-66-1,TIMUCUA-66-1,mĩti,hime,0.3,0.5,0,48,87,0.5977,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-68,CHOCTAW,68,CHOCTAW-68-1,TIMUCUA-68-1,binili,hiba,0.183,0.333,0,67,87,0.7701,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-69,CHOCTAW,69,CHOCTAW-69-1,TIMUCUA-69-2,hikija,iribo,0.335,0.5,0,53,87,0.6092,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-70,CHOCTAW,70,CHOCTAW-70-1,TIMUCUA-70-2,ima,jaru,0.295,0.5,0,63,87,0.8161,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-71,CHOCTAW,71,CHOCTAW-71-1,TIMUCUA-71-1,atʃi,abota,0.613,0.667,0,9,87,0.1034,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-72,CHOCTAW,72,CHOCTAW-72-1,TIMUCUA-72-1,haʃi,ela,0.295,0.5,0,55,87,0.6897,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-74,CHOCTAW,74,CHOCTAW-74-1,TIMUCUA-74-1,fitʃik,tʃubobo,0.167,0.333,0,83,87,0.954,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-75,CHOCTAW,75,CHOCTAW-75-1,TIMUCUA-75-1,oka,ibi,0.35,0.667,0,61,87,0.7011,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-76,CHOCTAW,76,CHOCTAW-76-1,TIMUCUA-76-2,õba,ibi,0.85,1.0,1,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-77,CHOCTAW,77,CHOCTAW-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-79,CHOCTAW,79,CHOCTAW-79-1,TIMUCUA-79-2,jakni,ike,0.549,0.6,0,4,87,0.0805,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-81,CHOCTAW,81,CHOCTAW-81-1,TIMUCUA-81-1,ʃoboɬi,moko,0.202,0.333,0,71,87,0.8161,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-83,CHOCTAW,83,CHOCTAW-83-1,TIMUCUA-83-1,hitoktʃobi,api,0.315,0.333,0,42,87,0.5057,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-84,CHOCTAW,84,CHOCTAW-84-1,TIMUCUA-84-1,lowah,taka,0.213,0.4,0,41,87,0.5632,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-85,CHOCTAW,85,CHOCTAW-85-1,TIMUCUA-85-1,hina,eje,0.295,0.5,0,60,87,0.7816,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-86,CHOCTAW,86,CHOCTAW-86-1,TIMUCUA-86-1,habik,aje,0.236,0.4,0,62,87,0.7241,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-87,CHOCTAW,87,CHOCTAW-87-1,TIMUCUA-87-1,homa,pira,0.267,0.5,0,62,87,0.8046,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-89,CHOCTAW,89,CHOCTAW-89-1,TIMUCUA-89-1,lakna,nali,0.278,0.4,0,54,87,0.6322,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-90,CHOCTAW,90,CHOCTAW-90-1,TIMUCUA-90-1,tobi,najo,0.233,0.5,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-91,CHOCTAW,91,CHOCTAW-91-1,TIMUCUA-91-2,losa,laka,0.7,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-92,CHOCTAW,92,CHOCTAW-92-1,TIMUCUA-92-1,ninak,ilake,0.472,0.4,0,19,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-93,CHOCTAW,93,CHOCTAW-93-1,TIMUCUA-93-1,laʃpa,metaba,0.434,0.5,0,25,87,0.2874,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-94,CHOCTAW,94,CHOCTAW-94-1,TIMUCUA-94-2,kapasa,itʃikosa,0.444,0.571,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-96,CHOCTAW,96,CHOCTAW-96-1,TIMUCUA-96-2,himona,ele,0.161,0.333,0,77,87,0.954,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-97,CHOCTAW,97,CHOCTAW-97-1,TIMUCUA-97-1,stʃokma,tera,0.385,0.5,0,34,87,0.3908,descriptive only (not a pre-registered test)
+cmp-CHOCTAW-100,CHOCTAW,100,CHOCTAW-100-1,TIMUCUA-100-1,hotʃifo,bisa,0.182,0.333,0,70,87,0.8046,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-1,CHICKASAW,1,CHICKASAW-1-1,TIMUCUA-1-2,anoʔ,honihe,0.658,0.667,0,5,87,0.0575,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-2,CHICKASAW,2,CHICKASAW-2-1,TIMUCUA-2-2,iʃnoʔ,hotʃie,0.148,0.2,0,78,87,0.8966,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-3,CHICKASAW,3,CHICKASAW-3-1,TIMUCUA-3-1,poʃnoʔ,heka,0.194,0.333,0,47,87,0.5862,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-4,CHICKASAW,4,CHICKASAW-4-1,TIMUCUA-4-2,japa,ona,0.335,0.5,0,35,87,0.4598,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-5,CHICKASAW,5,CHICKASAW-5-1,TIMUCUA-5-2,jama,ma,0.46,0.5,0,12,87,0.1379,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-6,CHICKASAW,6,CHICKASAW-6-1,TIMUCUA-6-1,kata,kʷene,0.6,0.75,0,10,87,0.1724,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-7,CHICKASAW,7,CHICKASAW-7-1,TIMUCUA-7-2,nanta,kʷene,0.453,0.6,0,23,87,0.2874,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-8,CHICKASAW,8,CHICKASAW-8-1,TIMUCUA-8-1,kijo,ja,0.421,0.5,0,19,87,0.2184,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-9,CHICKASAW,9,CHICKASAW-9-1,TIMUCUA-9-1,moma,toma,0.667,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-10,CHICKASAW,10,CHICKASAW-10-1,TIMUCUA-10-1,lawa,ara,0.375,0.5,0,12,87,0.1724,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-11,CHICKASAW,11,CHICKASAW-11-1,TIMUCUA-11-1,tʃafa,jaha,0.333,0.5,0,56,87,0.6437,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-12,CHICKASAW,12,CHICKASAW-12-1,TIMUCUA-12-1,toklo,jutʃa,0.221,0.4,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-13,CHICKASAW,13,CHICKASAW-13-1,TIMUCUA-13-1,iʃto,mini,0.218,0.25,0,73,87,0.931,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-14,CHICKASAW,14,CHICKASAW-14-1,TIMUCUA-14-1,fala,ihiriba,0.203,0.429,0,79,87,0.908,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-15,CHICKASAW,15,CHICKASAW-15-1,TIMUCUA-15-1,iskanosi,tʃiri,0.123,0.25,0,74,87,0.8506,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-16,CHICKASAW,16,CHICKASAW-16-1,TIMUCUA-16-1,iho,nia,0.369,0.333,0,38,87,0.4368,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-17,CHICKASAW,17,CHICKASAW-17-1,TIMUCUA-17-2,hataknakniʔ,ano,0.176,0.273,0,57,87,0.6667,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-18,CHICKASAW,18,CHICKASAW-18-1,TIMUCUA-18-1,hatak,ano,0.236,0.4,0,59,87,0.7586,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-19,CHICKASAW,19,CHICKASAW-19-1,TIMUCUA-19-1,naniʔ,kuju,0.191,0.4,0,69,87,0.8851,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-20,CHICKASAW,20,CHICKASAW-20-1,TIMUCUA-20-1,foʃiʔ,tʃulufi,0.176,0.333,0,83,87,0.954,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-21,CHICKASAW,21,CHICKASAW-21-1,TIMUCUA-21-1,ofiʔ,efa,0.668,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-22,CHICKASAW,22,CHICKASAW-22-1,TIMUCUA-22-1,isap,hibe,0.495,0.5,0,12,87,0.1609,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-23,CHICKASAW,23,CHICKASAW-23-1,TIMUCUA-23-1,itiʔ,aje,0.268,0.5,0,48,87,0.6322,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-24,CHICKASAW,24,CHICKASAW-24-1,TIMUCUA-24-1,nihiʔ,asikʷita,0.26,0.286,0,31,87,0.3678,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-26,CHICKASAW,26,CHICKASAW-26-1,TIMUCUA-26-1,haksiʃ,itʃaka,0.34,0.333,0,33,87,0.4023,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-28,CHICKASAW,28,CHICKASAW-28-1,TIMUCUA-28-2,hakʃop,pekʷa,0.394,0.5,0,26,87,0.3218,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-29,CHICKASAW,29,CHICKASAW-29-1,TIMUCUA-29-2,nipiʔ,soba,0.448,0.6,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-30,CHICKASAW,30,CHICKASAW-30-1,TIMUCUA-30-1,isiʃ,isi,0.738,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-31,CHICKASAW,31,CHICKASAW-31-1,TIMUCUA-31-1,foniʔ,jabi,0.213,0.4,0,41,87,0.4828,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-32,CHICKASAW,32,CHICKASAW-32-1,TIMUCUA-32-2,niha,neha,0.967,1.0,1,1,87,0.023,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-35,CHICKASAW,35,CHICKASAW-35-1,TIMUCUA-35-1,hasimbiʃ,api,0.359,0.375,0,18,87,0.2299,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-37,CHICKASAW,37,CHICKASAW-37-1,TIMUCUA-37-1,pãʃiʔ,napona,0.275,0.333,0,44,87,0.5057,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-38,CHICKASAW,38,CHICKASAW-38-1,TIMUCUA-38-2,iʃkoboʔ,kuna,0.28,0.429,0,57,87,0.7011,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-39,CHICKASAW,39,CHICKASAW-39-1,TIMUCUA-39-1,haksibis,tiki,0.313,0.375,0,41,87,0.4828,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-40,CHICKASAW,40,CHICKASAW-40-1,TIMUCUA-40-1,iʃkin,muku,0.435,0.4,0,26,87,0.3678,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-41,CHICKASAW,41,CHICKASAW-41-1,TIMUCUA-41-1,ibitʃalaʔ,tʃini,0.237,0.375,0,57,87,0.6782,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-42,CHICKASAW,42,CHICKASAW-42-1,TIMUCUA-42-1,iti,nipita,0.499,0.5,0,23,87,0.2644,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-44,CHICKASAW,44,CHICKASAW-44-1,TIMUCUA-44-1,isõlaʃ,bali,0.39,0.5,0,19,87,0.2414,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-45,CHICKASAW,45,CHICKASAW-45-1,TIMUCUA-45-1,ijaktʃoʃ,kepe,0.178,0.286,0,64,87,0.7586,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-46,CHICKASAW,46,CHICKASAW-46-1,TIMUCUA-46-1,ijiʔ,itʃiki,0.291,0.4,0,29,87,0.3563,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-48,CHICKASAW,48,CHICKASAW-48-1,TIMUCUA-48-1,ilbak,hue,0.158,0.2,0,78,87,0.8966,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-50,CHICKASAW,50,CHICKASAW-50-1,TIMUCUA-50-1,nokʰistap,kuna,0.245,0.375,0,58,87,0.6667,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-51,CHICKASAW,51,CHICKASAW-51-1,TIMUCUA-51-2,ipĩʃik,tʃokolo,0.162,0.333,0,68,87,0.7816,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-52,CHICKASAW,52,CHICKASAW-52-1,TIMUCUA-52-1,tʃõkaʃ,kume,0.242,0.4,0,53,87,0.6552,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-53,CHICKASAW,53,CHICKASAW-53-1,TIMUCUA-53-1,salakʰa,tʃofa,0.236,0.333,0,60,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-54,CHICKASAW,54,CHICKASAW-54-1,TIMUCUA-54-1,iʃko,uku,0.686,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-55,CHICKASAW,55,CHICKASAW-55-1,TIMUCUA-55-2,impa,ho,0.087,0.25,0,87,87,1.0,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-56,CHICKASAW,56,CHICKASAW-56-1,TIMUCUA-56-1,kisili,itʃiko,0.36,0.5,0,33,87,0.3793,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-57,CHICKASAW,57,CHICKASAW-57-1,TIMUCUA-57-2,pisa,ene,0.295,0.5,0,60,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-58,CHICKASAW,58,CHICKASAW-58-1,TIMUCUA-58-2,haŋlo,tiki,0.174,0.4,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-59,CHICKASAW,59,CHICKASAW-59-1,TIMUCUA-59-1,itʰana,isako,0.457,0.6,0,28,87,0.3333,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-60,CHICKASAW,60,CHICKASAW-60-1,TIMUCUA-60-2,nosi,neka,0.667,0.75,0,4,87,0.046,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-61,CHICKASAW,61,CHICKASAW-61-1,TIMUCUA-61-1,ili,iki,0.5,0.667,0,13,87,0.1954,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-62,CHICKASAW,62,CHICKASAW-62-1,TIMUCUA-62-1,abi,iki,0.45,0.667,0,23,87,0.3448,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-63,CHICKASAW,63,CHICKASAW-63-1,TIMUCUA-63-2,jopi,uba,0.695,0.75,0,9,87,0.1034,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-64,CHICKASAW,64,CHICKASAW-64-1,TIMUCUA-64-1,waka,meja,0.3,0.5,0,51,87,0.7471,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-65,CHICKASAW,65,CHICKASAW-65-1,TIMUCUA-65-1,nõwa,abi,0.375,0.5,0,18,87,0.2414,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-66,CHICKASAW,66,CHICKASAW-66-1,TIMUCUA-66-1,minti,hime,0.254,0.4,0,53,87,0.6092,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-68,CHICKASAW,68,CHICKASAW-68-1,TIMUCUA-68-1,binili,hiba,0.183,0.333,0,67,87,0.7701,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-69,CHICKASAW,69,CHICKASAW-69-1,TIMUCUA-69-2,hikija,iribo,0.335,0.5,0,53,87,0.6092,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-70,CHICKASAW,70,CHICKASAW-70-1,TIMUCUA-70-2,ima,jaru,0.295,0.5,0,63,87,0.8161,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-71,CHICKASAW,71,CHICKASAW-71-1,TIMUCUA-71-1,atʃi,abota,0.613,0.667,0,9,87,0.1034,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-72,CHICKASAW,72,CHICKASAW-72-1,TIMUCUA-72-1,haʃiʔ,ela,0.203,0.4,0,65,87,0.7816,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-74,CHICKASAW,74,CHICKASAW-74-1,TIMUCUA-74-1,foʃik,tʃubobo,0.203,0.333,0,58,87,0.6667,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-75,CHICKASAW,75,CHICKASAW-75-1,TIMUCUA-75-1,okaʔ,ibi,0.228,0.5,0,69,87,0.7931,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-76,CHICKASAW,76,CHICKASAW-76-1,TIMUCUA-76-2,omba,ibi,0.646,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-77,CHICKASAW,77,CHICKASAW-77-1,TIMUCUA-77-1,taliʔ,jobo,0.169,0.4,0,84,87,0.977,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-79,CHICKASAW,79,CHICKASAW-79-1,TIMUCUA-79-2,jakniʔ,ike,0.433,0.5,0,8,87,0.1264,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-81,CHICKASAW,81,CHICKASAW-81-1,TIMUCUA-81-1,ʃoboɬi,moko,0.202,0.333,0,71,87,0.8161,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-83,CHICKASAW,83,CHICKASAW-83-1,TIMUCUA-83-1,hotok,api,0.177,0.4,0,78,87,0.908,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-84,CHICKASAW,84,CHICKASAW-84-1,TIMUCUA-84-1,lowa,taka,0.3,0.5,0,28,87,0.4598,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-85,CHICKASAW,85,CHICKASAW-85-1,TIMUCUA-85-1,hinaʔ,eje,0.203,0.4,0,69,87,0.8621,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-86,CHICKASAW,86,CHICKASAW-86-1,TIMUCUA-86-1,ontʃaba,aje,0.178,0.333,0,75,87,0.8851,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-87,CHICKASAW,87,CHICKASAW-87-1,TIMUCUA-87-1,homa,pira,0.267,0.5,0,62,87,0.8046,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-89,CHICKASAW,89,CHICKASAW-89-1,TIMUCUA-89-1,lakna,nali,0.278,0.4,0,54,87,0.6322,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-90,CHICKASAW,90,CHICKASAW-90-1,TIMUCUA-90-1,tobi,najo,0.233,0.5,0,80,87,0.931,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-91,CHICKASAW,91,CHICKASAW-91-1,TIMUCUA-91-2,losa,laka,0.7,0.75,0,1,87,0.0115,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-92,CHICKASAW,92,CHICKASAW-92-1,TIMUCUA-92-1,okɬiliʔ,ilake,0.364,0.571,0,15,87,0.1724,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-93,CHICKASAW,93,CHICKASAW-93-1,TIMUCUA-93-1,laʃpa,metaba,0.434,0.5,0,25,87,0.2874,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-94,CHICKASAW,94,CHICKASAW-94-1,TIMUCUA-94-2,kapasa,itʃikosa,0.444,0.571,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-96,CHICKASAW,96,CHICKASAW-96-1,TIMUCUA-96-1,himita,tʃale,0.198,0.333,0,65,87,0.7586,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-97,CHICKASAW,97,CHICKASAW-97-1,TIMUCUA-97-1,tʃokma,tera,0.516,0.6,0,17,87,0.2529,descriptive only (not a pre-registered test)
+cmp-CHICKASAW-100,CHICKASAW,100,CHICKASAW-100-1,TIMUCUA-100-1,hoɬtʃifo,bisa,0.14,0.286,0,75,87,0.8621,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-1,PROTO_MUSKOGEAN,1,PROTO_MUSKOGEAN-1-1,TIMUCUA-1-2,ana,honihe,0.467,0.5,0,17,87,0.1954,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-2,PROTO_MUSKOGEAN,2,PROTO_MUSKOGEAN-2-1,TIMUCUA-2-1,ja,tʃi,0.267,0.5,0,16,87,0.2184,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-3,PROTO_MUSKOGEAN,3,PROTO_MUSKOGEAN-3-1,TIMUCUA-3-1,posno,heka,0.259,0.4,0,41,87,0.5517,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-12,PROTO_MUSKOGEAN,12,PROTO_MUSKOGEAN-12-1,TIMUCUA-12-1,toklo,jutʃa,0.221,0.4,0,60,87,0.6897,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-18,PROTO_MUSKOGEAN,18,PROTO_MUSKOGEAN-18-1,TIMUCUA-18-1,xati,ano,0.295,0.5,0,64,87,0.8046,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-19,PROTO_MUSKOGEAN,19,PROTO_MUSKOGEAN-19-1,TIMUCUA-19-1,θaθi,kuju,0.267,0.5,0,71,87,0.908,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-21,PROTO_MUSKOGEAN,21,PROTO_MUSKOGEAN-21-1,TIMUCUA-21-1,oxʷa,efa,0.45,0.667,0,26,87,0.3218,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-22,PROTO_MUSKOGEAN,22,PROTO_MUSKOGEAN-22-1,TIMUCUA-22-2,itsa,ike,0.75,1.0,1,2,87,0.069,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-23,PROTO_MUSKOGEAN,23,PROTO_MUSKOGEAN-23-1,TIMUCUA-23-1,ikti,aje,0.286,0.5,0,57,87,0.7356,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-28,PROTO_MUSKOGEAN,28,PROTO_MUSKOGEAN-28-2,TIMUCUA-28-2,xalkʷi,pekʷa,0.49,0.6,0,26,87,0.3218,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-31,PROTO_MUSKOGEAN,31,PROTO_MUSKOGEAN-31-1,TIMUCUA-31-1,xʷoni,jabi,0.3,0.5,0,39,87,0.5057,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-39,PROTO_MUSKOGEAN,39,PROTO_MUSKOGEAN-39-1,TIMUCUA-39-1,xaktso,tiki,0.459,0.6,0,22,87,0.2529,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-40,PROTO_MUSKOGEAN,40,PROTO_MUSKOGEAN-40-1,TIMUCUA-40-1,tiθi,muku,0.267,0.5,0,67,87,0.8621,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-41,PROTO_MUSKOGEAN,41,PROTO_MUSKOGEAN-41-1,TIMUCUA-41-1,ikʷi,tʃini,0.375,0.5,0,50,87,0.5862,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-44,PROTO_MUSKOGEAN,44,PROTO_MUSKOGEAN-44-1,TIMUCUA-44-1,tsolas,bali,0.477,0.6,0,11,87,0.1494,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-48,PROTO_MUSKOGEAN,48,PROTO_MUSKOGEAN-48-1,TIMUCUA-48-1,ilmkʷi,hue,0.187,0.2,0,75,87,0.8621,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-51,PROTO_MUSKOGEAN,51,PROTO_MUSKOGEAN-51-1,TIMUCUA-51-2,ipinsiki,tʃokolo,0.222,0.375,0,68,87,0.7816,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-53,PROTO_MUSKOGEAN,53,PROTO_MUSKOGEAN-53-1,TIMUCUA-53-1,lopi,tʃofa,0.5,0.75,0,21,87,0.2414,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-54,PROTO_MUSKOGEAN,54,PROTO_MUSKOGEAN-54-1,TIMUCUA-54-1,isko,uku,0.686,0.75,0,5,87,0.0805,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-57,PROTO_MUSKOGEAN,57,PROTO_MUSKOGEAN-57-1,TIMUCUA-57-2,xitsa,ene,0.295,0.5,0,67,87,0.8621,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-58,PROTO_MUSKOGEAN,58,PROTO_MUSKOGEAN-58-1,TIMUCUA-58-2,xaklo,tiki,0.459,0.6,0,23,87,0.2759,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-61,PROTO_MUSKOGEAN,61,PROTO_MUSKOGEAN-61-1,TIMUCUA-61-1,li,iki,0.187,0.333,0,30,87,0.4253,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-66,PROTO_MUSKOGEAN,66,PROTO_MUSKOGEAN-66-1,TIMUCUA-66-1,ominti,hime,0.369,0.5,0,26,87,0.2989,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-72,PROTO_MUSKOGEAN,72,PROTO_MUSKOGEAN-72-1,TIMUCUA-72-1,xasi,ela,0.295,0.5,0,62,87,0.7701,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-75,PROTO_MUSKOGEAN,75,PROTO_MUSKOGEAN-75-1,TIMUCUA-75-1,oka,ibi,0.35,0.667,0,61,87,0.7011,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-77,PROTO_MUSKOGEAN,77,PROTO_MUSKOGEAN-77-1,TIMUCUA-77-1,tali,jobo,0.233,0.5,0,78,87,0.908,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-85,PROTO_MUSKOGEAN,85,PROTO_MUSKOGEAN-85-1,TIMUCUA-85-1,xina,eje,0.295,0.5,0,59,87,0.7816,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-92,PROTO_MUSKOGEAN,92,PROTO_MUSKOGEAN-92-1,TIMUCUA-92-1,niaki,ilake,0.64,0.6,0,3,87,0.046,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-96,PROTO_MUSKOGEAN,96,PROTO_MUSKOGEAN-96-1,TIMUCUA-96-2,ximotsi,ele,0.161,0.333,0,80,87,0.977,descriptive only (not a pre-registered test)
+cmp-PROTO_MUSKOGEAN-100,PROTO_MUSKOGEAN,100,PROTO_MUSKOGEAN-100-1,TIMUCUA-100-1,xotsixʷa,bisa,0.349,0.333,0,35,87,0.4023,descriptive only (not a pre-registered test)
