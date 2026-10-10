@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ede5d0">
+<link rel="icon" type="image/png" href="{{LOGO}}">
+<title>Recovering Timucua · Phaistos Labs</title>
+<meta name="description" content="A comparative database of Timucua and the Muskogean languages of the American Southeast, with the results of a pre-registered search for Timucua loanwords in Mikasuki and Muscogee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Linear+A&display=swap" rel="stylesheet">
+<style>
+/*{{CSS}}*/
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the findings</a>
+
+<header class="masthead">
+  <a class="brand" href="https://phaistoslabs.com" aria-label="Phaistos Labs home">
+    <img class="brand-mark" src="{{LOGO}}" alt="" width="28" height="31">
+    <span>Phaistos Labs</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#findings">Findings</a>
+    <a href="#words">Words</a>
+    <a href="#tests">Tests</a>
+    <a href="#places">Place names</a>
+    <a href="#method">Method</a>
+    <a href="#files">Data</a>
+  </nav>
+</header>
+
+<section class="hero" aria-labelledby="title">
+  <div class="hero-text">
+    <p class="kicker">Project Timucua</p>
+    <h1 id="title">Did Timucua leave its words in the Seminole languages?</h1>
+    <p class="lede">Timucua was spoken across north Florida and south Georgia until the early 1700s, then fell silent. The Seminole and Miccosukee peoples who came to Florida afterwards speak Mikasuki and Muscogee, two Muskogean languages. This database lines up their basic vocabulary with Timucua's, word by word, to ask whether any Timucua survived the handover.</p>
+    <p class="lede-2">The short answer, from a pre-registered test: no layer large enough to see. The long answer, and every word behind it, is below.</p>
+  </div>
+  <figure class="disc">
+    <svg id="disc" viewBox="-300 -300 600 600" role="img" aria-labelledby="disc-cap"></svg>
+    <figcaption id="disc-cap">Timucua's basic vocabulary, read from the rim inwards like the Phaistos Disc. The <span class="ochre">red words</span> are the concepts in the confirmatory test. Select a word to see it beside its Muskogean counterparts.</figcaption>
+  </figure>
+</section>
+
+<main id="main">
+
+<section id="findings" class="prose-section">
+  <h2>What the comparison found</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p>The test asked a narrow question. Take the Mikasuki words that have no cognate anywhere else in the Muskogean family, the <em>residue</em>, and ask whether they resemble Timucua more than they resemble the words of fifty unrelated languages from around the world. If Timucua speakers had left vocabulary behind, it should hide in that residue.</p>
+      <ul class="findings" id="findings-list"></ul>
+    </div>
+    <aside class="margin">
+      <p><b>Residue.</b> A word with no cognate in any other Muskogean language. Mikasuki has 20 such concepts out of 95; 15 of them are attested in Timucua and were tested.</p>
+      <p><b>Pre-registered.</b> The protocol, data and code were frozen and fingerprinted (SHA-256) at 15:01 UTC on 10 October 2026, before any Timucua similarity was computed.</p>
+    </aside>
+  </div>
+
+  <figure class="chart wide">
+    <figcaption class="chart-title">Timucua sits in the middle of the pack, as a donor and as a source</figcaption>
+    <div id="strip" class="strip"></div>
+    <p class="chart-note">Each dot is one language's contact score with the Mikasuki residue (top) or with Timucua (bottom), after removing how similar that language is to everything in general. A real loan layer would put the red dot at the far right of both rows. Scores come from <code>analysis/results/twoway_H2_MIKASUKI_SCA.csv</code>.</p>
+  </figure>
+
+  <div class="with-margin">
+    <div class="col">
+      <p>A null only means something if the method can find contact where contact is known to exist. It can, but only when the contact runs deep. The same design picks out inherited vocabulary and pidgins at enormous strength, yet it misses the documented borrowing between Creek and two languages that lived inside the Creek Confederacy, because their wordlists share only 33 to 38 concepts.</p>
+    </div>
+    <aside class="margin">
+      <p><b>z score.</b> How far a language pair's similarity sits above what shuffled word pairings give, in standard deviations. Above about 2 is the usual hint of a signal, but unrelated pairs reach it too, which is why the decision rule also ranks each pair against 50 stand-in languages.</p>
+    </aside>
+  </div>
+
+  <figure class="chart wide">
+    <figcaption class="chart-title">Known contact is easy to see when it is heavy and invisible when it is light</figcaption>
+    <div id="calib" class="bars"></div>
+    <p class="chart-note">Strength of signal (z) for pairs with documented relationships, against the three Timucua comparisons. Blue bars are known relationships; red bars involve Timucua.</p>
+  </figure>
+</section>
+
+<section id="words" class="data-section">
+  <h2>The words, concept by concept</h2>
+  <p class="section-lede">Pick any of the 100 basic concepts to see Timucua beside every Southeastern list in the database. Letters group forms that the automated cognate detection put in the same set; a marked form has no Muskogean cognate.</p>
+  <div class="controls">
+    <label for="concept-search">Concept</label>
+    <input id="concept-search" list="concept-options" placeholder="Type a meaning, e.g. dog" autocomplete="off">
+    <datalist id="concept-options"></datalist>
+    <div class="concept-chips" id="concept-chips" aria-label="Quick picks"></div>
+  </div>
+  <div id="concept-view" aria-live="polite"></div>
+</section>
+
+<section id="beside" class="data-section">
+  <h2>Timucua beside each language</h2>
+  <p class="section-lede">For one language at a time, every concept it shares with Timucua, ranked by how unusually close the pair is. The p-value ranks the pair against the other 86 Timucua concepts, so its floor is 0.0115, and short words such as <i class="form">ma</i> 'that' reach it by chance. Only the rows marked as tested were part of a pre-registered analysis.</p>
+  <div class="controls">
+    <span class="control-label" id="lang-tabs-label">Language</span>
+    <div class="tabs" id="lang-tabs" role="tablist" aria-labelledby="lang-tabs-label"></div>
+  </div>
+  <div id="beside-table" class="table-wrap"></div>
+</section>
+
+<section id="tests" class="data-section">
+  <h2>Every test and its verdict</h2>
+  <p class="section-lede">All 32 aggregate tests in the pilot, including the calibration runs. Rule set A passes a test only if the permutation p is below 0.05 and the pair ranks first or second of 51 in both directions (p_max &lt; 0.05).</p>
+  <div id="tests-table" class="table-wrap"></div>
+</section>
+
+<section id="candidates" class="data-section">
+  <h2>Candidate loanwords</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p>No Mikasuki or Creek word reached even an uncorrected p of 0.05. The only lead runs the other way: seven Timucua words sit unusually close to widespread Muskogean forms, against one of fifty placebo languages doing as well. The strongest are <i class="form">efa</i> 'dog' beside <i class="form">ifa</i>, <i class="form">neha</i> 'grease' beside <i class="form">niha</i>, and <i class="form">ilake</i> 'night' beside <i class="form">niɬaki</i>. This was not pre-registered, so it is a question for specialists rather than a finding.</p>
+    </div>
+    <aside class="margin">
+      <p><b>Gatschet, 1884.</b> "The Maskoki word ifa, dog, went over from them to the Timucua" (<i>A Migration Legend of the Creek Indians</i>, p. 58).</p>
+    </aside>
+  </div>
+  <div class="controls">
+    <span class="control-label" id="dir-label">Direction</span>
+    <div class="tabs" id="dir-tabs" role="tablist" aria-labelledby="dir-label"></div>
+  </div>
+  <div id="cand-table" class="table-wrap"></div>
+</section>
+
+<section id="places" class="data-section">
+  <h2>Place names</h2>
+  <p class="section-lede" id="places-lede"></p>
+  <div id="places-table" class="table-wrap"></div>
+</section>
+
+<section id="languages" class="data-section">
+  <h2>The languages</h2>
+  <p class="section-lede">Sixty-seven wordlists: Timucua, the Muskogean family, a handful of calibration languages, and a control panel of fifty languages chosen to sound like Mikasuki while having no possible contact with it, one per family and none from North America.</p>
+  <div id="lang-table" class="table-wrap"></div>
+  <details class="panel-details">
+    <summary>Show the fifty control languages</summary>
+    <div id="control-table" class="table-wrap"></div>
+  </details>
+</section>
+
+<section id="method" class="prose-section">
+  <h2>How it was done</h2>
+  <div class="with-margin">
+    <div class="col">
+      <ol class="stages" id="stages"></ol>
+    </div>
+    <aside class="margin">
+      <p><b>SCA similarity.</b> One minus the distance between two words after aligning them by sound class (List 2012), so <i class="form">ifa</i> and <i class="form">efa</i> score high even though the vowels differ.</p>
+      <p><b>Two-way design.</b> Every candidate pair is compared with fifty stand-in donors and fifty stand-in recipients at once, so a language that resembles everything cannot pass by resembling Mikasuki.</p>
+    </aside>
+  </div>
+  <h3>Checking the method before trusting it</h3>
+  <div class="with-margin">
+    <div class="col">
+      <p>The pipeline was first run where the answer is known. Against seven languages with documented Spanish loans in the World Loanword Database, it found the loan layer every time (p = 0.0001) and picked out individual loans with a precision of 0.92 to 1.00. It also showed a problem: the plain permutation test in the original proposal flags 8 to 30 per cent of unrelated language pairs. The two-way rule brought that to about 2 per cent before any Timucua comparison existed.</p>
+      <div class="table-wrap"><table class="plain">
+        <caption>How often each rule flags pairs with no contact</caption>
+        <thead><tr><th scope="col">Rule</th><th scope="col">False positives</th></tr></thead>
+        <tbody>
+          <tr><td>Permutation test alone</td><td>8 to 10% on residue sets; 18 to 30% on full lists</td></tr>
+          <tr><td>Original proposal: permutation, beat the primary control, beat the panel's 95th percentile</td><td>2 to 4% on residue sets; up to 12% on full lists</td></tr>
+          <tr><td>Final rule: permutation, plus first or second of 51 as donor and as recipient</td><td>1.5 to 2.3% overall; at most 4% in any row or column</td></tr>
+        </tbody>
+      </table></div>
+      <p>Power is the other limit. With real Spanish loans planted into a 100-concept list, the test finds two loans half the time, three loans 77 per cent of the time and four 88 per cent of the time. At the planned 350 concepts it finds six loans 83 per cent of the time. Spanish loans are recent and transparent, so these are best cases; old Timucua loans would be harder to see.</p>
+    </div>
+    <aside class="margin">
+      <p><b>What would change the answer.</b> A fuller Timucua lexicon. The ASJP list gives 87 Timucua concepts, and only George Aaron Broadwell's Timucua–English dictionary can take the comparison to 350.</p>
+    </aside>
+  </div>
+</section>
+
+<section id="files" class="prose-section">
+  <h2>Using the data</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p>Everything on this page comes from the repository's <code>cldf/</code> folder, a <a href="https://cldf.clld.org">Cross-Linguistic Data Formats</a> wordlist that validates with <code>cldf validate</code>, and from its SQLite copy in <code>db/</code>.</p>
+      <dl class="files" id="files-list"></dl>
+      <h3>Querying it</h3>
+<pre><code>import sqlite3
+db = sqlite3.connect("db/project-phaistos.sqlite")
+db.execute("""select language, original, form, source
+              from southeast_forms where concept = 'dog'""").fetchall()</code></pre>
+      <p>Or load it with <code>pycldf</code>: <code>Wordlist.from_metadata("cldf/Wordlist-metadata.json")</code>. To rebuild the database and this page from the pilot, run <code>./build/build.sh</code>.</p>
+    </div>
+    <aside class="margin">
+      <p><b>Spellings.</b> Every form keeps its source spelling (an ASJP code, or Gatschet's, Haas's or Kimball's own) beside a normalised IPA transcription, and every normalisation rule is logged.</p>
+    </aside>
+  </div>
+</section>
+
+<section id="sources" class="prose-section">
+  <h2>Sources, licences and care</h2>
+  <div class="with-margin">
+    <div class="col">
+      <p>The wordlists come from the ASJP database (version 20), with Hitchiti added from Albert Gatschet's <i>A Migration Legend of the Creek Indians</i> (1884) and Mary R. Haas's 1937 field notebook in the American Philosophical Society, and Apalachee from Geoffrey Kimball's "An Apalachee Vocabulary" (1988). Validation used the World Loanword Database and the Intercontinental Dictionary Series; concepts are linked to Concepticon. These datasets are published under CC-BY 4.0; Gatschet is in the public domain. Code is MIT-licensed.</p>
+      <p>All material here is published or archival. Following the project's ethics plan, the Seminole Tribe of Florida and the Miccosukee Tribe of Indians of Florida are being asked for guidance on how this work is described and shared. Language contact is a normal part of every language's history, and nothing here makes a claim about any community's connection to Florida.</p>
+      <p class="cite">Cite as: Crowley, Dennis. 2026. <i>Recovering Timucua: a Timucua–Muskogean comparative database</i> (pilot release). Phaistos Labs.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="colophon">
+  <p class="glyphs" aria-hidden="true">𐘀 𐘇 𐘙 𐘞 𐘏 𐘵</p>
+  <p>Phaistos Labs · MMXXVI</p>
+  <p class="small">Built from the database on {{BUILT}}.</p>
+</footer>
+
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script id="site-data" type="application/json">{{DATA}}</script>
+<script>
+/*{{JS}}*/
+</script>
+</body>
+</html>
