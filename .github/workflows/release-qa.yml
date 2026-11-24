@@ -32,7 +32,7 @@ jobs:
         run: bash build/build.sh
       - name: Report generated release differences
         run: |
-          git status --short
+          git status --short -- cldf db tables docs
           git diff --stat -- cldf db tables docs
           git diff -- cldf/Wordlist-metadata.json docs/index.html
       - name: Compare rebuilt SQLite logical contents with committed database
