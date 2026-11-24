@@ -1,0 +1,68 @@
+{
+  "title": "Timucua contact-detection calibration audit",
+  "source": "cldf/tests.csv",
+  "source_scope": "five frozen positive-control tests; no newly run simulations",
+  "positive_controls": [
+    {
+      "test": "CAL_MOBILIAN_JARGON_x_CHOCTAW",
+      "recipient": "MOBILIAN_JARGON",
+      "donor": "CHOCTAW",
+      "shared_concepts": 37,
+      "detected": true,
+      "permutation_p": 0.0001,
+      "max_rule_p": 0.0196
+    },
+    {
+      "test": "CAL_MIKASUKI_x_CREEK",
+      "recipient": "MIKASUKI",
+      "donor": "CREEK",
+      "shared_concepts": 95,
+      "detected": true,
+      "permutation_p": 0.0001,
+      "max_rule_p": 0.0196
+    },
+    {
+      "test": "CAL_KOASATI_x_ALABAMA",
+      "recipient": "KOASATI",
+      "donor": "ALABAMA",
+      "shared_concepts": 95,
+      "detected": true,
+      "permutation_p": 0.0001,
+      "max_rule_p": 0.0196
+    },
+    {
+      "test": "CAL_YUCHI_x_CREEK",
+      "recipient": "YUCHI",
+      "donor": "CREEK",
+      "shared_concepts": 33,
+      "detected": false,
+      "permutation_p": 0.1331,
+      "max_rule_p": 0.2941
+    },
+    {
+      "test": "CAL_NATCHEZ_x_CREEK",
+      "recipient": "NATCHEZ",
+      "donor": "CREEK",
+      "shared_concepts": 38,
+      "detected": false,
+      "permutation_p": 0.1621,
+      "max_rule_p": 0.2549
+    }
+  ],
+  "summary": {
+    "positive_controls": 5,
+    "detected": 3,
+    "missed": 2,
+    "sensitivity_on_this_small_control_set": 0.6,
+    "controls_with_38_or_fewer_shared_concepts": 3,
+    "detected_among_controls_with_38_or_fewer": 1,
+    "controls_with_90_or_more_shared_concepts": 2,
+    "detected_among_controls_with_90_or_more": 2
+  },
+  "interpretation": [
+    "The method detected all three controls with at least 37 shared concepts only when the contact signal was strong in the larger cases; it missed both documented Yuchi–Creek and Natchez–Creek controls at 33 and 38 concepts.",
+    "The 3/5 fraction is descriptive of these selected controls, not a general estimate of sensitivity.",
+    "The table does not supply a sufficiently defined set of known-negative controls for a specificity estimate.",
+    "The existing null result therefore cannot exclude small, localized, or lexically restricted contact layers."
+  ]
+}
