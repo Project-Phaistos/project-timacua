@@ -40,6 +40,10 @@ A CLDF database comparing Timucua with the Muskogean languages of the Southeast 
 
 The project website is published from `docs/` on the `main` branch using GitHub Pages. The repository and site are public; the earlier publication hold has been lifted.
 
+## Release integrity checks
+
+Run `python qa/check_release.py` to verify the committed CLDF release counts, unique IDs, form-to-language and form-to-concept references, cognate-to-form references, metadata extents, test rows and place-name records. The same dependency-free check runs automatically on pushes and pull requests through [GitHub Actions](.github/workflows/release-qa.yml). It checks release integrity, not the validity or coverage of the historical-contact inference. See [`qa/README.md`](qa/README.md).
+
 ## Quick start
 
 ```python
