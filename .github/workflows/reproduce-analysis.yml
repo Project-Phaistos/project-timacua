@@ -14,6 +14,8 @@ jobs:
   reproduce:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    env:
+      TIMUCUA_EXT: ${{ github.workspace }}/analysis/ext
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,6 +23,19 @@ jobs:
           python-version: '3.11'
       - name: Expand frozen analysis package
         run: unzip -q analysis_all.zip
+      - name: Restore upstream datasets at frozen provenance commits
+        run: |
+          mkdir -p analysis/ext
+          clone_at() {
+            repo="$1"; dest="$2"; commit="$3"
+            git clone --quiet "https://github.com/$repo.git" "$dest"
+            git -C "$dest" checkout --quiet "$commit"
+          }
+          clone_at lexibank/asjp analysis/ext/asjp cf4bf0d13c95256b1b48f440d07c5c098500a770
+          clone_at lexibank/wold analysis/ext/wold 1df62b9bdc7292b35982aea49b4d5bd1951f6f3e
+          clone_at lexibank/ids analysis/ext/ids bf6c9f8c7d25c15e61e338f3ed29ae46b844c0f8
+          clone_at cldf-datasets/wals analysis/ext/wals 81298aa26d01fdc11b769bcc7fa87ad9e43d7ccd
+          clone_at concepticon/concepticon-data analysis/ext/concepticon-data a89063d5657022a4ac11c557baef4958809e7c91
       - name: Install analysis dependencies
         run: |
           python -m pip install --upgrade pip
