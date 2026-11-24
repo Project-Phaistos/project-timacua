@@ -85,6 +85,31 @@ bash build/build.sh
 
 The full analysis source is preserved in [`analysis_all.zip`](analysis_all.zip). The rebuild scripts expect that archive to have been extracted so an `analysis/` directory exists at the repository root; inspect the archive contents first (`unzip -l analysis_all.zip`) and extract the `analysis/` tree before running `bash build/build.sh`. The published CLDF/SQLite release and the QA scripts can be used without expanding or rerunning that analysis package.
 
+
+## Reproduce the analysis
+
+The archived package contains the frozen Stage 1 CLDF inputs and the preregistration. The complete downstream analysis can be rerun without silently fetching new upstream datasets:
+
+```bash
+unzip -q analysis_all.zip
+python -m pip install numpy pandas scipy rapidfuzz 'lingpy==2.6.14' lingrex pycldf morfessor python-igraph
+cd analysis/src
+python 02_stage2_3_residue.py
+python 03_validation.py
+python 05_similarity_grid.py pre
+python 06_placebo_and_calibration.py
+python 06b_stratified_check.py
+python 08_freeze_prereg.py
+python 05_similarity_grid.py post
+python 07_run_workstream_b.py
+python 09_wals_typology.py
+python 10_apalachee_h4.py
+python 11_hitchiti_h1.py
+python 12_haas1937_boynton_checks.py
+```
+
+The [reproduction workflow](.github/workflows/reproduce-analysis.yml) runs this sequence on GitHub Actions and uploads the generated outputs. It starts from the archived, frozen Stage 1 inputs; it does not refetch or rebuild those inputs from current upstream repositories. The separate [release rebuild workflow](.github/workflows/rebuild-release.yml) reconstructs the public CLDF, SQLite database and website from the archived analysis results plus the checked-in build scripts. These are distinct operations.
+
 ## Sources and licences
 
 - Code (`build/`, `analysis/src/`, `analysis/workstream_a/`) is under the MIT licence in `LICENSE`. The data keep their source licences, below.
