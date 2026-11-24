@@ -401,6 +401,9 @@ def main():
              **{"comparisons.csv": recs(comp), "tests.csv": recs(tests), "candidates.csv": recs(cand),
                 "place_names.csv": recs(pn)})
     ds.validate()
+    metadata_path = os.path.join(OUT, "Wordlist-metadata.json")
+    metadata_text = open(metadata_path, encoding="utf-8").read()
+    open(metadata_path, "w", encoding="utf-8").write(metadata_text.rstrip() + "\n")
 
     # ------------------------------------------------------------------- wide tables
     order = ["TIMUCUA"] + SOUTHEAST
