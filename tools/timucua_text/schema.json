@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Timucua archival text annotation record",
+  "description": "A provenance-first, uncertainty-aware token record. This schema defines a workflow and does not contain newly transcribed Timucua data.",
+  "type": "object",
+  "required": [
+    "text_id",
+    "line_id",
+    "token_id",
+    "source_ref",
+    "diplomatic_form",
+    "certainty"
+  ],
+  "properties": {
+    "text_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "line_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "token_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Archival citation, page/folio, image identifier, or stable digital reference."
+    },
+    "diplomatic_form": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Literal transcription, preserving editorial uncertainty and source spelling."
+    },
+    "normalized_form": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "segmentation": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Analyst-proposed morpheme boundaries; do not silently overwrite diplomatic_form."
+    },
+    "gloss": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "translation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "certainty": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unreadable"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "annotator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "reviewed",
+        "disputed"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
