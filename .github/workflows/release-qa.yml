@@ -32,6 +32,7 @@ jobs:
         run: |
           git status --short
           git diff --stat -- cldf db tables docs
+          git diff -- cldf/Wordlist-metadata.json docs/index.html
       - name: Validate rebuilt CLDF release
         run: python qa/check_release.py
       - name: Audit archived analysis source logic and portability
