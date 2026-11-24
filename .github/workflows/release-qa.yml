@@ -18,3 +18,7 @@ jobs:
           python-version: "3.11"
       - name: Validate committed CLDF release
         run: python qa/check_release.py
+      - name: Audit frozen contact-detection calibration controls
+        run: python qa/calibration_report.py
+      - name: Ensure calibration output is reproducible
+        run: git diff --exit-code -- qa/calibration_report.json
