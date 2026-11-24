@@ -42,3 +42,13 @@ jobs:
         run: |
           printf 'text_id,line_id,token_id,source_ref,diplomatic_form,certainty,review_status\nT1,L1,T1-L1-1,folio-1,example,high,unreviewed\n' > /tmp/timucua-annotation-smoke.csv
           python tools/timucua_text/validate.py /tmp/timucua-annotation-smoke.csv
+      - name: Upload source and calibration audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: timucua-qa-reports
+          path: |
+            qa/analysis_source_audit.json
+            qa/calibration_report.json
+          if-no-files-found: warn
+          retention-days: 30
