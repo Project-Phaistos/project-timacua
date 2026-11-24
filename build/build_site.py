@@ -107,8 +107,11 @@ def main():
     power = rd(A, "validation", "power_grid.csv")
     gaz_counts = places.Survives.value_counts().to_dict()
 
+    source_epoch = os.environ.get("SOURCE_DATE_EPOCH")
+    built_date = (datetime.datetime.fromtimestamp(int(source_epoch), datetime.timezone.utc).date().isoformat()
+                  if source_epoch else datetime.date.today().isoformat())
     data = dict(
-        built=datetime.date.today().isoformat(),
+        built=built_date,
         counts=dict(languages=len(langs), concepts=len(params), forms=len(forms), cognates=len(cog),
                     comparisons=len(comp), tests=len(tests), candidates=len(cand), places=len(places)),
         languages=lang_out, concepts=concepts, forms=form_out, comparisons=comp_out, tests=test_out,
