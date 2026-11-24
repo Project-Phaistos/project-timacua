@@ -154,7 +154,7 @@ def main():
     forms = pd.DataFrame(dict(
         ID=f.ID, Language_ID=f.Language_ID, Parameter_ID=f.Parameter_ID, Value=f.Asjp_Value,
         Form=f.Segments.map(seg2form), Segments=f.Segments, Original_Segments=f.Original_Segments,
-        Normalization=f.ID.map(rules).astype("string").fillna(""), Comment=f.Comment.fillna(""), Source=f.Source.fillna(""),
+        Normalization=f.ID.map(rules).astype("string").fillna(""), Comment=f.Comment.astype("string").fillna(""), Source=f.Source.astype("string").fillna(""),
         Loose_Mapping=False))
 
     def addendum(df, lang, value_col, src, page_col=None, note_col=None, loose_rx="loose"):
