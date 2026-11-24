@@ -1,0 +1,62 @@
+name: Reproduce Timucua analysis from frozen inputs
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'analysis_all.zip'
+      - '.github/workflows/reproduce-analysis.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Expand frozen analysis package
+        run: unzip -q analysis_all.zip
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy pandas scipy rapidfuzz lingpy==2.6.14 lingrex pycldf morfessor python-igraph
+      - name: Re-run Stages 2 and 3 from frozen Stage 1 CLDF inputs
+        working-directory: analysis/src
+        run: |
+          python 02_stage2_3_residue.py
+          python 03_validation.py
+      - name: Rebuild pre-Timucua calibration and placebo grid
+        working-directory: analysis/src
+        run: |
+          python 05_similarity_grid.py pre
+          python 06_placebo_and_calibration.py
+          python 06b_stratified_check.py
+      - name: Re-freeze preregistration before Timucua similarity calculations
+        working-directory: analysis/src
+        run: python 08_freeze_prereg.py
+      - name: Run confirmatory, secondary and addendum analyses
+        working-directory: analysis/src
+        run: |
+          python 05_similarity_grid.py post
+          python 07_run_workstream_b.py
+          python 09_wals_typology.py
+          python 10_apalachee_h4.py
+          python 11_hitchiti_h1.py
+          python 12_haas1937_boynton_checks.py
+      - name: Upload complete analysis outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: timucua-frozen-inputs-reproduction
+          path: |
+            analysis/prereg/PREREG_HASHES.txt
+            analysis/results/
+            analysis/validation/
+            analysis/cldf/
+          if-no-files-found: warn
+          retention-days: 30
