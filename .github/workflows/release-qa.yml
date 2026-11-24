@@ -20,7 +20,13 @@ jobs:
         run: |
           unzip -t analysis_all.zip
           unzip -l analysis_all.zip | sed -n '1,100p'
-      - name: Validate committed CLDF release
+      - name: Expand archived analysis source package
+        run: unzip -oq analysis_all.zip
+      - name: Install database rebuild dependencies
+        run: python -m pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
+      - name: Rebuild CLDF, SQLite, wide tables and project website
+        run: ./build/build.sh
+      - name: Validate rebuilt CLDF release
         run: python qa/check_release.py
       - name: Audit frozen contact-detection calibration controls
         run: python qa/calibration_report.py
