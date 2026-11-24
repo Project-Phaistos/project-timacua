@@ -1,0 +1,34 @@
+{
+  "title": "Timucua archived analysis source audit",
+  "archive": "analysis_all.zip",
+  "archive_sha256": "00c1274e6278bda988b0713c93d4de05176e7c1ddbf0fe0fb46054ae3551309b",
+  "findings": [
+    {
+      "id": "timucua-strong-tier-threshold",
+      "severity": "high",
+      "source": "analysis/src/07_run_workstream_b.py",
+      "assessable_criteria": 5,
+      "strong_tier_threshold": 6,
+      "unreachable": true,
+      "finding": "The code counts 5 assessable criteria but requires 6 for the strong tier. That branch is unreachable; no candidate can receive this tier.",
+      "recommended_resolution": "Decide and document whether strong requires all assessable criteria or whether additional criteria must be adjudicated. Do not silently lower the threshold: C5/C6 are explicitly unassessed and this is a scientific decision."
+    },
+    {
+      "id": "timucua-external-data-path",
+      "severity": "medium",
+      "source": "analysis/src/common.py",
+      "hardcoded_fallback_path_present": true,
+      "finding": "The source embeds an environment-specific absolute fallback for external datasets. The pipeline is portable only when TIMUCUA_EXT is explicitly set.",
+      "recommended_resolution": "Use a repository-relative default while retaining TIMUCUA_EXT override."
+    },
+    {
+      "id": "timucua-h1-count-correction",
+      "severity": "info",
+      "source": "analysis/src/12_haas1937_boynton_checks.py",
+      "separate_corrected_count_present": true,
+      "finding": "The addendum source-check script explicitly recomputes the H1 absent count because the frozen H1 output contains -6 from bitwise inversion of an object column.",
+      "recommended_resolution": "Keep the corrected count as the cited value and retain the frozen output only for audit history."
+    }
+  ],
+  "scope": "Static source inspection only; no linguistic result or preregistered hypothesis is changed."
+}
