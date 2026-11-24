@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy pandas scipy rapidfuzz lingpy pycldf
       - name: Rebuild CLDF, SQLite and website
-        run: ./build/build.sh
+        run: bash build/build.sh
       - name: Validate rebuilt release
         run: |
           python qa/check_release.py
