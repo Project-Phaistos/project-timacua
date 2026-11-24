@@ -2,6 +2,11 @@ name: Inspect archived Timucua analysis package
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'analysis_all.zip'
+      - 'build/**'
+      - '.github/workflows/inspect-analysis-archive.yml'
 
 permissions:
   contents: read
