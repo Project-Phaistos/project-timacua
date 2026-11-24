@@ -82,7 +82,7 @@ pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
 ./build/build.sh
 ```
 
-The full analysis source is preserved in [`analysis_all.zip`](analysis_all.zip). The rebuild scripts expect that archive to have been extracted so an `analysis/` directory exists at the repository root; inspect the archive contents first (`unzip -l analysis_all.zip`) and extract the `analysis/` tree before running `./build/build.sh`. The published CLDF/SQLite release and the QA scripts can be used without expanding or rerunning that analysis package.
+The full analysis source is preserved in [`analysis_all.zip`](analysis_all.zip). The rebuild scripts expect that archive to have been extracted so an `analysis/` directory exists at the repository root; inspect the archive contents first (`unzip -l analysis_all.zip`) and extract the `analysis/` tree before running `bash build/build.sh`. The published CLDF/SQLite release and the QA scripts can be used without expanding or rerunning that analysis package.
 
 ## Sources and licences
 
