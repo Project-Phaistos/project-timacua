@@ -39,6 +39,8 @@ jobs:
         run: python qa/check_release.py
       - name: Audit archived analysis source logic and portability
         run: python qa/audit_analysis_source.py
+      - name: Ensure source audit report is reproducible
+        run: git diff --exit-code -- qa/analysis_source_audit.json
       - name: Audit frozen contact-detection calibration controls
         run: python qa/calibration_report.py
       - name: Ensure calibration output is reproducible
