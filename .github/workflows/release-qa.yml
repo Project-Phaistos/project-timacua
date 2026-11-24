@@ -34,6 +34,8 @@ jobs:
         run: python qa/calibration_report.py
       - name: Ensure calibration output is reproducible
         run: git diff --exit-code -- qa/calibration_report.json
+      - name: Unit-test archival-text annotation validator
+        run: python -m unittest discover -s tests -v
       - name: Validate archival-text annotation prototype
         run: |
           printf 'text_id,line_id,token_id,source_ref,diplomatic_form,certainty,review_status\nT1,L1,T1-L1-1,folio-1,example,high,unreviewed\n' > /tmp/timucua-annotation-smoke.csv
