@@ -12,7 +12,8 @@ A CLDF database comparing Timucua with the Muskogean languages of the Southeast 
 | `tables/timucua_comparisons_wide.csv` | The same grid with each form's similarity to Timucua and its candidate p-value. |
 | `analysis/` | The full pilot: pipeline code, pre-registration and addenda (with hashes), validation, all results. See `analysis/README.md`. |
 | `docs/` | The project website: one self-contained `index.html` explaining the data, with charts and a word-by-word explorer. |
-| `build/` | `build.sh` rebuilds `cldf/`, `db/`, `tables/` and the website from `analysis/`. The website's sources are in `build/site/`. |
+| `build/` | `build.sh` rebuilds `cldf/`, `db/`, `tables/` and the website from the analysis source package. The website's sources are in `build/site/`. |
+| `tools/timucua_text/` | A provenance-first, uncertainty-aware schema and CSV validator for future archival text annotation; no new Timucua transcriptions are claimed. |
 
 ### Languages
 
@@ -42,7 +43,7 @@ The project website is published from `docs/` on the `main` branch using GitHub 
 
 ## Release integrity checks
 
-Run `python qa/check_release.py` to verify the committed CLDF release counts, unique IDs, form-to-language and form-to-concept references, cognate-to-form references, metadata extents, test rows and place-name records. The same dependency-free check runs automatically on pushes and pull requests through [GitHub Actions](.github/workflows/release-qa.yml). It checks release integrity, not the validity or coverage of the historical-contact inference. See [`qa/README.md`](qa/README.md).
+Run `python qa/check_release.py` to verify CLDF release integrity and `python qa/calibration_report.py` to reproduce the five-control contact-detection audit. The audit shows 3 detections and 2 misses, including the Yuchi–Creek and Natchez–Creek positive controls; it is not a general sensitivity estimate and the current controls do not estimate specificity. Both checks and a smoke test of the archival-text annotation validator run in [GitHub Actions](.github/workflows/release-qa.yml). The text annotation prototype preserves source spelling separately from normalization, segmentation and interpretation; it contains no invented transcriptions. See [`qa/README.md`](qa/README.md) and [`tools/timucua_text/`](tools/timucua_text/README.md).
 
 ## Quick start
 
