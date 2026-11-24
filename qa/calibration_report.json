@@ -60,7 +60,7 @@
     "detected_among_controls_with_90_or_more": 2
   },
   "interpretation": [
-    "The method detected all three controls with at least 37 shared concepts only when the contact signal was strong in the larger cases; it missed both documented Yuchi–Creek and Natchez–Creek controls at 33 and 38 concepts.",
+    "The method detected 3 of 5 controls: Mobilian Jargon–Choctaw at 37 shared concepts and two 95-concept pairs. It missed Yuchi–Creek at 33 and Natchez–Creek at 38 shared concepts.",
     "The 3/5 fraction is descriptive of these selected controls, not a general estimate of sensitivity.",
     "The table does not supply a sufficiently defined set of known-negative controls for a specificity estimate.",
     "The existing null result therefore cannot exclude small, localized, or lexically restricted contact layers."
