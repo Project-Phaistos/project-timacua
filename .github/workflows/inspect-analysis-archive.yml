@@ -1,0 +1,30 @@
+name: Inspect archived Timucua analysis package
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect archive contents
+        run: |
+          unzip -l analysis_all.zip | sed -n '1,180p'
+      - name: Expand source package
+        run: |
+          unzip -q analysis_all.zip
+          echo "Top-level files:"
+          find . -maxdepth 2 -type f | sort | sed -n '1,220p'
+          echo "Analysis source files:"
+          find analysis -maxdepth 3 -type f | sort | sed -n '1,260p'
+      - name: Locate pipeline instructions and dependency manifests
+        run: |
+          find analysis -type f \( -iname 'README*' -o -iname '*requirements*.txt' -o -iname 'environment*.yml' -o -iname 'pyproject.toml' -o -iname 'Makefile' -o -iname '*.sh' \) -print
+          for f in $(find analysis -type f \( -iname 'README*' -o -iname '*requirements*.txt' -o -iname 'environment*.yml' -o -iname 'pyproject.toml' -o -iname 'Makefile' -o -iname '*.sh' \) | head -20); do
+            echo "===== $f ====="
+            sed -n '1,240p' "$f"
+          done
