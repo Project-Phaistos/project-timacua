@@ -16,6 +16,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Inspect and integrity-check archived analysis sources
+        run: |
+          unzip -t analysis_all.zip
+          unzip -l analysis_all.zip | sed -n '1,100p'
       - name: Validate committed CLDF release
         run: python qa/check_release.py
       - name: Audit frozen contact-detection calibration controls
