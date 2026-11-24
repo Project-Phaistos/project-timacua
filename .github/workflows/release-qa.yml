@@ -25,7 +25,7 @@ jobs:
       - name: Install database rebuild dependencies
         run: python -m pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
       - name: Rebuild CLDF, SQLite, wide tables and project website
-        run: ./build/build.sh
+        run: bash build/build.sh
       - name: Validate rebuilt CLDF release
         run: python qa/check_release.py
       - name: Audit frozen contact-detection calibration controls
