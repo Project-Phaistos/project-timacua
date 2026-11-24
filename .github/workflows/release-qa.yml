@@ -26,6 +26,8 @@ jobs:
         run: sed -n '1,220p' analysis/README.md
       - name: Install database rebuild dependencies
         run: python -m pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
+      - name: Set deterministic build timestamp
+        run: echo "SOURCE_DATE_EPOCH=$(git log -1 --format=%ct)" >> "$GITHUB_ENV"
       - name: Rebuild CLDF, SQLite, wide tables and project website
         run: bash build/build.sh
       - name: Report generated release differences
