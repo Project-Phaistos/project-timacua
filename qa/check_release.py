@@ -33,13 +33,15 @@ def main() -> int:
     concepts = rows("cldf/parameters.csv")
     forms = rows("cldf/forms.csv")
     cognates = rows("cldf/cognates.csv")
+    comparisons = rows("cldf/comparisons.csv")
+    candidates = rows("cldf/candidates.csv")
     tests = rows("cldf/tests.csv")
     places = rows("cldf/place_names.csv")
 
     for records, label in [
         (languages, "languages"), (concepts, "concepts"),
-        (forms, "forms"), (cognates, "cognates"),
-        (tests, "tests"), (places, "place names"),
+        (forms, "forms"), (cognates, "cognates"), (comparisons, "comparisons"),
+        (candidates, "candidates"), (tests, "tests"), (places, "place names"),
     ]:
         unique(records, "ID", label)
 
@@ -47,6 +49,8 @@ def main() -> int:
     assert len(concepts) == 100, f"expected 100 concepts, got {len(concepts)}"
     assert len(forms) == 6799, f"expected 6,799 forms, got {len(forms)}"
     assert len(cognates) == 2424, f"expected 2,424 cognate judgments, got {len(cognates)}"
+    assert len(comparisons) == 607, f"expected 607 comparisons, got {len(comparisons)}"
+    assert len(candidates) == 156, f"expected 156 candidate records, got {len(candidates)}"
     assert len(tests) == 32, f"expected 32 test rows, got {len(tests)}"
     assert len(places) == 24, f"expected 24 place-name records, got {len(places)}"
 
@@ -61,6 +65,15 @@ def main() -> int:
             f"form {form['ID']} has unknown concept {form['Parameter_ID']}"
         )
         assert form["Form"], f"form {form['ID']} has empty normalized form"
+
+    for comparison in comparisons:
+        assert comparison["Form_ID"] in form_ids, f"comparison {comparison['ID']} points to missing form"
+        assert comparison["Timucua_Form_ID"] in form_ids, f"comparison {comparison['ID']} points to missing Timucua form"
+        assert comparison["Language_ID"] in language_ids, f"comparison {comparison['ID']} has unknown language"
+        assert comparison["Parameter_ID"] in concept_ids, f"comparison {comparison['ID']} has unknown concept"
+
+    for candidate in candidates:
+        assert candidate["Parameter_ID"] in concept_ids, f"candidate {candidate['ID']} has unknown concept"
 
     for cognate in cognates:
         assert cognate["Form_ID"] in form_ids, (
@@ -81,7 +94,8 @@ def main() -> int:
 
     print("Timucua release QA: PASS")
     print(f"  {len(languages)} languages; {len(concepts)} concepts; {len(forms)} forms")
-    print(f"  {len(cognates)} cognate judgments; {len(tests)} tests; {len(places)} place-name records")
+    print(f"  {len(cognates)} cognate judgments; {len(comparisons)} comparisons; {len(candidates)} candidate records")
+    print(f"  {len(tests)} tests; {len(places)} place-name records")
     print("  unique IDs, CLDF foreign keys, and declared table extents verified")
     return 0
 
