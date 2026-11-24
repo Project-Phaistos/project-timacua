@@ -16,6 +16,8 @@ The next experiment is specified in [`calibration_design.md`](calibration_design
 
 ## Archived analysis source audit
 
+The committed machine-readable findings are in [`analysis_source_audit.json`](analysis_source_audit.json); CI regenerates the file and checks that it is unchanged.
+
 The source audit identifies a candidate-tier inconsistency: the archived code counts five assessable criteria but requires six for the strong tier, making that branch unreachable. It also detects an environment-specific absolute fallback path for external datasets. The H1 source-check script separately corrects an archived negative count of -6 caused by bitwise inversion of an object column.
 
 These findings are reported rather than silently rewriting scientific decisions. The strong-tier threshold requires an explicit decision about the five assessable criteria and the two criteria currently marked unassessed. The reproduction workflow sets `TIMUCUA_EXT` and restores external datasets at the exact commits recorded in `cldf/provenance.json`.
