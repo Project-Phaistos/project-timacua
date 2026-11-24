@@ -38,7 +38,7 @@ A CLDF database comparing Timucua with the Muskogean languages of the Southeast 
 
 `docs/index.html` explains the whole database in Phaistos Labs styling: the findings with charts, every word by concept, Timucua beside each language, every test, the candidate loans, the place names and the method. It is a single file with the data built in, so it opens straight from disk.
 
-To publish it, go to Settings → Pages, choose **Deploy from a branch**, then `main` and `/docs`. Hold off until the community and APS checks below are done, since Pages sites are public.
+The project website is published from `docs/` on the `main` branch using GitHub Pages. The repository and site are public; the earlier publication hold has been lifted.
 
 ## Quick start
 
@@ -85,11 +85,7 @@ Missing similarity matrices are computed on the fly into `analysis/results/grid/
 - ASJP, WOLD, IDS, WALS and Concepticon data are CC-BY 4.0. Cite them as listed in `cldf/sources.bib` and `analysis/docs/bibliography_and_outreach.md`.
 - Gatschet (1884) is in the public domain.
 - Kimball (1988) Apalachee forms are short citations of a published vocabulary, credited per form.
-- The Haas (1937) Hitchiti forms are transcribed from a digitized notebook in the Mary R. Haas Papers at the American Philosophical Society. Check the APS reuse terms before making this repository public.
-
-## Community note
-
-All material here is published or archival. Following section 9 of the proposal, the Seminole Tribe of Florida and the Miccosukee Tribe of Indians of Florida are being asked for guidance, including whether they want to see results before anything is shared publicly. Keep this repository private until they have answered.
+- The Haas (1937) Hitchiti forms are transcribed from a digitized notebook in the Mary R. Haas Papers at the American Philosophical Society. Consult the APS terms before reproducing notebook images or substantial archival material elsewhere.
 
 ## Citation
 
