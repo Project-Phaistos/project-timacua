@@ -10,7 +10,7 @@ A CLDF database comparing Timucua with the Muskogean languages of the Southeast 
 | `db/project-phaistos.sqlite` | The same data as SQLite, with ready-made views (`db/views.sql`). |
 | `tables/southeast_wordlist.csv` | One row per concept, one column per Southeastern language plus Timucua. |
 | `tables/timucua_comparisons_wide.csv` | The same grid with each form's similarity to Timucua and its candidate p-value. |
-| `analysis/` | The full pilot: pipeline code, pre-registration and addenda (with hashes), validation, all results. See `analysis/README.md`. |
+| `analysis_all.zip` | Archived full pilot source package, including analysis code and supporting materials. The expanded `analysis/` working tree is not currently tracked in this repository. |
 | `docs/` | The project website: one self-contained `index.html` explaining the data, with charts and a word-by-word explorer. |
 | `build/` | `build.sh` rebuilds `cldf/`, `db/`, `tables/` and the website from the analysis source package. The website's sources are in `build/site/`. |
 | `tools/timucua_text/` | A provenance-first, uncertainty-aware schema and CSV validator for future archival text annotation; no new Timucua transcriptions are claimed. |
@@ -82,7 +82,7 @@ pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
 ./build/build.sh
 ```
 
-Missing similarity matrices are computed on the fly into `analysis/results/grid/` (not tracked). To rerun the pilot itself, follow `analysis/README.md`.
+The full analysis source is preserved in [`analysis_all.zip`](analysis_all.zip). The rebuild scripts expect that archive to have been extracted so an `analysis/` directory exists at the repository root; inspect the archive contents first (`unzip -l analysis_all.zip`) and extract the `analysis/` tree before running `./build/build.sh`. The published CLDF/SQLite release and the QA scripts can be used without expanding or rerunning that analysis package.
 
 ## Sources and licences
 
