@@ -28,6 +28,10 @@ jobs:
         run: python -m pip install pycldf lingpy lingrex python-igraph rapidfuzz scipy pandas
       - name: Rebuild CLDF, SQLite, wide tables and project website
         run: bash build/build.sh
+      - name: Report generated release differences
+        run: |
+          git status --short
+          git diff --stat -- cldf db tables docs
       - name: Validate rebuilt CLDF release
         run: python qa/check_release.py
       - name: Audit archived analysis source logic and portability
