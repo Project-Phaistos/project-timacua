@@ -16,6 +16,7 @@ The comparative wordlist can test lexical contact, but it cannot itself recover 
 
 ```bash
 python tools/timucua_text/validate.py annotations.csv
+python -m unittest discover -s tests -v
 ```
 
 Required columns are `text_id,line_id,token_id,source_ref,diplomatic_form,certainty`. Certainty must be `high`, `medium`, `low`, or `unreadable`. The source reading is never overwritten by normalized spelling or segmentation. Duplicate token keys are rejected.
