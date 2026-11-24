@@ -33,3 +33,8 @@ jobs:
             echo "===== $f ====="
             sed -n '1,240p' "$f"
           done
+          for f in analysis/src/01_build_dataset.py analysis/src/05_similarity_grid.py analysis/src/07_run_workstream_b.py analysis/src/08_freeze_prereg.py; do
+            if [ -f "$f" ]; then echo "===== $f ====="; sed -n '1,240p' "$f"; fi
+          done
+          echo '===== pinned provenance ====='
+          if [ -f analysis/src/PROVENANCE.md ]; then sed -n '1,240p' analysis/src/PROVENANCE.md; fi
