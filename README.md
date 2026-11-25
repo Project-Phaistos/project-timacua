@@ -66,7 +66,7 @@ Or with pycldf: `Wordlist.from_metadata("cldf/Wordlist-metadata.json")`.
 
 ## Results so far
 
-- **H2 (pre-registered): no Timucua layer detected.** Mikasuki residue x Timucua gives z = 0.64, p = 0.26; Timucua ranks 29th of 51 candidate donors. All Creek, measure and robustness variants agree.
+- **H2 (pre-registered): no large Timucua layer detected.** Mikasuki residue × Timucua gives z = 0.64 and p = 0.2594; the two-way maximum is p = 0.5686. Timucua ranks 29th of 51 candidate donors. This does not rule out smaller or localised contact.
 - **The null is bounded.** The same design detects inheritance and pidginization but misses documented Yuchi–Creek and Natchez–Creek contact at 33 to 38 concepts. It rules out only a large layer.
 - **H1:** the 3 Mikasuki residue words covered by 1880s Hitchiti (who, tree, fire) are all attested there, so they predate the move to Florida.
 - **H4:** Apalachee x Timucua is null too (z = −0.70).
@@ -88,7 +88,7 @@ The full analysis source is preserved in [`analysis_all.zip`](analysis_all.zip).
 
 ## Reproduce the analysis
 
-The archived package contains the frozen Stage 1 CLDF inputs and the preregistration. The complete downstream analysis can be rerun without silently fetching new upstream datasets:
+The archived package contains the Stage 1 CLDF inputs and the analysis protocol. The complete downstream analysis can be rerun against the documented source data:
 
 ```bash
 unzip -q analysis_all.zip
@@ -99,7 +99,6 @@ python 03_validation.py
 python 05_similarity_grid.py pre
 python 06_placebo_and_calibration.py
 python 06b_stratified_check.py
-python 08_freeze_prereg.py
 python 05_similarity_grid.py post
 python 07_run_workstream_b.py
 python 09_wals_typology.py
