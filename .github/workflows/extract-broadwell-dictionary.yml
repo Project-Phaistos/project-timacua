@@ -6,6 +6,7 @@ on:
       - ".github/workflows/extract-broadwell-dictionary.yml"
       - "dictionary-version-sept-2024-with-title-page.pdf"
       - "tools/build_broadwell_dictionary_index.py"
+      - "tools/validate_broadwell_dictionary_index.py"
 permissions:
   contents: write
   actions: write
@@ -22,6 +23,7 @@ jobs:
           pdftotext -layout dictionary-version-sept-2024-with-title-page.pdf broadwell-dictionary.txt
           test -s broadwell-dictionary.txt
           python tools/build_broadwell_dictionary_index.py
+          python tools/validate_broadwell_dictionary_index.py
           wc -l -w broadwell-dictionary.txt
           wc -l sources/broadwell_dictionary_index.csv sources/broadwell_cldf_exact_form_matches.csv
       - name: Commit reproducible metadata and cross-check
