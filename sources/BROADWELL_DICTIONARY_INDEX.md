@@ -49,6 +49,20 @@ cited historical text before being used as evidence.
 The PDF and online dictionary should be cited as the authoritative source.
 The online Webonary version may have changed since this September 2024 draft.
 
+## Semantic review queue
+
+The companion `broadwell_semantic_review.csv` creates one stable, page-linked
+review record for each parsed dictionary entry. It carries the headword,
+phonetic form, source status, PDF page, source line, and a short raw fragment
+from the entry's first line. That fragment is intentionally not presented as
+a normalized English gloss: the PDF often joins English and Spanish without a
+separator, and some entries contain multiple senses.
+
+The normalized gloss, sense number, semantic domain, Concepticon ID, and CLDF
+parameter ID are left blank for human review. Every row is marked
+`needs_human_review`. The queue is a structured annotation workspace, not a
+completed semantic dataset and not input to the confirmatory borrowing test.
+
 ## Manual comparison audit
 
 See broadwell_candidate_audit.csv for source-traceable review of three comparisons.
@@ -75,4 +89,4 @@ Muskogean loans: the label does not name a donor language.
 - broadwell_dictionary_index.csv: parsed headword metadata and source page.
 - broadwell_cldf_exact_form_matches.csv: exact-form screening against the
   Timucua forms already in the CLDF.
-- broadwell_candidate_audit.csv: manual assessment of the comparisons above.
+- broadwell_candidate_audit.csv: manual assessment of the comparisons above.\n- broadwell_semantic_review.csv: page-linked review queue; raw fragments only,\n  with normalized meanings and concept links awaiting human annotation.
