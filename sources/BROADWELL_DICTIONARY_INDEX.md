@@ -3,15 +3,16 @@
 Source: George Aaron Broadwell, *A Timucua–English–Spanish Dictionary*,
 draft version September 2024. The source PDF is stored at the repository root.
 
-This file is a metadata index, not a replacement for the dictionary. It records
-headword spellings, any bracketed phonetic form, an easily detectable initial
-part-of-speech label, the dictionary's own status label, and PDF page number.
-No definitions, examples, or extended dictionary text are redistributed here.
+The metadata index records headword spellings, any bracketed phonetic form,
+an easily detectable initial part-of-speech label, the dictionary's own status
+label, and PDF page number. It does not redistribute definitions or examples.
 
 - Parsed entry records: 3,770
 - Distinct headword spellings (case-insensitive): 3,560
 - PDF pages containing entries: 2–305
-- Records with no status label: 1,493
+- Timucua forms in the existing CLDF wordlist: 134
+- Exact phonetic-string matches for manual review: 166
+- Records with no dictionary status label: 1,493
 
 ## Status labels in the source
 
@@ -24,6 +25,15 @@ No definitions, examples, or extended dictionary text are redistributed here.
 - Probable: 457
 - Tentative: 506
 - Unspecified: 1,493
+
+## Exact-form cross-check
+
+The companion CSV lists exact matches between the dictionary's bracketed
+phonetic forms and existing CLDF Timucua forms after whitespace normalization.
+These are retrieval candidates only. Identical phonetic strings do not establish
+shared meaning, cognacy, borrowing, direction of transfer, or chronology.
+Non-matches do not establish that a dictionary item is new: the two sources may
+use different transcription conventions or represent different concepts.
 
 ## Interpretation and limitations
 
