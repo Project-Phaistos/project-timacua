@@ -1,0 +1,96 @@
+name: Timucua analysis pipeline
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'analysis_all.zip'
+      - 'build/**'
+      - '.github/workflows/timucua-pipeline.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Extract analysis package
+        run: |
+          python - <<'PY'
+          from zipfile import ZipFile
+          with ZipFile("analysis_all.zip") as z:
+              names = z.namelist()
+              if not names or any(not n.startswith("analysis/") for n in names):
+                  raise SystemExit("Unexpected analysis archive layout")
+              z.extractall(".")
+          PY
+
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pycldf lingpy lingrex morfessor python-igraph rapidfuzz scipy pandas
+
+      - name: Retrieve pinned external datasets
+        working-directory: analysis
+        run: |
+          mkdir -p ../external
+          clone_at() {
+            url="$1"; name="$2"; sha="$3"
+            git clone --quiet "$url" "../external/$name"
+            git -C "../external/$name" checkout --quiet --detach "$sha"
+            test "$(git -C "../external/$name" rev-parse HEAD)" = "$sha"
+          }
+          clone_at https://github.com/lexibank/asjp.git asjp cf4bf0d13c95256b1b48f440d07c5c098500a770
+          clone_at https://github.com/lexibank/wold.git wold 1df62b9bdc7292b35982aea49b4d5bd1951f6f3e
+          clone_at https://github.com/lexibank/ids.git ids bf6c9f8c7d25c15e61e338f3ed29ae46b844c0f8
+          clone_at https://github.com/cldf-datasets/wals.git wals 81298aa26d01fdc11b769bcc7fa87ad9e43d7ccd
+          clone_at https://github.com/concepticon/concepticon-data.git concepticon-data a89063d5657022a4ac11c557baef4958809e7c91
+          echo "TIMUCUA_EXT=$PWD/../external" >> "$GITHUB_ENV"
+
+      - name: Run analysis stages
+        working-directory: analysis/src
+        run: |
+          set -euo pipefail
+          python 01_build_dataset.py
+          python 00_concept_lists.py
+          python 00b_concept_strata.py
+          python 02_stage2_3_residue.py
+          python 03_validation.py
+          python 05_similarity_grid.py pre
+          python 06_placebo_and_calibration.py
+          python 06b_stratified_check.py
+          python 05_similarity_grid.py post
+          python 07_run_workstream_b.py
+          python 09_wals_typology.py
+          python 10_apalachee_h4.py
+          python 11_hitchiti_h1.py
+          python 12_haas1937_boynton_checks.py
+          echo "NOTE: H3 placebo-count stage is not in the repository archive yet."
+
+      - name: Rebuild repository outputs
+        run: |
+          bash build/build.sh
+
+      - name: Upload run outputs and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: timucua-analysis-run
+          path: |
+            analysis/results/
+            analysis/validation/
+            cldf/
+            db/
+          if-no-files-found: warn
+          retention-days: 30
