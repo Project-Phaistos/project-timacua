@@ -21,30 +21,30 @@ with index_path.open(encoding="utf-8-sig", newline="") as f:
 
 lines = source.read_text(encoding="utf-8", errors="replace").splitlines()
 start_re = re.compile(
-    r"^\\S+(?:\\s+\\[[^\\]]+\\])?\\s+"
-    r"(?:nprop\\b|pron\\b|adj\\b|adv\\b|quant\\b|post\\b|prep\\b|"
-    r"conj\\b|interj\\b|num\\b|vt\\b|vi\\b|v\\b|n\\b|{{|[0-9]\\)|\\*)"
+    r"^\S+(?:\s+\[[^\]]+\])?\s+"
+    r"(?:nprop\b|pron\b|adj\b|adv\b|quant\b|post\b|prep\b|"
+    r"conj\b|interj\b|num\b|vt\b|vi\b|v\b|n\b|{{|[0-9]\)|\*)"
 )
 starts = []
 page = 1
 for i, raw in enumerate(lines):
-    page += raw.count("\\f")
-    clean = raw.replace("\\f", "").strip()
+    page += raw.count("\f")
+    clean = raw.replace("\f", "").strip()
     if start_re.match(clean):
         starts.append((i, clean, page))
 
-pos_re = re.compile(r"^(nprop|pron|adj|adv|quant|post|prep|conj|interj|num|vt|vi|v|n)\\b")
+pos_re = re.compile(r"^(nprop|pron|adj|adv|quant|post|prep|conj|interj|num|vt|vi|v|n)\b")
 rows = []
 for ordinal, (line_no, first, page_no) in enumerate(starts, 1):
     # Use the corresponding parser row as the stable metadata source.
     meta = index_rows[ordinal - 1] if ordinal <= len(index_rows) else {}
-    head = re.match(r"^(\\S+)", first).group(1)
+    head = re.match(r"^(\S+)", first).group(1)
     rest = first[len(head):].strip()
-    phon = re.match(r"^\\[([^\\]]+)\\]\\s*(.*)$", rest)
+    phon = re.match(r"^\[([^\]]+)\]\s*(.*)$", rest)
     after_phon = phon.group(2) if phon else rest
     pos = pos_re.match(after_phon)
     fragment = after_phon[pos.end():].strip() if pos else after_phon
-    fragment = re.sub(r"\\s*\\[Status\\s+[^\\]]+\\].*$", "", fragment, flags=re.I)
+    fragment = re.sub(r"\s*\[Status\s+[^\]]+\].*$", "", fragment, flags=re.I)
     fragment = fragment[:180].strip()
     key = f"{ordinal}|{head}|{meta.get('phonetic_form','')}|{page_no}"
     entry_id = "BW-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12].upper()
