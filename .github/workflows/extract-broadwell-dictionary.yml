@@ -5,25 +5,40 @@ on:
     paths:
       - ".github/workflows/extract-broadwell-dictionary.yml"
       - "dictionary-version-sept-2024-with-title-page.pdf"
+      - "tools/build_broadwell_dictionary_index.py"
 permissions:
-  contents: read
+  contents: write
   actions: write
 jobs:
   extract:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract PDF text
+      - name: Extract PDF text and build metadata index
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
           pdfinfo dictionary-version-sept-2024-with-title-page.pdf
           pdftotext -layout dictionary-version-sept-2024-with-title-page.pdf broadwell-dictionary.txt
           test -s broadwell-dictionary.txt
+          python tools/build_broadwell_dictionary_index.py
           wc -l -w broadwell-dictionary.txt
-      - name: Upload extracted text for analysis
+          wc -l sources/broadwell_dictionary_index.csv
+      - name: Commit reproducible metadata index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/broadwell_dictionary_index.csv sources/BROADWELL_DICTIONARY_INDEX.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Add indexed metadata for Broadwell Timucua dictionary"
+            git push
+          fi
+      - name: Upload extraction and index
         uses: actions/upload-artifact@v4
         with:
-          name: broadwell-dictionary-extracted-text
-          path: broadwell-dictionary.txt
+          name: broadwell-dictionary-index
+          path: |
+            broadwell-dictionary.txt
+            sources/broadwell_dictionary_index.csv
+            sources/BROADWELL_DICTIONARY_INDEX.md
           retention-days: 30
