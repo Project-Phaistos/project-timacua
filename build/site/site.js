@@ -488,7 +488,7 @@
       ["db/project-phaistos.sqlite", "All of the above as SQLite, with views such as southeast_forms, timucua_vs_southeast and test_results."],
       ["sources/broadwell_dictionary_index.csv", "3,770 parsed entry records and 3,560 distinct spellings, with status labels and PDF pages."],
       ["sources/broadwell_cldf_exact_form_matches.csv", "Exact phonetic-string screening against Timucua forms already in the CLDF; not a cognacy test."],
-      ["sources/broadwell_candidate_audit.csv", "Source-level review of three candidate comparisons, including evidence and confidence limits."],\n      ["sources/broadwell_semantic_review.csv", "Page-linked review queue for all parsed entries; raw first-line fragments only, with normalized meanings awaiting human review."],
+      ["sources/broadwell_candidate_audit.csv", "Source-level review of three candidate comparisons, including evidence and confidence limits."],\n      ["sources/broadwell_semantic_review.csv", "Page-linked review queue for all parsed entries; three manually reviewed examples, with most meanings still awaiting human review."],
       ["analysis/", "The full analysis: pipeline code, pre-registration and addenda with their hashes, validation runs and every result file."]
     ];
     var dl = $("#files-list");
