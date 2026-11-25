@@ -19,7 +19,7 @@ if not source.exists():
 with index_path.open(encoding="utf-8-sig", newline="") as f:
     index_rows = list(csv.DictReader(f))
 
-lines = source.read_text(encoding="utf-8", errors="replace").splitlines()
+lines = source.read_text(encoding="utf-8", errors="replace").split("\\n")
 start_re = re.compile(
     r"^\S+(?:\s+\[[^\]]+\])?\s+"
     r"(?:nprop\b|pron\b|adj\b|adv\b|quant\b|post\b|prep\b|"
