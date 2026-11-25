@@ -49,40 +49,30 @@ cited historical text before being used as evidence.
 The PDF and online dictionary should be cited as the authoritative source.
 The online Webonary version may have changed since this September 2024 draft.
 
-
 ## Manual comparison audit
 
-A separate, source-traceable review of three previously discussed comparisons is in
-`broadwell_candidate_audit.csv`.
+See broadwell_candidate_audit.csv for source-traceable review of three comparisons.
+Timucua efa 'dog' is marked Confident (PDF p. 86); Gatschet (1884:58)
+explicitly states that Maskoki ífa went over to Timucua. The CLDF also has
+Creek, Alabama, and Koasati ifa for 'dog'. This is historical evidence for
+transfer, not a new result from the statistical test, and the current CLDF
+contains no Mikasuki dog form.
 
-- **efa 'dog' — strongest documented transfer.** Broadwell records Timucua `efa`
-  as “dog” with a Confident label (PDF p. 86). Gatschet (1884:58) explicitly says
-  Maskoki `ífa` went over to Timucua. The existing CLDF also records Timucua
-  `efa` and Creek, Alabama, and Koasati `ifa` for “dog”. This is historical
-  evidence for a transfer, not a new finding produced by the statistical test.
-  The current CLDF has no Mikasuki “dog” form, so it should not be presented as
-  evidence for a specifically Mikasuki borrowing layer.
-- **ilaqe [ilake] 'night' — exploratory.** Broadwell gives “become night,
-  afternoon; night” and labels the entry Confident (PDF p. 138). Creek and
-  Mikasuki have `niɬaki` for “night” in the CLDF. The forms are not an obvious
-  regular sound match; borrowing is not established.
-- **neha 'sauce/grease' — low-confidence exploratory.** Broadwell gives “sauce;
-  grease; medicinal liquid” (PDF p. 198), but the entry has no status label.
-  Creek and Chickasaw `niha` are comparison forms in the CLDF. Broadwell also
-  has a separate Timucua `niha` entry meaning “older sibling” (Probable, PDF
-  p. 201); it must not be confused with `neha` “grease”.
+Timucua ilaqe [ilake] is 'become night; afternoon; night' and Confident
+(PDF p. 138). Creek and Mikasuki niɬaki are comparison forms for 'night',
+but the forms are not an obvious regular sound match; borrowing is unproven.
 
-These three examples illustrate why a dictionary-wide comparison needs semantic
-review and source-level auditing. Similar spellings alone are not evidence of
-borrowing. The dictionary's 277 entries marked “Borrowed” are not automatically
-Muskogean loans: the label does not name a donor language, and many entries are
-transparent Spanish or Christian vocabulary. Donor attribution must be assessed
-entry by entry.
+Timucua neha is 'sauce; grease; medicinal liquid' (PDF p. 198), with no
+status label. Creek and Chickasaw niha are comparison forms. A separate
+Timucua niha 'older sibling' entry is marked Probable (PDF p. 201) and
+must not be conflated with neha 'grease'.
+
+The dictionary's 277 entries marked 'Borrowed' are not automatically
+Muskogean loans: the label does not name a donor language.
 
 ## Files
 
-- `broadwell_dictionary_index.csv`: parsed headword metadata and source page.
-- `broadwell_cldf_exact_form_matches.csv`: exact phonetic-string matches against
-  the 134 Timucua forms already in the CLDF.
-- `broadwell_candidate_audit.csv`: manual assessment of the three comparisons
-  above, with evidence and explicit decision labels.
+- broadwell_dictionary_index.csv: parsed headword metadata and source page.
+- broadwell_cldf_exact_form_matches.csv: exact-form screening against the
+  Timucua forms already in the CLDF.
+- broadwell_candidate_audit.csv: manual assessment of the comparisons above.
