@@ -80,7 +80,7 @@ jobs:
 
       - name: Rebuild repository outputs
         run: |
-          ./build/build.sh
+          bash build/build.sh
 
       - name: Upload run outputs and logs
         if: always()
