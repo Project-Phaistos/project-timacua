@@ -19,6 +19,12 @@ if not source.exists():
 with index_path.open(encoding="utf-8-sig", newline="") as f:
     index_rows = list(csv.DictReader(f))
 
+# Preserve completed human review fields across reproducible rebuilds.
+previous = {}
+if out_path.exists():
+    with out_path.open(encoding="utf-8-sig", newline="") as f:
+        previous = {r["entry_id"]: r for r in csv.DictReader(f)}
+
 lines = source.read_text(encoding="utf-8", errors="replace").split("\n")
 start_re = re.compile(
     r"^\S+(?:\s+\[[^\]]+\])?\s+"
@@ -66,6 +72,14 @@ for ordinal, (line_no, first, page_no) in enumerate(starts, 1):
         "review_decision": "needs_human_review",
         "reviewer_notes": "",
     })
+
+for row in rows:
+    old = previous.get(row["entry_id"], {})
+    if old.get("review_decision") and old["review_decision"] != "needs_human_review":
+        for field in ("normalized_english_gloss", "sense_number", "semantic_domain",
+                      "concepticon_id", "cldf_parameter_id", "review_decision",
+                      "reviewer_notes"):
+            row[field] = old.get(field, row[field])
 
 fields = list(rows[0]) if rows else []
 out_path.parent.mkdir(parents=True, exist_ok=True)
