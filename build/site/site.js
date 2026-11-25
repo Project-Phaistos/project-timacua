@@ -486,7 +486,10 @@
       ["cldf/candidates.csv", c.candidates + " candidate-loan rows from every analysis, in both directions."],
       ["cldf/place_names.csv", c.places + " place names with variants, fate, route and evidence grade."],
       ["db/project-phaistos.sqlite", "All of the above as SQLite, with views such as southeast_forms, timucua_vs_southeast and test_results."],
-      ["analysis/", "The full pilot: pipeline code, pre-registration and addenda with their hashes, validation runs and every result file."]
+      ["sources/broadwell_dictionary_index.csv", "3,770 parsed entry records and 3,560 distinct spellings, with status labels and PDF pages."],
+      ["sources/broadwell_cldf_exact_form_matches.csv", "Exact phonetic-string screening against Timucua forms already in the CLDF; not a cognacy test."],
+      ["sources/broadwell_candidate_audit.csv", "Source-level review of three candidate comparisons, including evidence and confidence limits."],
+      ["analysis/", "The full analysis: pipeline code, pre-registration and addenda with their hashes, validation runs and every result file."]
     ];
     var dl = $("#files-list");
     files.forEach(function (f) { dl.appendChild(h("dt", { text: f[0] })); dl.appendChild(h("dd", { text: f[1] })); });
