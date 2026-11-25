@@ -24,9 +24,6 @@
   </a>
   <nav aria-label="Sections">
     <a href="#findings">Findings</a>
-    <a href="#words">Words</a>
-    <a href="#tests">Tests</a>
-    <a href="#places">Place names</a>
     <a href="#method">Method</a>
     <a href="#files">Data</a>
   </nav>
@@ -82,7 +79,7 @@
   </figure>
 </section>
 
-<section id="words" class="data-section">
+<section hidden id="words" class="data-section">
   <h2>The words, concept by concept</h2>
   <p class="section-lede">Pick any of the 100 basic concepts to see Timucua beside every Southeastern list in the database. Letters group forms that the automated cognate detection put in the same set; a marked form has no Muskogean cognate.</p>
   <div class="controls">
@@ -94,7 +91,7 @@
   <div id="concept-view" aria-live="polite"></div>
 </section>
 
-<section id="beside" class="data-section">
+<section hidden id="beside" class="data-section">
   <h2>Timucua beside each language</h2>
   <p class="section-lede">For one language at a time, every concept it shares with Timucua, ranked by how unusually close the pair is. The p-value ranks the pair against the other 86 Timucua concepts, so its floor is 0.0115, and short words such as <i class="form">ma</i> 'that' reach it by chance. Only the rows marked as tested were part of a pre-registered analysis.</p>
   <div class="controls">
@@ -104,13 +101,13 @@
   <div id="beside-table" class="table-wrap"></div>
 </section>
 
-<section id="tests" class="data-section">
+<section hidden id="tests" class="data-section">
   <h2>Every test and its verdict</h2>
   <p class="section-lede">All 32 aggregate tests in the pilot, including the calibration runs. Rule set A passes a test only if the permutation p is below 0.05 and the pair ranks first or second of 51 in both directions (p_max &lt; 0.05).</p>
   <div id="tests-table" class="table-wrap"></div>
 </section>
 
-<section id="candidates" class="data-section">
+<section hidden id="candidates" class="data-section">
   <h2>Candidate loanwords</h2>
   <div class="with-margin">
     <div class="col">
@@ -127,13 +124,13 @@
   <div id="cand-table" class="table-wrap"></div>
 </section>
 
-<section id="places" class="data-section">
+<section hidden id="places" class="data-section">
   <h2>Place names</h2>
   <p class="section-lede" id="places-lede"></p>
   <div id="places-table" class="table-wrap"></div>
 </section>
 
-<section id="languages" class="data-section">
+<section hidden id="languages" class="data-section">
   <h2>The languages</h2>
   <p class="section-lede">Sixty-seven wordlists: Timucua, the Muskogean family, a handful of calibration languages, and a control panel of fifty languages chosen to sound like Mikasuki while having no possible contact with it, one per family and none from North America.</p>
   <div id="lang-table" class="table-wrap"></div>
@@ -208,7 +205,6 @@ db.execute("""select language, original, form, source
 </main>
 
 <footer class="colophon">
-  <p class="glyphs" aria-hidden="true">𐘀 𐘇 𐘙 𐘞 𐘏 𐘵</p>
   <p>Phaistos Labs · MMXXVI</p>
   <p class="small">Built from the database on {{BUILT}}.</p>
 </footer>
