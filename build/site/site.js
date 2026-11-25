@@ -470,14 +470,10 @@
   function setupMethod() {
     var c = D.counts;
     var stages = [
-      "<b>Wordlists.</b> ASJP's 100-item lists converted to CLDF and transcribed into IPA segments, with each of four normalisation rules logged per form.",
-      "<b>Inherited words.</b> LexStat and SCA cognate detection across the six Muskogean lists. A word with no cognate in another Muskogean language joins the residue: 20 Mikasuki concepts and 32 Creek.",
-      "<b>European filter.</b> Residue words that match Spanish or English for the same meaning are set aside as possible recent loans.",
-      "<b>Pre-registration.</b> The protocol, control panel, residue lists and code are frozen and fingerprinted before any Timucua similarity exists.",
-      "<b>Similarity.</b> Every pair of words scored three ways: SCA alignment, edit distance over sound classes, and a match of the first two consonant classes.",
-      "<b>The aggregate test.</b> A permutation test, then the two-way ranking against fifty stand-in donors and fifty stand-in recipients.",
-      "<b>Candidates.</b> Each residue word ranked against all 87 Timucua concepts, corrected for multiple testing with Benjamini–Hochberg.",
-      "<b>Addenda.</b> Apalachee (Kimball 1988) and Hitchiti (Gatschet 1884), each with its own protocol frozen before its run."
+      "<b>Build the dataset.</b> Standardise published and archival wordlists in a consistent, documented format.",
+      "<b>Identify inherited vocabulary.</b> Compare Muskogean languages to separate shared family vocabulary from words that may have another source.",
+      "<b>Test for contact.</b> Compare the remaining words with Timucua and unrelated control languages using pre-registered statistical tests.",
+      "<b>Check the method.</b> Run calibration and validation analyses; publish the data, code and limitations."
     ];
     var ol = $("#stages"); stages.forEach(function (t) { ol.appendChild(h("li", { html: t })); });
     var files = [
