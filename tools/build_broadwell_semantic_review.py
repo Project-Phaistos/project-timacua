@@ -19,7 +19,7 @@ if not source.exists():
 with index_path.open(encoding="utf-8-sig", newline="") as f:
     index_rows = list(csv.DictReader(f))
 
-lines = source.read_text(encoding="utf-8", errors="replace").split("\\n")
+lines = source.read_text(encoding="utf-8", errors="replace").split("\n")
 start_re = re.compile(
     r"^\S+(?:\s+\[[^\]]+\])?\s+"
     r"(?:nprop\b|pron\b|adj\b|adv\b|quant\b|post\b|prep\b|"
@@ -29,7 +29,7 @@ starts = []
 page = 1
 for i, raw in enumerate(lines):
     page += raw.count("\f")
-    clean = raw.replace("\f", "").strip()
+    clean = raw.replace("\f", "")
     if start_re.match(clean):
         starts.append((i, clean, page))
 
