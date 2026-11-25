@@ -942,7 +942,7 @@ BW-177B2706F4ED,echero,etʃero,,Tentative,86,3148,sow?,unparsed first-line fragm
 BW-FE11214AB78B,Eclavou,,nprop,Confident,86,3149,name of a Timucua town,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-84AE7C5EDC11,ecoyo,ekojo,,Confident,86,3150,"1) be in frontestar en frente de Arte, f129 [Often used in discussing",unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-3A5729BFC36B,Edelano,,nprop,Confident,86,3153,name of a Timucua town,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
-BW-BDAB6BFA8F72,efa,efa,,Confident,86,3154,dogperro Efa mine anocomima melaba anola. The dog is merciful and,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
+BW-BDAB6BFA8F72,efa,efa,,Confident,86,3154,dogperro Efa mine anocomima melaba anola. The dog is merciful and,unparsed first-line fragment; may mix English and Spanish,dog,1,thing,2009,21,reviewed_manual,"Meaning and CLDF alignment checked against Broadwell 2024 p. 86 and CLDF parameter 21. Gatschet 1884:58 explicitly reports Maskoki ífa transferred into Timucua; historically attested transfer, not evidence for a Mikasuki-specific layer."
 BW-8255D021FE37,efaca,efaka,,,86,3156,name of a Timucua lineage [Possibly contains efa 'dog'. ],unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-55ED4915FE82,Egipto,,nprop,,86,3157,*Egypt*Egipto,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-825D0BFA1D09,eha,eha,,,86,3158,"{{Spelling Variant of} ehe be in debt, owe carry}",unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
@@ -1580,7 +1580,7 @@ BW-6138FAFB1C8B,ihoto,ihoto,,Confident,138,5072,"perforate, chisel, boreperforar
 BW-2E7BE9B26224,ihoto,ihoto,,Tentative,138,5078,unknown verb (come out?),unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-A53460F1BEFC,ijoco,,,,138,5080,{{Spelling Variant of} ihoco},unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-64657B7BA6E2,ilape,ilape,,Tentative,138,5081,soil?,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
-BW-23DF6BB81132,ilaqe,ilake,,Confident,138,5082,"1) v become night, afternoonhacerse de noche, tarde ilaqisohale it will be night |",unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
+BW-23DF6BB81132,ilaqe,ilake,,Confident,138,5082,"1) v become night, afternoonhacerse de noche, tarde ilaqisohale it will be night |",unparsed first-line fragment; may mix English and Spanish,night; become night; afternoon,1,thing,1233,92,reviewed_manual_exploratory,Meaning and CLDF concept alignment checked against Broadwell 2024 p. 138 and parameter 92. Creek/Mikasuki niɬaki are only exploratory comparanda; sound correspondence is not established and borrowing is unproven.
 BW-E93B0674590C,-ile,ile,,Confident,138,5085,"sfx suffix which precedes some auxiliaries (ma, ba, ha)",unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-C99C252A526E,ilifo,ilifo,,Confident,138,5086,shootflechar Chofama pilenoma ibine ichicosa ecatiquani ilifoqi,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-72C1CB6EF39A,iliso,,v,,138,5092,injure?,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
@@ -2319,7 +2319,7 @@ BW-6CA125018221,nebetimo,nebetimo,,Confident,197,7237,intercede forinterceder po
 BW-B3CC751700BC,-nebileni,,,,198,7255,{{Spelling Variant of} -nibileni},unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-13FD8ECAD5A8,-nebilenin,,v,,198,7256,sfx vsuff,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-B2B1402E98F5,neca,neka,,Confident,198,7257,sleepdormir Neca-ta ma-la They sleep Arte f62 Aqiyo necatecho? Are you,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
-BW-2D4C9773373A,neha,neha,,,198,7260,1) sauce/greasesalsa/grasa 2) medicinal:liquid,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
+BW-2D4C9773373A,neha,neha,,,198,7260,1) sauce/greasesalsa/grasa 2) medicinal:liquid,unparsed first-line fragment; may mix English and Spanish,sauce; grease; medicinal liquid,1,body,323,32,reviewed_manual_exploratory,Meaning and CLDF concept alignment checked against Broadwell 2024 p. 198 and parameter 32. Creek/Chickasaw niha are exploratory comparanda; dictionary status is unspecified. Do not conflate this entry with separate niha 'older sibling'.
 BW-7E3D6DB68714,nelafa,nelafa,,,198,7261,flamellama,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-BBD1F3241BC0,nemoqua,nemokʷa,,Confident,198,7262,"1) n meaning, relevance, pertinence (ca. pertaining to)significado,",unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
 BW-96098D2EF0D3,nemoquale,,v,Tentative,198,7277,be:obligated?,unparsed first-line fragment; may mix English and Spanish,,,,,,needs_human_review,
