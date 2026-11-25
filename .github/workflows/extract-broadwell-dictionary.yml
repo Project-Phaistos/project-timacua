@@ -1,0 +1,29 @@
+name: Extract Broadwell Timucua Dictionary
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/extract-broadwell-dictionary.yml"
+      - "dictionary-version-sept-2024-with-title-page.pdf"
+permissions:
+  contents: read
+  actions: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract PDF text
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          pdfinfo dictionary-version-sept-2024-with-title-page.pdf
+          pdftotext -layout dictionary-version-sept-2024-with-title-page.pdf broadwell-dictionary.txt
+          test -s broadwell-dictionary.txt
+          wc -l -w broadwell-dictionary.txt
+      - name: Upload extracted text for analysis
+        uses: actions/upload-artifact@v4
+        with:
+          name: broadwell-dictionary-extracted-text
+          path: broadwell-dictionary.txt
+          retention-days: 30
