@@ -59,9 +59,12 @@ a normalized English gloss: the PDF often joins English and Spanish without a
 separator, and some entries contain multiple senses.
 
 The normalized gloss, sense number, semantic domain, Concepticon ID, and CLDF
-parameter ID are left blank for human review. Every row is marked
-`needs_human_review`. The queue is a structured annotation workspace, not a
-completed semantic dataset and not input to the confirmatory borrowing test.
+parameter ID are completed for three manually reviewed examples: `efa` “dog”,
+`ilaqe` “night / become night / afternoon”, and `neha` “sauce / grease /
+medicinal liquid”. The remaining entries are marked `needs_human_review`.
+The queue is a structured annotation workspace, not a completed semantic
+dataset and not input to the confirmatory borrowing test. Rebuilds preserve
+completed human annotations rather than silently replacing them.
 
 ## Manual comparison audit
 
