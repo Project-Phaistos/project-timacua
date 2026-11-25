@@ -23,9 +23,13 @@ assert any(r["headword"].casefold() == "ilaqe" and r["phonetic_form"] == "ilake"
            and r["status"] == "Confident" for r in entries)
 assert any(r["headword"].casefold() == "neha" and r["phonetic_form"] == "neha"
            for r in entries)
-assert any(r["headword"].casefold() == "niha" and "older sibling" in r.get("status", "").lower()
-           for r in entries) is False  # Status is a confidence label, not a gloss field.
+assert any(r["headword"].casefold() == "niha" and r["status"] == "Probable"
+           for r in entries)
 assert len(matches) >= 100
+assert any(r["dictionary_headword"] == "efa" and r["cldf_form"] == "efa"
+           and r["cldf_parameter_id"] == "21" for r in matches)
+assert any(r["dictionary_headword"] == "ilaqe" and r["cldf_form"] == "ilake"
+           and r["cldf_parameter_id"] == "92" for r in matches)
 assert all(r["match_type"].startswith("exact phonetic string") for r in matches)
 required = {"TIM-EFA-001", "TIM-ILAQE-002", "TIM-NEHA-003"}
 assert {r["candidate_id"] for r in audit} == required
