@@ -7,6 +7,8 @@ on:
       - "dictionary-version-sept-2024-with-title-page.pdf"
       - "tools/build_broadwell_dictionary_index.py"
       - "tools/validate_broadwell_dictionary_index.py"
+      - "tools/build_broadwell_semantic_review.py"
+      - "tools/validate_broadwell_semantic_review.py"
 permissions:
   contents: write
   actions: write
@@ -15,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract PDF text and build metadata index
+      - name: Extract PDF text and build review datasets
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
@@ -24,25 +26,28 @@ jobs:
           test -s broadwell-dictionary.txt
           python tools/build_broadwell_dictionary_index.py
           python tools/validate_broadwell_dictionary_index.py
+          python tools/build_broadwell_semantic_review.py
+          python tools/validate_broadwell_semantic_review.py
           wc -l -w broadwell-dictionary.txt
-          wc -l sources/broadwell_dictionary_index.csv sources/broadwell_cldf_exact_form_matches.csv
-      - name: Commit reproducible metadata and cross-check
+          wc -l sources/broadwell_dictionary_index.csv sources/broadwell_cldf_exact_form_matches.csv sources/broadwell_semantic_review.csv
+      - name: Commit reproducible metadata and review queue
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sources/broadwell_dictionary_index.csv sources/broadwell_cldf_exact_form_matches.csv sources/broadwell_candidate_audit.csv sources/BROADWELL_DICTIONARY_INDEX.md
+          git add sources/broadwell_dictionary_index.csv sources/broadwell_cldf_exact_form_matches.csv sources/broadwell_candidate_audit.csv sources/broadwell_semantic_review.csv sources/BROADWELL_DICTIONARY_INDEX.md
           if ! git diff --cached --quiet; then
-            git commit -m "Add Broadwell dictionary index and CLDF cross-check"
+            git commit -m "Add Broadwell semantic review queue"
             git push
           fi
-      - name: Upload extraction and index
+      - name: Upload extraction and review datasets
         uses: actions/upload-artifact@v4
         with:
-          name: broadwell-dictionary-index
+          name: broadwell-semantic-review
           path: |
             broadwell-dictionary.txt
             sources/broadwell_dictionary_index.csv
             sources/broadwell_cldf_exact_form_matches.csv
             sources/broadwell_candidate_audit.csv
+            sources/broadwell_semantic_review.csv
             sources/BROADWELL_DICTIONARY_INDEX.md
           retention-days: 30
