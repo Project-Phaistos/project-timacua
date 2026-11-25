@@ -33,8 +33,8 @@
   <div class="hero-text">
     <p class="kicker">Project Timucua</p>
     <h1 id="title">Did Timucua leave its words in the Seminole languages?</h1>
-    <p class="lede">Timucua was spoken across north Florida and south Georgia until the early 1700s, then fell silent. The Seminole and Miccosukee peoples who came to Florida afterwards speak Mikasuki and Muscogee, two Muskogean languages. This database lines up their basic vocabulary with Timucua's, word by word, to ask whether any Timucua survived the handover.</p>
-    <p class="lede-2">The short answer, from a pre-registered test: no layer large enough to see. The long answer, and every word behind it, is below.</p>
+    <p class="lede">Timucua was spoken in north Florida and south Georgia until the early 1700s. This project compares its surviving vocabulary with Mikasuki and Muscogee to test for possible borrowing.</p>
+    <p class="lede-2">The pre-registered test found no detectable layer of Timucua words in Mikasuki. The evidence, limits and data are summarised below.</p>
   </div>
   <figure class="disc">
     <svg id="disc" viewBox="-300 -300 600 600" role="img" aria-labelledby="disc-cap"></svg>
@@ -65,7 +65,7 @@
 
   <div class="with-margin">
     <div class="col">
-      <p>A null only means something if the method can find contact where contact is known to exist. It can, but only when the contact runs deep. The same design picks out inherited vocabulary and pidgins at enormous strength, yet it misses the documented borrowing between Creek and two languages that lived inside the Creek Confederacy, because their wordlists share only 33 to 38 concepts.</p>
+      <p>Calibration shows the method detects strong contact, but can miss smaller borrowing layers. A null result therefore does not rule out limited or localised contact.</p>
     </div>
     <aside class="margin">
       <p><b>z score.</b> How far a language pair's similarity sits above what shuffled word pairings give, in standard deviations. Above about 2 is the usual hint of a signal, but unrelated pairs reach it too, which is why the decision rule also ranks each pair against 50 stand-in languages.</p>
@@ -155,16 +155,8 @@
   <div class="with-margin">
     <div class="col">
       <p>The pipeline was first run where the answer is known. Against seven languages with documented Spanish loans in the World Loanword Database, it found the loan layer every time (p = 0.0001) and picked out individual loans with a precision of 0.92 to 1.00. It also showed a problem: the plain permutation test in the original proposal flags 8 to 30 per cent of unrelated language pairs. The two-way rule brought that to about 2 per cent before any Timucua comparison existed.</p>
-      <div class="table-wrap"><table class="plain">
-        <caption>How often each rule flags pairs with no contact</caption>
-        <thead><tr><th scope="col">Rule</th><th scope="col">False positives</th></tr></thead>
-        <tbody>
-          <tr><td>Permutation test alone</td><td>8 to 10% on residue sets; 18 to 30% on full lists</td></tr>
-          <tr><td>Original proposal: permutation, beat the primary control, beat the panel's 95th percentile</td><td>2 to 4% on residue sets; up to 12% on full lists</td></tr>
-          <tr><td>Final rule: permutation, plus first or second of 51 as donor and as recipient</td><td>1.5 to 2.3% overall; at most 4% in any row or column</td></tr>
-        </tbody>
-      </table></div>
-      <p>Power is the other limit. With real Spanish loans planted into a 100-concept list, the test finds two loans half the time, three loans 77 per cent of the time and four 88 per cent of the time. At the planned 350 concepts it finds six loans 83 per cent of the time. Spanish loans are recent and transparent, so these are best cases; old Timucua loans would be harder to see.</p>
+      <p>Validation also tested false positives and detection power before the Timucua comparison. The results and limits are documented with the analysis files.</p>
+
     </div>
     <aside class="margin">
       <p><b>What would change the answer.</b> A fuller Timucua lexicon. The ASJP list gives 87 Timucua concepts, and only George Aaron Broadwell's Timucua–English dictionary can take the comparison to 350.</p>
@@ -196,7 +188,6 @@ db.execute("""select language, original, form, source
   <div class="with-margin">
     <div class="col">
       <p>The wordlists come from the ASJP database (version 20), with Hitchiti added from Albert Gatschet's <i>A Migration Legend of the Creek Indians</i> (1884) and Mary R. Haas's 1937 field notebook in the American Philosophical Society, and Apalachee from Geoffrey Kimball's "An Apalachee Vocabulary" (1988). Validation used the World Loanword Database and the Intercontinental Dictionary Series; concepts are linked to Concepticon. These datasets are published under CC-BY 4.0; Gatschet is in the public domain. Code is MIT-licensed.</p>
-      <p>All material here is published or archival. Following the project's ethics plan, the Seminole Tribe of Florida and the Miccosukee Tribe of Indians of Florida are being asked for guidance on how this work is described and shared. Language contact is a normal part of every language's history, and nothing here makes a claim about any community's connection to Florida.</p>
       <p class="cite">Cite as: Crowley, Dennis. 2026. <i>Recovering Timucua: a Timucua–Muskogean comparative database</i> (pilot release). Phaistos Labs.</p>
     </div>
   </div>
